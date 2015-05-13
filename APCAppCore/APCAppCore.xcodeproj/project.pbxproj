@@ -879,6 +879,7 @@
 		5BE106EF1A9EE2D900CA5A07 /* APCDashboardGraphTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCDashboardGraphTableViewCell.m; sourceTree = "<group>"; };
 		5BFEB41B1AA72CCD0089DEF7 /* APCSharingOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCSharingOptionsViewController.h; sourceTree = "<group>"; };
 		5BFEB41C1AA72CCD0089DEF7 /* APCSharingOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCSharingOptionsViewController.m; sourceTree = "<group>"; };
+		60CAA8FA1B03D83D00DE3305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6C7346061A7ECD3B00DA9CD8 /* APCConsentTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCConsentTaskViewController.h; sourceTree = "<group>"; };
 		6C7346071A7ECD3B00DA9CD8 /* APCConsentTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCConsentTaskViewController.m; sourceTree = "<group>"; };
 		6CD8B6721AC5011D0061E6D6 /* APCTaskReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APCTaskReminder.h; path = APCAppCore/Library/APCTaskReminder.h; sourceTree = SOURCE_ROOT; };
@@ -931,7 +932,6 @@
 		80C3BBA41B024817005EB005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/APCMedTrackerPredefinedPrescriptionColors.plist; sourceTree = "<group>"; };
 		80C3BBA71B0248D9005EB005 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/phonetapping@2x.png"; sourceTree = "<group>"; };
 		80C3BBAA1B0248ED005EB005 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/phonetapping@3x.png"; sourceTree = "<group>"; };
-		80C3BBAD1B0248FD005EB005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		80C3BBAF1B0249A3005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabBar.storyboard; sourceTree = "<group>"; };
 		80C3BBB01B0249A3005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/APCOnboarding.storyboard; sourceTree = "<group>"; };
 		80C3BBB11B0249A4005EB005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/APCEmailVerify.storyboard; sourceTree = "<group>"; };
@@ -3809,7 +3809,7 @@
 		80C3BBAE1B0248FD005EB005 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80C3BBAD1B0248FD005EB005 /* en */,
+				60CAA8FA1B03D83D00DE3305 /* Base */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
