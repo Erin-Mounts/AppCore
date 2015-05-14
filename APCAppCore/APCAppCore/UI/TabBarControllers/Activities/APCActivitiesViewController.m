@@ -94,7 +94,7 @@ typedef NS_ENUM(NSUInteger, APCActivitiesSections)
     [super viewDidLoad];
     [self setupNotifications];
     
-    self.navigationItem.title = NSLocalizedString(@"Activities", @"Activities");
+    self.navigationItem.title = NSLocalizedStringFromTableInBundle(@"Activities", nil, [NSBundle bundleForClass:[self class]], @"Activities");
     self.tableView.backgroundColor = [UIColor appSecondaryColor4];
     
     [self.tableView registerNib:[UINib nibWithNibName:@"APCActivitiesSectionHeaderView" bundle:[NSBundle appleCoreBundle]] forHeaderFooterViewReuseIdentifier:kAPCActivitiesSectionHeaderViewIdentifier];
@@ -254,23 +254,22 @@ typedef NS_ENUM(NSUInteger, APCActivitiesSections)
         case APCActivitiesSectionToday:
         {
             [self.dateFormatter setDateFormat:@"MMMM d"];
-            headerView.titleLabel.text = [NSString stringWithFormat:@"%@, %@", NSLocalizedString(@"Today", @""), [self.dateFormatter stringFromDate:[NSDate date]] ];
-            headerView.subTitleLabel.text = NSLocalizedString(@"To start an activity, select from the list below.", @"");
+            headerView.titleLabel.text = [NSString stringWithFormat:@"%@, %@", NSLocalizedStringFromTableInBundle(@"Today", nil, [NSBundle bundleForClass:[self class]], @""), [self.dateFormatter stringFromDate:[NSDate date]] ];
+            headerView.subTitleLabel.text = NSLocalizedStringFromTableInBundle(@"To start an activity, select from the list below.", nil, [NSBundle bundleForClass:[self class]], @"");
         }
             break;
         case APCActivitiesSectionYesterday:
         {
-            headerView.titleLabel.text = NSLocalizedString(@"Yesterday", @"");
-            headerView.subTitleLabel.text = NSLocalizedString(@"Below are your incomplete tasks from yesterday. These are for reference only.", @"");
+            headerView.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Yesterday", nil, [NSBundle bundleForClass:[self class]], @"");
+            headerView.subTitleLabel.text = NSLocalizedStringFromTableInBundle(@"Below are your incomplete tasks from yesterday. These are for reference only.", nil, [NSBundle bundleForClass:[self class]], @"");
         }
             break;
 
             
         default: // Keep going
         {
-            headerView.titleLabel.text = NSLocalizedString(@"Keep Going!", @"Keep going");
-            headerView.subTitleLabel.text = NSLocalizedString(@"Try one of these extra activities, to enchance your experience in your study.",
-                                                              @"Try one of these extra activities, to enchance your experience in your study.");
+            headerView.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Keep Going!", nil, [NSBundle bundleForClass:[self class]], @"Keep going");
+            headerView.subTitleLabel.text = NSLocalizedStringFromTableInBundle(@"Try one of these extra activities, to enchance your experience in your study.", nil, [NSBundle bundleForClass:[self class]], @"Try one of these extra activities, to enchance your experience in your study.");
         }
             break;
     }

@@ -171,13 +171,13 @@ static  CGFloat    kAPCMedicationRowHeight = 64.0;
 - (void)tableView:(UITableView *) __unused tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        UIAlertController  *alerter = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Please Confirm Removal", nil)
-                                       message:NSLocalizedString(@"This Action Cannot Be Undone", nil)
+        UIAlertController  *alerter = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Please Confirm Removal", nil, [NSBundle bundleForClass:[self class]], nil)
+                                       message:NSLocalizedStringFromTableInBundle(@"This Action Cannot Be Undone", nil, [NSBundle bundleForClass:[self class]], nil)
                                 preferredStyle:UIAlertControllerStyleActionSheet];
-        UIAlertAction  *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", nil) style:UIAlertActionStyleCancel
+        UIAlertAction  *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleCancel
                                                                handler:^(UIAlertAction  __unused *action) {}];
         [alerter addAction:cancelAction];
-        UIAlertAction  *deleteAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Delete", nil) style:UIAlertActionStyleDestructive
+        UIAlertAction  *deleteAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Delete", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDestructive
                                                                handler:^(UIAlertAction  __unused *action)
         {
             [self deleteRowFromTable:indexPath];
@@ -515,11 +515,11 @@ static  CGFloat    kAPCMedicationRowHeight = 64.0;
     self.exScrollibur.hidden     = NO;
     self.weekContainer.hidden    = NO;
     if ([self.prescriptions count] == 0) {
-        self.tapItemsLabel.text = NSLocalizedString(@"Tap the “+” Sign to Create Prescriptions", nil);
+        self.tapItemsLabel.text = NSLocalizedStringFromTableInBundle(@"Tap the “+” Sign to Create Prescriptions", nil, [NSBundle bundleForClass:[self class]], nil);
         self.yourPrescriptionsView.hidden = YES;
         self.editButton.hidden = YES;
     } else {
-        self.tapItemsLabel.text = NSLocalizedString(@"Tap on Items Above to Log Intake", nil);
+        self.tapItemsLabel.text = NSLocalizedStringFromTableInBundle(@"Tap on Items Above to Log Intake", nil, [NSBundle bundleForClass:[self class]], nil);
         self.yourPrescriptionsView.hidden = NO;
         self.editButton.hidden = NO;
     }

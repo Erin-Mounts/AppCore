@@ -99,7 +99,7 @@
     BOOL isContentValid = NO;
     
     if (self.emailTextField.text.length == 0) {
-        *errorMessage = NSLocalizedString(@"Please enter your email address.", @"");
+        *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter your email address.", nil, [NSBundle bundleForClass:[self class]], @"");
         isContentValid = NO;
     }
     else {
@@ -138,7 +138,7 @@
 
 							if (error)
 							{
-								NSString *errorTitle = NSLocalizedString (@"Forgot Password", @"This is the title for the message that appears when the user asked for a ‘reset password,’ and that ‘resetting’ process failed.");
+								NSString *errorTitle = NSLocalizedStringFromTableInBundle(@"Forgot Password", nil, [NSBundle bundleForClass:[self class]], @"This is the title for the message that appears when the user asked for a ‘reset password,’ and that ‘resetting’ process failed.");
                                 
                                 UIAlertController *alert = [UIAlertController simpleAlertWithTitle: errorTitle
                                                                                            message: error.message];
@@ -148,7 +148,7 @@
 							else
 							{
 								[UIView animateWithDuration:0.2 animations:^{
-									weakSelf.emailMessageLabel.text = NSLocalizedString(@"An email has been sent.", @"");
+									weakSelf.emailMessageLabel.text = NSLocalizedStringFromTableInBundle(@"An email has been sent.", nil, [NSBundle bundleForClass:[self class]], @"");
 									weakSelf.emailMessageLabel.alpha = 1;
                                     weakSelf.resetButton.alpha = 0;
 								} completion:^(BOOL __unused finished) {
@@ -162,7 +162,7 @@
         }
         else {
             [UIView animateWithDuration:0.2 animations:^{
-                self.emailMessageLabel.text = NSLocalizedString(@"Please enter a valid email address", @"");
+                self.emailMessageLabel.text = NSLocalizedStringFromTableInBundle(@"Please enter a valid email address", nil, [NSBundle bundleForClass:[self class]], @"");
                 self.emailMessageLabel.alpha = 1;
             }];
         }

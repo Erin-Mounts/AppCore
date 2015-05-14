@@ -99,7 +99,7 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     if (self.showShareRow){
         
         APCTableViewStudyDetailsItem *shareStudyItem = [APCTableViewStudyDetailsItem new];
-        shareStudyItem.caption = NSLocalizedString(@"Share this Study", nil);
+        shareStudyItem.caption = NSLocalizedStringFromTableInBundle(@"Share this Study", nil, [NSBundle bundleForClass:[self class]], nil);
         shareStudyItem.iconImage = [UIImage imageNamed:@"share_icon"];
         shareStudyItem.tintColor = [UIColor appTertiaryGreenColor];
 
@@ -116,7 +116,7 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     if (self.showConsentRow) {
         
         APCTableViewStudyDetailsItem *reviewConsentItem = [APCTableViewStudyDetailsItem new];
-        reviewConsentItem.caption = NSLocalizedString(@"Review Consent", nil);
+        reviewConsentItem.caption = NSLocalizedStringFromTableInBundle(@"Review Consent", nil, [NSBundle bundleForClass:[self class]], nil);
         reviewConsentItem.iconImage = [UIImage imageNamed:@"consent_icon"];
         reviewConsentItem.tintColor = [UIColor appTertiaryPurpleColor];
         
@@ -395,7 +395,7 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"consent" ofType:@"pdf"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     [webViewController.webview setDataDetectorTypes:UIDataDetectorTypeAll];
-    webViewController.title = NSLocalizedString(@"Consent", @"Consent");
+    webViewController.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], @"Consent");
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:webViewController];
     [self.navigationController presentViewController:navController animated:YES completion:^{
@@ -465,7 +465,7 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"consent" ofType:@"pdf"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     [webViewController.webview setDataDetectorTypes:UIDataDetectorTypeAll];
-    webViewController.title = NSLocalizedString(@"Consent", @"Consent");
+    webViewController.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], @"Consent");
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:webViewController];
     [self.navigationController presentViewController:navController animated:YES completion:^{

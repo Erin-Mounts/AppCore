@@ -75,7 +75,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewSwitchItem *field = [APCTableViewSwitchItem new];
-            field.caption = NSLocalizedString(@"Enable Reminders", nil);
+            field.caption = NSLocalizedStringFromTableInBundle(@"Enable Reminders", nil, [NSBundle bundleForClass:[self class]], nil);
             field.identifier = kAPCSwitchCellIdentifier;
             field.editable = NO;
             
@@ -89,7 +89,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
 
             APCTableViewCustomPickerItem *field = [APCTableViewCustomPickerItem new];
-            field.caption = NSLocalizedString(@"Time", nil);
+            field.caption = NSLocalizedStringFromTableInBundle(@"Time", nil, [NSBundle bundleForClass:[self class]], nil);
             field.pickerData = @[[APCTasksReminderManager reminderTimesArray]];
             field.textAlignnment = NSTextAlignmentRight;
             field.identifier = kAPCDefaultTableViewCellIdentifier;
@@ -102,7 +102,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
      
         APCTableViewSection *section = [APCTableViewSection new];
-        section.sectionTitle = NSLocalizedString(@"", nil);
+        section.sectionTitle = NSLocalizedStringFromTableInBundle(@"", nil, [NSBundle bundleForClass:[self class]], nil);
         section.rows = [NSArray arrayWithArray:rowItems];
         [items addObject:section];
     }
@@ -144,10 +144,10 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
 
     switch (section) {
         case 0:
-            headerView.textLabel.text = NSLocalizedString(@"Settings", nil) ;
+            headerView.textLabel.text = NSLocalizedStringFromTableInBundle(@"Settings", nil, [NSBundle bundleForClass:[self class]], nil) ;
             break;
         case 1:
-            headerView.textLabel.text = NSLocalizedString(@"Tasks", nil);
+            headerView.textLabel.text = NSLocalizedStringFromTableInBundle(@"Tasks", nil, [NSBundle bundleForClass:[self class]], nil);
             break;
         default:
             break;

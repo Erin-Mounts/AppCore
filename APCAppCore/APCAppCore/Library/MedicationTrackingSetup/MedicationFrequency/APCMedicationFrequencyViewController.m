@@ -453,7 +453,7 @@ static  NSString  *sectionTitles[] = { @"How many times a day do you take this m
     
     self.tabulator.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
-    UIBarButtonItem  *donester = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Done", @"Done") style:UIBarButtonItemStyleDone target:self action:@selector(doneButtonTapped:)];
+    UIBarButtonItem  *donester = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Done", nil, [NSBundle bundleForClass:[self class]], @"Done") style:UIBarButtonItemStyleDone target:self action:@selector(doneButtonTapped:)];
     self.donester = donester;
     self.navigationItem.rightBarButtonItem = donester;
     self.donester.enabled = NO;

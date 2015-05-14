@@ -52,9 +52,9 @@
 
 - (void)setupNavAppearance
 {
-    self.title = NSLocalizedString(@"Eligibility", @"");
+    self.title = NSLocalizedStringFromTableInBundle(@"Eligibility", nil, [NSBundle bundleForClass:[self class]], @"");
     
-    UIBarButtonItem *nextBarButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Next", @"") style:UIBarButtonItemStylePlain target:self action:@selector(next)];
+    UIBarButtonItem *nextBarButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Next", nil, [NSBundle bundleForClass:[self class]], @"") style:UIBarButtonItemStylePlain target:self action:@selector(next)];
     nextBarButton.enabled = [self isContentValid];
     self.navigationItem.rightBarButtonItem = nextBarButton;
     

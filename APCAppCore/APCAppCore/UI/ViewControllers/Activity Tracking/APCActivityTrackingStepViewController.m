@@ -126,7 +126,7 @@ static NSInteger const kRegularFontSize = 17;
     self.chartView.legendPaddingHeight = 60.0;
     self.chartView.shouldAnimate = YES;
     self.chartView.shouldAnimateLegend = NO;
-    self.chartView.titleLabel.text = NSLocalizedString(@"Active Minutes", @"Active Minutes");
+    self.chartView.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Active Minutes", nil, [NSBundle bundleForClass:[self class]], @"Active Minutes");
     
     
     APCAppDelegate *appDelegate = (APCAppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -234,14 +234,13 @@ static NSInteger const kRegularFontSize = 17;
         daysRemain = 7 - self.numberOfDaysOfFitnessWeek;
     }
 
-    NSString *days = (daysRemain == 1) ? NSLocalizedString(@"Day", @"Day") : NSLocalizedString(@"Days", @"Days");
+    NSString *days = (daysRemain == 1) ? NSLocalizedStringFromTableInBundle(@"Day", nil, [NSBundle bundleForClass:[self class]], @"Day") : NSLocalizedStringFromTableInBundle(@"Days", nil, [NSBundle bundleForClass:[self class]], @"Days");
     
-    NSString *remaining = [NSString stringWithFormat:NSLocalizedString(@"%lu %@ Remaining",
-                                                                       @"{count} {day/s} Remaining"), daysRemain, days];
+    NSString *remaining = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"%lu %@ Remaining", nil, [NSBundle bundleForClass:[self class]], @"{count} {day/s} Remaining"), daysRemain, days];
     
     if (daysRemain <= 0)
     {
-        remaining = NSLocalizedString(@"Here is your activity and sleep assessment for the last 7 days", @"");
+        remaining = NSLocalizedStringFromTableInBundle(@"Here is your activity and sleep assessment for the last 7 days", nil, [NSBundle bundleForClass:[self class]], @"");
     }
     
     return remaining;
@@ -335,15 +334,15 @@ static NSInteger const kRegularFontSize = 17;
     
     [[UIView appearanceWhenContainedIn:[UIAlertController class], nil] setTintColor:[UIColor appPrimaryColor]];
     
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:nil message:NSLocalizedString(@"Resetting your 7 Day Assessment will clear all recorded data from the week.", @"") preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:nil message:NSLocalizedStringFromTableInBundle(@"Resetting your 7 Day Assessment will clear all recorded data from the week.", nil, [NSBundle bundleForClass:[self class]], @"") preferredStyle:UIAlertControllerStyleActionSheet];
     
-    UIAlertAction *withdrawAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Continue", @"") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *withdrawAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Continue", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * __unused action) {
         [self reset];
     }];
     [alertContorller addAction:withdrawAction];
     
     
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         
     }];
     

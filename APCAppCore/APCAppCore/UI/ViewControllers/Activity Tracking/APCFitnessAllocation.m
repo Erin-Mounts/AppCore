@@ -177,11 +177,11 @@ typedef NS_ENUM(NSUInteger, SevenDayFitnessQueryType)
             _motionData = [NSMutableArray new];
             _datasetNormalized = [NSMutableArray new];
             
-            _segmentSleep = NSLocalizedString(@"Sleep", @"Sleep");
-            _segmentInactive = NSLocalizedString(@"Light", @"Light");
-            _segmentSedentary = NSLocalizedString(@"Sedentary", @"Sedentary");
-            _segmentModerate = NSLocalizedString(@"Moderate", @"Moderate");
-            _segmentVigorous = NSLocalizedString(@"Vigorous", @"Vigorous");
+            _segmentSleep = NSLocalizedStringFromTableInBundle(@"Sleep", nil, [NSBundle bundleForClass:[self class]], @"Sleep");
+            _segmentInactive = NSLocalizedStringFromTableInBundle(@"Light", nil, [NSBundle bundleForClass:[self class]], @"Light");
+            _segmentSedentary = NSLocalizedStringFromTableInBundle(@"Sedentary", nil, [NSBundle bundleForClass:[self class]], @"Sedentary");
+            _segmentModerate = NSLocalizedStringFromTableInBundle(@"Moderate", nil, [NSBundle bundleForClass:[self class]], @"Moderate");
+            _segmentVigorous = NSLocalizedStringFromTableInBundle(@"Vigorous", nil, [NSBundle bundleForClass:[self class]], @"Vigorous");
             
         }
     }

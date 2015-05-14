@@ -67,12 +67,12 @@ NSString * const kAPCDashboardMessageTableViewCellIdentifier = @"APCDashboardMes
     switch (type) {
         case kAPCDashboardMessageTypeAlert:
         {
-            self.titleLabel.text = NSLocalizedString(@"Alert",nil);
+            self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Alert", nil, [NSBundle bundleForClass:[self class]], nil);
         }
             break;
         case kAPCDashboardMessageTypeInsight:
         {
-            self.titleLabel.text = NSLocalizedString(@"Insight", nil);
+            self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Insight", nil, [NSBundle bundleForClass:[self class]], nil);
         }
             break;
         default:{

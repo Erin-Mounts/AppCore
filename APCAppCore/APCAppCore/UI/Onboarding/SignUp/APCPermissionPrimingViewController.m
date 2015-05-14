@@ -49,9 +49,9 @@
     [self setupAppearance];
     [self setupNavAppearance];
     
-    self.title = NSLocalizedString(@"Consent", @"Consent");
+    self.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], @"Consent");
     
-    self.titleLabel.text = NSLocalizedString(@"What to Expect", @"What to Expect");
+    self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"What to Expect", nil, [NSBundle bundleForClass:[self class]], @"What to Expect");
     
     NSDictionary *initialOptions = ((APCAppDelegate *)[UIApplication sharedApplication].delegate).initializationOptions;
     NSDictionary *servicesDescrtiptions = initialOptions[kAppServicesDescriptionsKey];

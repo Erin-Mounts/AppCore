@@ -447,6 +447,6 @@
 
 - (NSString *)noInternetString
 {
-    return NSLocalizedString(@"No network connection. Please connect to the internet and try again.", @"No Internet");
+    return NSLocalizedStringFromTableInBundle(@"No network connection. Please connect to the internet and try again.", nil, [NSBundle bundleForClass:[self class]], @"No Internet");
 }
 @end

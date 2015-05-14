@@ -93,11 +93,11 @@ static NSString * const kDateFormatISO8601 = @"yyyy-MM-dd'T'HH:mm:ssZZZZZ";
     NSString * retValue;
     if([date isEqual:today])
     {
-        retValue = NSLocalizedString(@"Today", nil);
+        retValue = NSLocalizedStringFromTableInBundle(@"Today", nil, [NSBundle bundleForClass:[self class]], nil);
     }
     else if([date isEqual:yesterday])
     {
-        retValue = NSLocalizedString(@"Yesterday", nil);
+        retValue = NSLocalizedStringFromTableInBundle(@"Yesterday", nil, [NSBundle bundleForClass:[self class]], nil);
     }
     else if(([date laterDate:oneWeekAgo] == date) && ([date laterDate:tomorrow] == tomorrow))
     {

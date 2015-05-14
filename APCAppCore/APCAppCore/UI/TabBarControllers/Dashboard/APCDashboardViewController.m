@@ -148,10 +148,10 @@ static CGFloat const kAPCLineGraphCellHeight = 225.0f;
         APCDashboardProgressTableViewCell *progressCell = (APCDashboardProgressTableViewCell *)cell;
         
         progressCell.progressView.progress = progressItem.progress;
-        progressCell.title = NSLocalizedString(@"Activity Completion", @"Activity Completion");
+        progressCell.title = NSLocalizedStringFromTableInBundle(@"Activity Completion", nil, [NSBundle bundleForClass:[self class]], @"Activity Completion");
         [self.dateFormatter setDateFormat:@"MMMM d"];
         
-        progressCell.subTitleLabel.text = [NSString stringWithFormat:@"%@, %@", NSLocalizedString(@"Today",@"Today"), [self.dateFormatter stringFromDate:[NSDate date]]];
+        progressCell.subTitleLabel.text = [NSString stringWithFormat:@"%@, %@", NSLocalizedStringFromTableInBundle(@"Today", nil, [NSBundle bundleForClass:[self class]], @"Today"), [self.dateFormatter stringFromDate:[NSDate date]]];
         
         progressCell.delegate = self;
         
@@ -429,7 +429,7 @@ static CGFloat const kAPCLineGraphCellHeight = 225.0f;
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:item.caption message:item.info preferredStyle:UIAlertControllerStyleActionSheet];
     
-    UIAlertAction *dismissAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", @"Dismiss") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *dismissAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], @"Dismiss") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         
     }];
     

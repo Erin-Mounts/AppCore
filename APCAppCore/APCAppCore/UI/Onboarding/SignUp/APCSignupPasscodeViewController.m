@@ -67,7 +67,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.titleLabel.text = NSLocalizedString(@"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application.", @"");
+    self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application.", nil, [NSBundle bundleForClass:[self class]], @"");
     
     self.passcodeView.delegate = self;
     self.retryPasscodeView.delegate = self;
@@ -131,7 +131,7 @@
         else {
             [self showFirstTry];
 
-            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Identification", @"") message:NSLocalizedString(@"Your passcodes are not identical. Please enter it again.", @"")];
+            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Identification", nil, [NSBundle bundleForClass:[self class]], @"") message:NSLocalizedStringFromTableInBundle(@"Your passcodes are not identical. Please enter it again.", nil, [NSBundle bundleForClass:[self class]], @"")];
             [self presentViewController:alert animated:YES completion:nil];
         }
     }
@@ -155,7 +155,7 @@
     self.passcodeView.hidden = NO;
     self.retryPasscodeView.hidden = YES;
     
-    self.titleLabel.text = NSLocalizedString(@"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application.", @"");
+    self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application.", nil, [NSBundle bundleForClass:[self class]], @"");
     
     [self.passcodeView becomeFirstResponder];
     [self.passcodeView reset];
@@ -166,7 +166,7 @@
     self.passcodeView.hidden = YES;
     self.retryPasscodeView.hidden = NO;
     
-    self.titleLabel.text = NSLocalizedString(@"Re-enter your passcode", @"");
+    self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Re-enter your passcode", nil, [NSBundle bundleForClass:[self class]], @"");
     
     [self.retryPasscodeView becomeFirstResponder];
     [self.retryPasscodeView reset];

@@ -97,8 +97,7 @@ typedef NS_ENUM(NSUInteger, APCAllSetRows)
     switch (indexPath.row) {
         case APCAllSetRowActivities:
         {
-            NSString *original = NSLocalizedString(@"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks.",
-                                                   @"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks.");
+            NSString *original = NSLocalizedStringFromTableInBundle(@"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks.", nil, [NSBundle bundleForClass:[self class]], @"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks.");
             
             if (self.textBlocks) {
                 for (NSDictionary *textBlock in self.textBlocks) {
@@ -124,8 +123,7 @@ typedef NS_ENUM(NSUInteger, APCAllSetRows)
             
         default:
         {
-            NSString *original = NSLocalizedString(@"To see your results from surveys and tasks, check your “Dashboard” tab.",
-                                                   @"To see your results from surveys and tasks, check your “Dashboard” tab.");
+            NSString *original = NSLocalizedStringFromTableInBundle(@"To see your results from surveys and tasks, check your “Dashboard” tab.", nil, [NSBundle bundleForClass:[self class]], @"To see your results from surveys and tasks, check your “Dashboard” tab.");
 
             if (self.textBlocks) {
                 for (NSDictionary *textBlock in self.textBlocks) {

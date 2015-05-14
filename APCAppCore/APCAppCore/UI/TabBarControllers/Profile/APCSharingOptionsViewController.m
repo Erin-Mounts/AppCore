@@ -69,14 +69,14 @@ static NSInteger kNumberOfRows = 2;
     
     [self.tableView reloadData];
     
-    self.title = NSLocalizedString(@"Sharing Options", @"Sharing Options");
+    self.title = NSLocalizedStringFromTableInBundle(@"Sharing Options", nil, [NSBundle bundleForClass:[self class]], @"Sharing Options");
 }
 
 - (void)prepareData
 {
     [self setupDataFromJSON:@"APHConsentSection"];
     
-    self.titleLabel.text = NSLocalizedString(@"Sharing Options", @"Sharing Options");
+    self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Sharing Options", nil, [NSBundle bundleForClass:[self class]], @"Sharing Options");
     
     NSString *messageText = [NSString stringWithFormat:@"%@ will receive your study data from your participation in this study.\n\nSharing your coded study data more broadly (without information such as your name) may benefit this and future research.", self.instituteLongName];
     self.messageLabel.text = NSLocalizedString(messageText, @"");
@@ -178,7 +178,7 @@ static NSInteger kNumberOfRows = 2;
             if (error) {
                 APCLogError2 (error);
                 
-                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Sharing Options", @"") message:error.message];
+                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Sharing Options", nil, [NSBundle bundleForClass:[self class]], @"") message:error.message];
                 [weakSelf presentViewController:alert animated:YES completion:nil];
                 
             } else {

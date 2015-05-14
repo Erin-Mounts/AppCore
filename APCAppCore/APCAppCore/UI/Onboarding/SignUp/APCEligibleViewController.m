@@ -98,7 +98,7 @@ static NSString *kreturnControlOfTaskDelegate = @"returnControlOfTaskDelegate";
     self.consentVC = [((APCAppDelegate *)[UIApplication sharedApplication].delegate) consentViewController];
     
     self.consentVC.delegate = self;
-    self.consentVC.navigationBar.topItem.title = NSLocalizedString(@"Consent", nil);
+    self.consentVC.navigationBar.topItem.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], nil);
     
     NSUInteger subviewsCount = self.consentVC.view.subviews.count;
     UILabel *watermarkLabel = [APCExampleLabel watermarkInRect:self.consentVC.view.bounds

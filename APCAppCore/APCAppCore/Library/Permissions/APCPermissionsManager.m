@@ -388,31 +388,31 @@ typedef NS_ENUM(NSUInteger, APCPermissionsErrorCode) {
     
     switch (type) {
         case kSignUpPermissionsTypeHealthKit:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Please go to Settings -> Privacy -> Health -> %@ to re-enable.", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Please go to Settings -> Privacy -> Health -> %@ to re-enable.", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
         case kSignUpPermissionsTypeLocalNotifications:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Tap on Settings -> Notifications and enable ‘Allow Notifications’", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Tap on Settings -> Notifications and enable ‘Allow Notifications’", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
         case kSignUpPermissionsTypeLocation:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Tap on Settings -> Location and check ‘Always’", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Tap on Settings -> Location and check ‘Always’", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
         case kSignUpPermissionsTypeCoremotion:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Tap on Settings and enable Motion Activity.", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Tap on Settings and enable Motion Activity.", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
         case kSignUpPermissionsTypeMicrophone:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Tap on Settings and enable Microphone", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Tap on Settings and enable Microphone", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
         case kSignUpPermissionsTypeCamera:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Tap on Settings and enable Camera", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Tap on Settings and enable Camera", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
         case kSignUpPermissionsTypePhotoLibrary:{
-            message = [NSString localizedStringWithFormat:NSLocalizedString(@"Tap on Settings and enable Photos", nil), appName];
+            message = [NSString localizedStringWithFormat:NSLocalizedStringFromTableInBundle(@"Tap on Settings and enable Photos", nil, [NSBundle bundleForClass:[self class]], nil), appName];
         }
             break;
             

@@ -178,10 +178,10 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
                         } else {
                             NSString *errorMessage = [error message];
                             errorMessage = [errorMessage isEqualToString:kServerInvalidEmailErrorString] ?
-                                NSLocalizedString(@"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you.", nil) :
+                                NSLocalizedStringFromTableInBundle(@"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you.", nil, [NSBundle bundleForClass:[self class]], nil) :
                             errorMessage;
                             
-                            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Sign In", @"") message:errorMessage];
+                            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Sign In", nil, [NSBundle bundleForClass:[self class]], @"") message:errorMessage];
                             [self presentViewController:alert animated:YES completion:nil];
                             
                         }
@@ -197,7 +197,7 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
                             if (error.code == kSBBServerPreconditionNotMet) {
                                 [self showConsent];
                             } else {
-                                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Sign In", @"") message:error.message];
+                                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Sign In", nil, [NSBundle bundleForClass:[self class]], @"") message:error.message];
                                 [self presentViewController:alert animated:YES completion:nil];
                             }
                             
@@ -211,7 +211,7 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
             }
         }];
     } else {
-        UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Sign In", @"") message:errorMessage];
+        UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Sign In", nil, [NSBundle bundleForClass:[self class]], @"") message:errorMessage];
         [self presentViewController:alert animated:YES completion:nil];
     }
 }
@@ -273,13 +273,13 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
 
 - (void)handleConsentConflict
 {
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Sign In", @"") message:NSLocalizedString(@"You have previously withdrawn from this Study. Do you wish to rejoin?", nil) preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *yesAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Rejoin", @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Sign In", nil, [NSBundle bundleForClass:[self class]], @"") message:NSLocalizedStringFromTableInBundle(@"You have previously withdrawn from this Study. Do you wish to rejoin?", nil, [NSBundle bundleForClass:[self class]], nil) preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *yesAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Rejoin", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
         [self rejoinStudy];
     }];
     [alertContorller addAction:yesAction];
     
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         
     }];
     [alertContorller addAction:cancelAction];
@@ -295,7 +295,7 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
         if (error) {
             APCLogError2 (error);
             
-            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Sign In", @"") message:error.message];
+            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Sign In", nil, [NSBundle bundleForClass:[self class]], @"") message:error.message];
             [self presentViewController:alert animated:YES completion:nil];
         } else {
             user.consented = YES;
@@ -387,11 +387,11 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
     BOOL isContentValid = NO;
     
     if (self.userHandleTextField.text.length == 0) {
-        *errorMessage = NSLocalizedString(@"Please enter your email", @"");
+        *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter your email", nil, [NSBundle bundleForClass:[self class]], @"");
         isContentValid = NO;
     }
     else if (self.passwordTextField.text.length == 0) {
-        *errorMessage = NSLocalizedString(@"Please enter your password", @"");
+        *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter your password", nil, [NSBundle bundleForClass:[self class]], @"");
         isContentValid = NO;
     }
     else {

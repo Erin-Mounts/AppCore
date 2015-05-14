@@ -47,7 +47,7 @@
     NSMutableArray *options = [NSMutableArray new];
     
     for (NSNumber *val in values) {
-        NSString *optionString = [NSString stringWithFormat:@"%ld %@", (long)val.integerValue, NSLocalizedString(@"minutes", nil)];
+        NSString *optionString = [NSString stringWithFormat:@"%ld %@", (long)val.integerValue, NSLocalizedStringFromTableInBundle(@"minutes", nil, [NSBundle bundleForClass:[self class]], nil)];
         [options addObject:optionString];
     }
     

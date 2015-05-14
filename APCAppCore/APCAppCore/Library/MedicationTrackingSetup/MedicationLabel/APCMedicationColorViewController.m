@@ -227,7 +227,7 @@ static  CGFloat    kAPCMedicationRowHeight   = 64.0;
 
     self.tabulator.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
-    UIBarButtonItem  *donester = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Done", @"Done") style:UIBarButtonItemStyleDone target:self action:@selector(doneButtonTapped:)];
+    UIBarButtonItem  *donester = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Done", nil, [NSBundle bundleForClass:[self class]], @"Done") style:UIBarButtonItemStyleDone target:self action:@selector(doneButtonTapped:)];
     self.navigationItem.rightBarButtonItem = donester;
     
     UINib  *colorSwatchTableCellNib = [UINib nibWithNibName:kColorSwatchTableCellName bundle:[NSBundle appleCoreBundle]];

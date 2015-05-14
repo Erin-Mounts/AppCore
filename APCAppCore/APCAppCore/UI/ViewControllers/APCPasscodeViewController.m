@@ -74,10 +74,10 @@
         self.passcodeView.alpha = 0;
         self.titleLabel.alpha = 0;
         self.touchIdButton.alpha = 0;
-        self.titleLabel.text = NSLocalizedString(@"Touch ID or Enter Passcode", nil);
+        self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Touch ID or Enter Passcode", nil, [NSBundle bundleForClass:[self class]], nil);
     } else {
         self.touchIdButton.hidden = YES;
-        self.titleLabel.text = NSLocalizedString(@"Enter Passcode", nil);
+        self.titleLabel.text = NSLocalizedStringFromTableInBundle(@"Enter Passcode", nil, [NSBundle bundleForClass:[self class]], nil);
     }
 }
 
@@ -152,7 +152,7 @@
                 self.wrongAttemptsCount++;
                 
             } else {
-                UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Wrong Passcode", nil) message:NSLocalizedString(@"Please enter again.", nil) preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Wrong Passcode", nil, [NSBundle bundleForClass:[self class]], nil) message:NSLocalizedStringFromTableInBundle(@"Please enter again.", nil, [NSBundle bundleForClass:[self class]], nil) preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
                     [self.passcodeView reset];
                     [self makePasscodeViewBecomeFirstResponder];
@@ -178,9 +178,9 @@
     NSError *error = nil;
     
     if ([self.touchContext canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
-        self.touchContext.localizedFallbackTitle = NSLocalizedString(@"Enter Passcode", @"");
+        self.touchContext.localizedFallbackTitle = NSLocalizedStringFromTableInBundle(@"Enter Passcode", nil, [NSBundle bundleForClass:[self class]], @"");
         
-        NSString *localizedReason = NSLocalizedString(@"Please authenticate with Touch ID", @"");
+        NSString *localizedReason = NSLocalizedStringFromTableInBundle(@"Please authenticate with Touch ID", nil, [NSBundle bundleForClass:[self class]], @"");
         
         typeof(self) __weak weakSelf = self;
         [self.touchContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
@@ -204,7 +204,7 @@
                                             } else {
                                                 dispatch_async(dispatch_get_main_queue(), ^{
                                                     
-                                                    UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Authentication Error", @"") message:NSLocalizedString(@"Failed to authenticate.", @"")];
+                                                    UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Authentication Error", nil, [NSBundle bundleForClass:[self class]], @"") message:NSLocalizedStringFromTableInBundle(@"Failed to authenticate.", nil, [NSBundle bundleForClass:[self class]], @"")];
                                                     [self presentViewController:alert animated:YES completion:nil];
                                                 });
                                             }

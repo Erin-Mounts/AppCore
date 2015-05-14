@@ -551,7 +551,7 @@ static APCDummyObject * _dummyObject;
         [options addObject: choice];
     }];
     if (localConstraints.allowOtherValue) {
-        [options addObject:NSLocalizedString(@"Other", @"Spinner Option")];
+        [options addObject:NSLocalizedStringFromTableInBundle(@"Other", nil, [NSBundle bundleForClass:[self class]], @"Spinner Option")];
     }
     retAnswer = [ORKAnswerFormat choiceAnswerFormatWithStyle:localConstraints.allowMultipleValue ? ORKChoiceAnswerStyleMultipleChoice : ORKChoiceAnswerStyleSingleChoice textChoices:options];
     return retAnswer;

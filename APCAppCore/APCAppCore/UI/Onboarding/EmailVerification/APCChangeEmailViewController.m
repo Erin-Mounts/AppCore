@@ -96,7 +96,7 @@ static NSString *kInternetNotAvailableErrorMessage2 = @"BackendServer Not Reacha
     BOOL isContentValid = NO;
     
     if (self.emailTextField.text.length == 0) {
-        *errorMessage = NSLocalizedString(@"Please enter your email address.", @"");
+        *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter your email address.", nil, [NSBundle bundleForClass:[self class]], @"");
         isContentValid = NO;
     }
     else {
@@ -133,7 +133,7 @@ static NSString *kInternetNotAvailableErrorMessage2 = @"BackendServer Not Reacha
                     
                     [spinnerController dismissViewControllerAnimated:NO completion:^{
                         
-                        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", @"Dismiss") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+                        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], @"Dismiss") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
                             
                         }];
                         
@@ -154,11 +154,11 @@ static NSString *kInternetNotAvailableErrorMessage2 = @"BackendServer Not Reacha
             
         }
         else {
-            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Change Email", @"") message:NSLocalizedString(@"Please enter a valid email address", @"")];
+            UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Change Email", nil, [NSBundle bundleForClass:[self class]], @"") message:NSLocalizedStringFromTableInBundle(@"Please enter a valid email address", nil, [NSBundle bundleForClass:[self class]], @"")];
             [self presentViewController:alert animated:YES completion:nil];
         }
     } else{
-        UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Change Email", @"") message:error];
+        UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Change Email", nil, [NSBundle bundleForClass:[self class]], @"") message:error];
         [self presentViewController:alert animated:YES completion:nil];
     }
 }

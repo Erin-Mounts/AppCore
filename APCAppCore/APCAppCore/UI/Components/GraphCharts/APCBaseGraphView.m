@@ -66,7 +66,7 @@
     
     _showsVerticalReferenceLines = NO;
 
-    _emptyText = NSLocalizedString(@"No Data", @"No Data");
+    _emptyText = NSLocalizedStringFromTableInBundle(@"No Data", nil, [NSBundle bundleForClass:[self class]], @"No Data");
     
 }
 

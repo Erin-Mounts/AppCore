@@ -60,7 +60,7 @@ static NSString * const oneTab = @"    ";
         [message containsString:@"NSURLError"] ||
         [message rangeOfString:@"contact somebody" options:NSCaseInsensitiveSearch].location != NSNotFound)
     {
-        return NSLocalizedString(@"An unknown error occurred", nil);
+        return NSLocalizedStringFromTableInBundle(@"An unknown error occurred", nil, [NSBundle bundleForClass:[self class]], nil);
     }
     else
     {

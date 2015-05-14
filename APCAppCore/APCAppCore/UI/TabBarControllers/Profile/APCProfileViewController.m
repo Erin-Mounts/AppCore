@@ -125,7 +125,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     [self setupDataFromJSONFile:@"StudyOverview"];
     
     if (self.user.sharedOptionSelection && self.user.sharedOptionSelection.integerValue == 0) {
-        self.participationLabel.text = NSLocalizedString(@"Your data is no longer being used for this study.", @"");
+        self.participationLabel.text = NSLocalizedStringFromTableInBundle(@"Your data is no longer being used for this study.", nil, [NSBundle bundleForClass:[self class]], @"");
         self.leaveStudyButton.hidden = YES;
     }
 }
@@ -394,7 +394,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 case kAPCUserInfoItemTypeBiologicalSex:
                 {
                     APCTableViewItem *field = [APCTableViewItem new];
-                    field.caption = NSLocalizedString(@"Biological Sex", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"Biological Sex", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
                     field.editable = NO;
                     field.textAlignnment = NSTextAlignmentRight;
@@ -412,7 +412,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 case kAPCUserInfoItemTypeDateOfBirth:
                 {
                     APCTableViewItem *field = [APCTableViewItem new];
-                    field.caption = NSLocalizedString(@"Birthdate", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"Birthdate", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
                     field.editable = NO;
                     field.textAlignnment = NSTextAlignmentRight;
@@ -431,7 +431,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 {
                     APCTableViewTextFieldItem *field = [APCTableViewTextFieldItem new];
                     field.textAlignnment = NSTextAlignmentLeft;
-                    field.placeholder = NSLocalizedString(@"custom question", @"");
+                    field.placeholder = NSLocalizedStringFromTableInBundle(@"custom question", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.caption = @"Daily Scale";
                     if (self.user.customSurveyQuestion) {
                         field.value = self.user.customSurveyQuestion;
@@ -452,7 +452,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 case kAPCUserInfoItemTypeMedicalCondition:
                 {
                     APCTableViewCustomPickerItem *field = [APCTableViewCustomPickerItem new];
-                    field.caption = NSLocalizedString(@"Medical Conditions", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"Medical Conditions", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.pickerData = @[[APCUser medicalConditions]];
                     field.textAlignnment = NSTextAlignmentRight;
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
@@ -477,7 +477,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 case kAPCUserInfoItemTypeMedication:
                 {
                     APCTableViewCustomPickerItem *field = [APCTableViewCustomPickerItem new];
-                    field.caption = NSLocalizedString(@"Medications", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"Medications", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.pickerData = @[[APCUser medications]];
                     field.textAlignnment = NSTextAlignmentRight;
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
@@ -502,7 +502,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 {
 
                     APCTableViewCustomPickerItem *field = [APCTableViewCustomPickerItem new];
-                    field.caption = NSLocalizedString(@"Height", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"Height", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
                     field.detailDiscloserStyle = YES;
                     field.textAlignnment = NSTextAlignmentRight;
@@ -550,8 +550,8 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 case kAPCUserInfoItemTypeWeight:
                 {
                     APCTableViewTextFieldItem *field = [APCTableViewTextFieldItem new];
-                    field.caption = NSLocalizedString(@"Weight", @"");
-                    field.placeholder = NSLocalizedString(@"add weight (lb)", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"Weight", nil, [NSBundle bundleForClass:[self class]], @"");
+                    field.placeholder = NSLocalizedStringFromTableInBundle(@"add weight (lb)", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.regularExpression = kAPCMedicalInfoItemWeightRegEx;
                     
                     double userWeight = [APCUser weightInPounds:self.user.weight];
@@ -576,8 +576,8 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 {
                     APCTableViewDatePickerItem *field = [APCTableViewDatePickerItem new];
                     field.style = UITableViewCellStyleValue1;
-                    field.caption = NSLocalizedString(@"What time do you generally wake up?", @"");
-                    field.placeholder = NSLocalizedString(@"7:00 AM", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"What time do you generally wake up?", nil, [NSBundle bundleForClass:[self class]], @"");
+                    field.placeholder = NSLocalizedStringFromTableInBundle(@"7:00 AM", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
                     field.datePickerMode = UIDatePickerModeTime;
                     field.dateFormat = kAPCMedicalInfoItemSleepTimeFormat;
@@ -602,8 +602,8 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
                 {
                     APCTableViewDatePickerItem *field = [APCTableViewDatePickerItem new];
                     field.style = UITableViewCellStyleValue1;
-                    field.caption = NSLocalizedString(@"What time do you generally go to sleep?", @"");
-                    field.placeholder = NSLocalizedString(@"9:30 PM", @"");
+                    field.caption = NSLocalizedStringFromTableInBundle(@"What time do you generally go to sleep?", nil, [NSBundle bundleForClass:[self class]], @"");
+                    field.placeholder = NSLocalizedStringFromTableInBundle(@"9:30 PM", nil, [NSBundle bundleForClass:[self class]], @"");
                     field.identifier = kAPCDefaultTableViewCellIdentifier;
                     field.datePickerMode = UIDatePickerModeTime;
                     field.dateFormat = kAPCMedicalInfoItemSleepTimeFormat;
@@ -639,7 +639,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"Share this Study", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Share this Study", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.editable = YES;
             
@@ -651,7 +651,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         APCTableViewSection *section = [APCTableViewSection new];
         section.rows = [NSArray arrayWithArray:rowItems];
-        section.sectionTitle = NSLocalizedString(@"Help us Spread the Word", @"");
+        section.sectionTitle = NSLocalizedStringFromTableInBundle(@"Help us Spread the Word", nil, [NSBundle bundleForClass:[self class]], @"");
         [items addObject:section];
     }
     */
@@ -662,7 +662,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
      
      {
          APCTableViewItem *field = [APCTableViewItem new];
-         field.caption = NSLocalizedString(@"Activity Reminders", @"");
+         field.caption = NSLocalizedStringFromTableInBundle(@"Activity Reminders", nil, [NSBundle bundleForClass:[self class]], @"");
          field.identifier = kAPCDefaultTableViewCellIdentifier;
          field.editable = NO;
          field.showChevron = YES;
@@ -690,7 +690,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
             APCTableViewCustomPickerItem *field = [APCTableViewCustomPickerItem new];
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.selectionStyle = self.isEditing ? UITableViewCellSelectionStyleGray : UITableViewCellSelectionStyleNone;
-            field.caption = NSLocalizedString(@"Auto-Lock", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Auto-Lock", nil, [NSBundle bundleForClass:[self class]], @"");
             field.detailDiscloserStyle = YES;
             field.textAlignnment = NSTextAlignmentRight;
             field.pickerData = @[[APCProfileViewController autoLockOptionStrings]];
@@ -713,7 +713,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"Change Passcode", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Change Passcode", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.textAlignnment = NSTextAlignmentLeft;
             field.editable = NO;
@@ -730,7 +730,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
             //  Instead of prevent the row from being added to the table, a better option would be to
             //  disable the row (grey it out and don't respond to taps)
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"Sharing Options", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Sharing Options", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.textAlignnment = NSTextAlignmentLeft;
             field.editable = NO;
@@ -752,7 +752,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"Permissions", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Permissions", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.textAlignnment = NSTextAlignmentRight;
             field.editable = NO;
@@ -766,7 +766,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"Review Consent", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Review Consent", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.textAlignnment = NSTextAlignmentRight;
             field.editable = NO;
@@ -789,7 +789,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"Privacy Policy", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"Privacy Policy", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.textAlignnment = NSTextAlignmentRight;
             field.editable = NO;
@@ -803,7 +803,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
         {
             APCTableViewItem *field = [APCTableViewItem new];
-            field.caption = NSLocalizedString(@"License Information", @"");
+            field.caption = NSLocalizedStringFromTableInBundle(@"License Information", nil, [NSBundle bundleForClass:[self class]], @"");
             field.identifier = kAPCDefaultTableViewCellIdentifier;
             field.textAlignnment = NSTextAlignmentRight;
             field.editable = NO;
@@ -1344,7 +1344,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         if (error) {
             APCLogError2 (error);
             [spinnerController dismissViewControllerAnimated:NO completion:^{
-                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Sign Out", @"") message:error.message];
+                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Sign Out", nil, [NSBundle bundleForClass:[self class]], @"") message:error.message];
                 [weakSelf presentViewController:alert animated:YES completion:nil];
             }];
         } else {
@@ -1367,7 +1367,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         if (error) {
             APCLogError2 (error);
             [spinnerController dismissViewControllerAnimated:NO completion:^{
-                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"Withdraw", @"") message:error.message];
+                UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Withdraw", nil, [NSBundle bundleForClass:[self class]], @"") message:error.message];
                 [weakSelf presentViewController:alert animated:YES completion:nil];
             }];
         } else {
@@ -1384,12 +1384,12 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
 
 - (IBAction) signOut: (id) __unused sender
 {
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Sign Out", @"") message:NSLocalizedString(@"Are you sure you want to sign out?", nil) preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction *signOutAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Sign Out", @"") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * __unused action) {
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Sign Out", nil, [NSBundle bundleForClass:[self class]], @"") message:NSLocalizedStringFromTableInBundle(@"Are you sure you want to sign out?", nil, [NSBundle bundleForClass:[self class]], nil) preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertAction *signOutAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Sign Out", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * __unused action) {
         [self logOut];
     }];
     [alertContorller addAction:signOutAction];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
        
     }];
     [alertContorller addAction:cancelAction];
@@ -1400,13 +1400,13 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
 
 - (IBAction) leaveStudy: (id) __unused sender
 {
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Withdraw", @"") message:NSLocalizedString(@"Are you sure you want to completely withdraw from the study?\nThis action cannot be undone.", nil) preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction *withdrawAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Withdraw", @"") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * __unused action) {
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Withdraw", nil, [NSBundle bundleForClass:[self class]], @"") message:NSLocalizedStringFromTableInBundle(@"Are you sure you want to completely withdraw from the study?\nThis action cannot be undone.", nil, [NSBundle bundleForClass:[self class]], nil) preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertAction *withdrawAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Withdraw", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * __unused action) {
         [self withdraw];
     }];
     [alertContorller addAction:withdrawAction];
     
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         
     }];
     [alertContorller addAction:cancelAction];
@@ -1420,7 +1420,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         __weak typeof(self) weakSelf = self;
         
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-        UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Take Photo", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+        UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Take Photo", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
             
             [self.permissionManager requestForPermissionForType:kSignUpPermissionsTypeCamera withCompletion:^(BOOL granted, NSError *error) {
                 if (granted) {
@@ -1438,7 +1438,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
             [alertController addAction:cameraAction];
         }
         
-        UIAlertAction *libraryAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Choose from Library", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+        UIAlertAction *libraryAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Choose from Library", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
             [self.permissionManager requestForPermissionForType:kSignUpPermissionsTypePhotoLibrary withCompletion:^(BOOL granted, NSError *error) {
                 if (granted) {
                     dispatch_async(dispatch_get_main_queue(), ^{
@@ -1453,7 +1453,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         }];
         [alertController addAction:libraryAction];
         
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", nil) style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
             
         }];
         [alertController addAction:cancelAction];
@@ -1484,12 +1484,12 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
 
 - (void)presentSettingsAlert:(NSError *)error
 {
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Permissions Denied", @"") message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Permissions Denied", nil, [NSBundle bundleForClass:[self class]], @"") message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
         
     }];
     [alertContorller addAction:dismiss];
-    UIAlertAction *settings = [UIAlertAction actionWithTitle:NSLocalizedString(@"Settings", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *settings = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Settings", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
     }];
     [alertContorller addAction:settings];
@@ -1505,7 +1505,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
             [self hidePickerCell];
         }
         
-        sender.title = NSLocalizedString(@"Edit", @"Edit");
+        sender.title = NSLocalizedStringFromTableInBundle(@"Edit", nil, [NSBundle bundleForClass:[self class]], @"Edit");
         sender.style = UIBarButtonItemStylePlain;
         
         self.navigationItem.leftBarButtonItem.enabled = YES;
@@ -1521,7 +1521,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
         
     } else{
         
-        sender.title = NSLocalizedString(@"Done", @"Done");
+        sender.title = NSLocalizedStringFromTableInBundle(@"Done", nil, [NSBundle bundleForClass:[self class]], @"Done");
         sender.style = UIBarButtonItemStyleDone;
         
         self.navigationItem.leftBarButtonItem.enabled = NO;
@@ -1563,7 +1563,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     NSString *filePath = [[NSBundle mainBundle] pathForResource: @"PrivacyPolicy" ofType:@"html" inDirectory:@"HTMLContent"];
     NSURL *targetURL = [NSURL URLWithString:filePath];
     NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
-    webViewController.title = NSLocalizedString(@"Privacy Policy", @"");
+    webViewController.title = NSLocalizedStringFromTableInBundle(@"Privacy Policy", nil, [NSBundle bundleForClass:[self class]], @"");
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:webViewController];
     [self.navigationController presentViewController:navController animated:YES completion:^{
@@ -1591,13 +1591,13 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     
     if ([consentReviewActions containsObject:kReviewConsentActionPDF]) {
         {
-            UIAlertAction *pdfAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"View PDF", @"View PDF") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+            UIAlertAction *pdfAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"View PDF", nil, [NSBundle bundleForClass:[self class]], @"View PDF") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
                 
                 APCWebViewController *webViewController = [[UIStoryboard storyboardWithName:@"APCOnboarding" bundle:[NSBundle appleCoreBundle]] instantiateViewControllerWithIdentifier:@"APCWebViewController"];
                 NSString *filePath = [[NSBundle mainBundle] pathForResource:@"consent" ofType:@"pdf"];
                 NSData *data = [NSData dataWithContentsOfFile:filePath];
                 [webViewController.webview setDataDetectorTypes:UIDataDetectorTypeAll];
-                webViewController.title = NSLocalizedString(@"Consent", @"Consent");
+                webViewController.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], @"Consent");
                 
                 UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:webViewController];
                 [weakSelf.navigationController presentViewController:navController animated:YES completion:^{
@@ -1611,7 +1611,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     
     if ([consentReviewActions containsObject:kReviewConsentActionVideo]) {
         {
-            UIAlertAction *videoAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Watch Video", @"Watch Video") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+            UIAlertAction *videoAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Watch Video", nil, [NSBundle bundleForClass:[self class]], @"Watch Video") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
                 
                 NSURL *fileURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Intro" ofType:@"mp4"]];
                 APCIntroVideoViewController *introVideoViewController = [[APCIntroVideoViewController alloc] initWithContentURL:fileURL];
@@ -1626,7 +1626,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     
     if ([consentReviewActions containsObject:kReviewConsentActionSlides]) {
         {
-            UIAlertAction *slidesAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"View Slides", @"View Slides") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+            UIAlertAction *slidesAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"View Slides", nil, [NSBundle bundleForClass:[self class]], @"View Slides") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
                 [weakSelf showConsentSlides];
             }];
             [alertController addAction:slidesAction];
@@ -1634,7 +1634,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     }
     
     {
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
             
         }];
         [alertController addAction:cancelAction];
@@ -1649,13 +1649,13 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     
     NSArray*                sections  = [appDelegate consentSectionsAndHtmlContent:nil];
     ORKConsentDocument*     consent   = [[ORKConsentDocument alloc] init];
-    ORKConsentSignature*    signature = [ORKConsentSignature signatureForPersonWithTitle:NSLocalizedString(@"Participant", nil)
+    ORKConsentSignature*    signature = [ORKConsentSignature signatureForPersonWithTitle:NSLocalizedStringFromTableInBundle(@"Participant", nil, [NSBundle bundleForClass:[self class]], nil)
                                                                         dateFormatString:nil
                                                                               identifier:@"participant"];
     
-    consent.title                = NSLocalizedString(@"Consent", nil);
-    consent.signaturePageTitle   = NSLocalizedString(@"Consent", nil);
-    consent.signaturePageContent = NSLocalizedString(@"I agree to participate in this research Study.", nil);
+    consent.title                = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], nil);
+    consent.signaturePageTitle   = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], nil);
+    consent.signaturePageContent = NSLocalizedStringFromTableInBundle(@"I agree to participate in this research Study.", nil, [NSBundle bundleForClass:[self class]], nil);
     consent.sections             = sections;
     
     [consent addSignature:signature];
@@ -1667,7 +1667,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     
     ORKTaskViewController*  consentVC = [[ORKTaskViewController alloc] initWithTask:task taskRunUUID:[NSUUID UUID]];
     
-    consentVC.navigationBar.topItem.title = NSLocalizedString(@"Consent", nil);
+    consentVC.navigationBar.topItem.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], nil);
 	consentVC.delegate = self;
     
     NSUInteger subviewsCount = consentVC.view.subviews.count;
@@ -1693,7 +1693,7 @@ static NSString * const kAPCRightDetailTableViewCellIdentifier = @"APCRightDetai
     NSMutableArray *options = [NSMutableArray new];
     
     for (NSNumber *val in values) {
-        NSString *optionString = [NSString stringWithFormat:@"%ld %@", (long)val.integerValue, NSLocalizedString(@"minutes", nil)];
+        NSString *optionString = [NSString stringWithFormat:@"%ld %@", (long)val.integerValue, NSLocalizedStringFromTableInBundle(@"minutes", nil, [NSBundle bundleForClass:[self class]], nil)];
         [options addObject:optionString];
     }
     

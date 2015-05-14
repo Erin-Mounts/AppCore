@@ -133,7 +133,7 @@ static CGFloat const kTableViewRowHeight                 = 200.0f;
                 APCTableViewPermissionsItem *item = [APCTableViewPermissionsItem new];
                 item.permissionType = kSignUpPermissionsTypeHealthKit;
                 item.permissionGranted = [self.permissionsManager isPermissionsGrantedForType:item.permissionType];
-                item.caption = NSLocalizedString(@"Health Kit", @"");
+                item.caption = NSLocalizedStringFromTableInBundle(@"Health Kit", nil, [NSBundle bundleForClass:[self class]], @"");
                 item.detailText = servicesDescrtiptions[@(kSignUpPermissionsTypeHealthKit)];
                 [items addObject:item];
             }
@@ -143,7 +143,7 @@ static CGFloat const kTableViewRowHeight                 = 200.0f;
                 APCTableViewPermissionsItem *item = [APCTableViewPermissionsItem new];
                 item.permissionType = kSignUpPermissionsTypeLocation;
                 item.permissionGranted = [self.permissionsManager isPermissionsGrantedForType:item.permissionType];
-                item.caption = NSLocalizedString(@"Location Services", @"");
+                item.caption = NSLocalizedStringFromTableInBundle(@"Location Services", nil, [NSBundle bundleForClass:[self class]], @"");
                 item.detailText = servicesDescrtiptions[@(kSignUpPermissionsTypeLocation)];
                 [items addObject:item];
             }
@@ -154,7 +154,7 @@ static CGFloat const kTableViewRowHeight                 = 200.0f;
                     APCTableViewPermissionsItem *item = [APCTableViewPermissionsItem new];
                     item.permissionType = kSignUpPermissionsTypeCoremotion;
                     item.permissionGranted = [self.permissionsManager isPermissionsGrantedForType:item.permissionType];
-                    item.caption = NSLocalizedString(@"Motion Activity", @"");
+                    item.caption = NSLocalizedStringFromTableInBundle(@"Motion Activity", nil, [NSBundle bundleForClass:[self class]], @"");
                     item.detailText = servicesDescrtiptions[@(kSignUpPermissionsTypeCoremotion)];
                     [items addObject:item];
                 }
@@ -165,7 +165,7 @@ static CGFloat const kTableViewRowHeight                 = 200.0f;
                 APCTableViewPermissionsItem *item = [APCTableViewPermissionsItem new];
                 item.permissionType = kSignUpPermissionsTypeLocalNotifications;
                 item.permissionGranted = [self.permissionsManager isPermissionsGrantedForType:item.permissionType];
-                item.caption = NSLocalizedString(@"Notifications", @"");
+                item.caption = NSLocalizedStringFromTableInBundle(@"Notifications", nil, [NSBundle bundleForClass:[self class]], @"");
                 item.detailText = servicesDescrtiptions[@(kSignUpPermissionsTypeLocalNotifications)];
                 [items addObject:item];
             }
@@ -175,7 +175,7 @@ static CGFloat const kTableViewRowHeight                 = 200.0f;
                 APCTableViewPermissionsItem *item = [APCTableViewPermissionsItem new];
                 item.permissionType = kSignUpPermissionsTypeMicrophone;
                 item.permissionGranted = [self.permissionsManager isPermissionsGrantedForType:item.permissionType];
-                item.caption = NSLocalizedString(@"Microphone", @"");
+                item.caption = NSLocalizedStringFromTableInBundle(@"Microphone", nil, [NSBundle bundleForClass:[self class]], @"");
                 item.detailText = servicesDescrtiptions[@(kSignUpPermissionsTypeMicrophone)];
                 [items addObject:item];
             }
@@ -272,12 +272,12 @@ static CGFloat const kTableViewRowHeight                 = 200.0f;
 
 - (void)presentSettingsAlert:(NSError *)error
 {
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Permissions Denied", @"") message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction *__unused action) {
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Permissions Denied", nil, [NSBundle bundleForClass:[self class]], @"") message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction *__unused action) {
         
     }];
     [alertContorller addAction:dismiss];
-    UIAlertAction *settings = [UIAlertAction actionWithTitle:NSLocalizedString(@"Settings", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *settings = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Settings", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
     }];
     [alertContorller addAction:settings];

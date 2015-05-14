@@ -187,7 +187,7 @@ static  CGFloat    kAPCMedicationRowHeight   = 64.0;
         label.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1.0];
         label.textColor = [UIColor blackColor];
         label.textAlignment = NSTextAlignmentCenter;
-        label.text = NSLocalizedString(@"Select Your Medication\'s Single Dose Amount", nil);
+        label.text = NSLocalizedStringFromTableInBundle(@"Select Your Medication\'s Single Dose Amount", nil, [NSBundle bundleForClass:[self class]], nil);
         [view addSubview:label];
     }
     return  view;
@@ -231,7 +231,7 @@ static  CGFloat    kAPCMedicationRowHeight   = 64.0;
     
     self.tabulator.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
-    UIBarButtonItem  *donester = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Done", @"Done") style:UIBarButtonItemStyleDone target:self action:@selector(doneButtonTapped:)];
+    UIBarButtonItem  *donester = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Done", nil, [NSBundle bundleForClass:[self class]], @"Done") style:UIBarButtonItemStyleDone target:self action:@selector(doneButtonTapped:)];
     self.navigationItem.rightBarButtonItem = donester;
     
     self.dosageAmounts = [NSArray array];

@@ -66,8 +66,8 @@ static CGFloat kHeaderHeight = 157.0f;
     
     self.items = [self prepareContent];
     
-    self.permissionButton.unconfirmedTitle = NSLocalizedString(@"Enter the study and contribute your data", @"");
-    self.permissionButton.confirmedTitle = NSLocalizedString(@"Enter the study and contribute your data", @"");
+    self.permissionButton.unconfirmedTitle = NSLocalizedStringFromTableInBundle(@"Enter the study and contribute your data", nil, [NSBundle bundleForClass:[self class]], @"");
+    self.permissionButton.confirmedTitle = NSLocalizedStringFromTableInBundle(@"Enter the study and contribute your data", nil, [NSBundle bundleForClass:[self class]], @"");
     self.permissionButton.attributed = NO;
     self.permissionButton.alignment = kAPCPermissionButtonAlignmentLeft;
     
@@ -128,7 +128,7 @@ static CGFloat kHeaderHeight = 157.0f;
     [super setupAppearance];
     
     self.footerLabel.font = [UIFont appRegularFontWithSize:16.0f];
-    self.footerLabel.text = NSLocalizedString(@"Sage Bionetworks, a non-profit biomedical research institute, is helping to collect data for this study and distribute it to the study investigators and other researchers. Please provide a unique email address and password to create a secure account.", @"");
+    self.footerLabel.text = NSLocalizedStringFromTableInBundle(@"Sage Bionetworks, a non-profit biomedical research institute, is helping to collect data for this study and distribute it to the study investigators and other researchers. Please provide a unique email address and password to create a secure account.", nil, [NSBundle bundleForClass:[self class]], @"");
     self.footerLabel.textColor = [UIColor appSecondaryColor2];
     
 }
@@ -180,8 +180,8 @@ static CGFloat kHeaderHeight = 157.0f;
 
     {
         APCTableViewTextFieldItem *field = [APCTableViewTextFieldItem new];
-        field.caption = NSLocalizedString(@"Password", @"");
-        field.placeholder = NSLocalizedString(@"add password", @"");
+        field.caption = NSLocalizedStringFromTableInBundle(@"Password", nil, [NSBundle bundleForClass:[self class]], @"");
+        field.placeholder = NSLocalizedStringFromTableInBundle(@"add password", nil, [NSBundle bundleForClass:[self class]], @"");
         field.keyboardType = UIKeyboardTypeASCIICapable;
         field.returnKeyType = UIReturnKeyNext;
         field.identifier = kAPCTextFieldTableViewCellIdentifier;
@@ -201,8 +201,8 @@ static CGFloat kHeaderHeight = 157.0f;
             case kAPCUserInfoItemTypeDateOfBirth:
             {
                 APCTableViewDatePickerItem *field = [APCTableViewDatePickerItem new];
-                field.caption = NSLocalizedString(@"Birthdate", @"");
-                field.placeholder = NSLocalizedString(@"add birthdate", @"");
+                field.caption = NSLocalizedStringFromTableInBundle(@"Birthdate", nil, [NSBundle bundleForClass:[self class]], @"");
+                field.placeholder = NSLocalizedStringFromTableInBundle(@"add birthdate", nil, [NSBundle bundleForClass:[self class]], @"");
                 field.datePickerMode = UIDatePickerModeDate;
                 field.style = UITableViewCellStyleValue1;
                 field.selectionStyle = UITableViewCellSelectionStyleGray;
@@ -441,7 +441,7 @@ static CGFloat kHeaderHeight = 157.0f;
                         isContentValid = [[(APCTableViewTextFieldItem *)item value] isValidForRegex:kAPCGeneralInfoItemEmailRegEx];
                         
                         if (errorMessage) {
-                            *errorMessage = NSLocalizedString(@"Please enter a valid email address.", @"");
+                            *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter a valid email address.", nil, [NSBundle bundleForClass:[self class]], @"");
                         }
                     }
                         break;
@@ -452,14 +452,14 @@ static CGFloat kHeaderHeight = 157.0f;
                             isContentValid = NO;
                             
                             if (errorMessage) {
-                                *errorMessage = NSLocalizedString(@"Please enter a Password.", @"");
+                                *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter a Password.", nil, [NSBundle bundleForClass:[self class]], @"");
                             }
                         }
                         else if ([[(APCTableViewTextFieldItem *)item value] length] < kAPCPasswordMinimumLength) {
                             isContentValid = NO;
                             
                             if (errorMessage) {
-                                *errorMessage = [NSString stringWithFormat:NSLocalizedString(@"Password should be at least %d characters", ), kAPCPasswordMinimumLength];
+                                *errorMessage = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Password should be at least %d characters", nil, [NSBundle bundleForClass:[self class]], ), kAPCPasswordMinimumLength];
                             }
                         }
                     }
@@ -499,11 +499,11 @@ static CGFloat kHeaderHeight = 157.0f;
             fieldValid = [self.emailTextField.text isValidForRegex:kAPCGeneralInfoItemEmailRegEx];
             
             if (errorMessage && !fieldValid) {
-                *errorMessage = NSLocalizedString(@"Please enter a valid email address.", @"");
+                *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter a valid email address.", nil, [NSBundle bundleForClass:[self class]], @"");
             }
         } else {
             if (errorMessage && !fieldValid) {
-                *errorMessage = NSLocalizedString(@"Email address cannot be left empty.", @"");
+                *errorMessage = NSLocalizedStringFromTableInBundle(@"Email address cannot be left empty.", nil, [NSBundle bundleForClass:[self class]], @"");
             }
         }
         
@@ -511,7 +511,7 @@ static CGFloat kHeaderHeight = 157.0f;
         
         if (self.nameTextField.text.length == 0) {
             if (errorMessage && !fieldValid) {
-                *errorMessage = NSLocalizedString(@"Name cannot be left empty.", @"");
+                *errorMessage = NSLocalizedStringFromTableInBundle(@"Name cannot be left empty.", nil, [NSBundle bundleForClass:[self class]], @"");
             }
         } else {
             fieldValid = YES;
@@ -522,12 +522,12 @@ static CGFloat kHeaderHeight = 157.0f;
                 if ([[item value] length] == 0) {
                     
                     if (errorMessage) {
-                        *errorMessage = NSLocalizedString(@"Please enter a Password.", @"");
+                        *errorMessage = NSLocalizedStringFromTableInBundle(@"Please enter a Password.", nil, [NSBundle bundleForClass:[self class]], @"");
                     }
                 } else if ([[item value] length] < kAPCPasswordMinimumLength) {
                     
                     if (errorMessage) {
-                        *errorMessage = [NSString stringWithFormat:NSLocalizedString(@"Password should be at least %d characters", ), kAPCPasswordMinimumLength];
+                        *errorMessage = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Password should be at least %d characters", nil, [NSBundle bundleForClass:[self class]], ), kAPCPasswordMinimumLength];
                     }
                 } else {
                     fieldValid = YES;
@@ -597,7 +597,7 @@ static CGFloat kHeaderHeight = 157.0f;
         [self next];
     }
     else {
-        UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedString(@"General Information", @"") message:message];
+        UIAlertController *alert = [UIAlertController simpleAlertWithTitle:NSLocalizedStringFromTableInBundle(@"General Information", nil, [NSBundle bundleForClass:[self class]], @"") message:message];
         [self presentViewController:alert animated:YES completion:nil];
     }
 }
@@ -676,7 +676,7 @@ static CGFloat kHeaderHeight = 157.0f;
                 if ([error.message isEqualToString:kInternetNotAvailableErrorMessage1] || [error.message isEqualToString:kInternetNotAvailableErrorMessage2] || [error.message rangeOfString:kInternalMaxParticipantsMessage].location != NSNotFound) {
                     [spinnerController dismissViewControllerAnimated:NO completion:^{
                     
-                        UIAlertController *alertView = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Sign Up", @"")
+                        UIAlertController *alertView = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Sign Up", nil, [NSBundle bundleForClass:[self class]], @"")
                                                                                             message:error.message
                                                                                      preferredStyle:UIAlertControllerStyleAlert];
 
@@ -689,14 +689,14 @@ static CGFloat kHeaderHeight = 157.0f;
                 } else {
                     [spinnerController dismissViewControllerAnimated:NO completion:^{
                         
-                        UIAlertController *alertView = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Sign Up", @"")
+                        UIAlertController *alertView = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Sign Up", nil, [NSBundle bundleForClass:[self class]], @"")
                                                                                            message:error.message
                                                                                     preferredStyle:UIAlertControllerStyleAlert];
                         
-                        UIAlertAction* okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Change Details", @"") style:UIAlertActionStyleDefault
+                        UIAlertAction* okAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Change Details", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDefault
                                                                               handler:^(UIAlertAction * __unused action) {}];
                         
-                        UIAlertAction* changeAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Send Again", nil) style:UIAlertActionStyleDefault
+                        UIAlertAction* changeAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Send Again", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault
                                                                              handler:^(UIAlertAction * __unused action) {[self next];}];
                         
                         
@@ -733,7 +733,7 @@ static CGFloat kHeaderHeight = 157.0f;
     __weak typeof(self) weakSelf = self;
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Take Photo", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Take Photo", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
         
         [self.permissionManager requestForPermissionForType:kSignUpPermissionsTypeCamera withCompletion:^(BOOL granted, NSError *error) {
             if (granted) {
@@ -751,7 +751,7 @@ static CGFloat kHeaderHeight = 157.0f;
         [alertController addAction:cameraAction];
     }
     
-    UIAlertAction *libraryAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Choose from Library", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *libraryAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Choose from Library", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
         [self.permissionManager requestForPermissionForType:kSignUpPermissionsTypePhotoLibrary withCompletion:^(BOOL granted, NSError *error) {
             if (granted) {
                 dispatch_async(dispatch_get_main_queue(), ^{
@@ -766,7 +766,7 @@ static CGFloat kHeaderHeight = 157.0f;
     }];
     [alertController addAction:libraryAction];
     
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", nil) style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         
     }];
     [alertController addAction:cancelAction];
@@ -796,12 +796,12 @@ static CGFloat kHeaderHeight = 157.0f;
 
 - (void)presentSettingsAlert:(NSError *)error
 {
-    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Permissions Denied", @"") message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
+    UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Permissions Denied", nil, [NSBundle bundleForClass:[self class]], @"") message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleDefault handler:^(UIAlertAction * __unused action) {
         
     }];
     [alertContorller addAction:dismiss];
-    UIAlertAction *settings = [UIAlertAction actionWithTitle:NSLocalizedString(@"Settings", @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
+    UIAlertAction *settings = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Settings", nil, [NSBundle bundleForClass:[self class]], @"") style:UIAlertActionStyleCancel handler:^(UIAlertAction * __unused action) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
     }];
     [alertContorller addAction:settings];

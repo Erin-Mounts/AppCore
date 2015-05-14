@@ -77,7 +77,7 @@
     NSDictionary *initialOptions = ((APCAppDelegate *)[UIApplication sharedApplication].delegate).initializationOptions;
     self.shareMessage = initialOptions[kShareMessageKey];
     
-    self.title = NSLocalizedString(@"Spread the Word", nil);
+    self.title = NSLocalizedStringFromTableInBundle(@"Spread the Word", nil, [NSBundle bundleForClass:[self class]], nil);
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -123,25 +123,25 @@
     switch (indexPath.row) {
         case kAPCShareTypeTwitter:
         {
-            cell.textLabel.text = NSLocalizedString(@"Share on Twitter", nil);
+            cell.textLabel.text = NSLocalizedStringFromTableInBundle(@"Share on Twitter", nil, [NSBundle bundleForClass:[self class]], nil);
             cell.imageView.image = [[UIImage imageNamed:@"twitter_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         }
             break;
         case kAPCShareTypeFacebook:
         {
-            cell.textLabel.text = NSLocalizedString(@"Share on Facebook", nil);
+            cell.textLabel.text = NSLocalizedStringFromTableInBundle(@"Share on Facebook", nil, [NSBundle bundleForClass:[self class]], nil);
             cell.imageView.image = [[UIImage imageNamed:@"facebook_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         }
             break;
         case kAPCShareTypeEmail:
         {
-            cell.textLabel.text = NSLocalizedString(@"Share via Email", nil);
+            cell.textLabel.text = NSLocalizedStringFromTableInBundle(@"Share via Email", nil, [NSBundle bundleForClass:[self class]], nil);
             cell.imageView.image = [[UIImage imageNamed:@"email_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         }
             break;
         case kAPCShareTypeSMS:
         {
-            cell.textLabel.text = NSLocalizedString(@"Share via SMS", nil);
+            cell.textLabel.text = NSLocalizedStringFromTableInBundle(@"Share via SMS", nil, [NSBundle bundleForClass:[self class]], nil);
             cell.imageView.image = [[UIImage imageNamed:@"sms_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         }
             break;
@@ -181,10 +181,10 @@
                 
                 [self presentViewController:mailComposeVC animated:YES completion:NULL];
             } else {
-                NSString *message = NSLocalizedString(@"Looks like you don\'t have Mail app setup. Please configure to share via email.", nil);
+                NSString *message = NSLocalizedStringFromTableInBundle(@"Looks like you don\'t have Mail app setup. Please configure to share via email.", nil, [NSBundle bundleForClass:[self class]], nil);
                 
-                UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Email", nil) message:message preferredStyle:UIAlertControllerStyleAlert];
-                UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", nil) style:UIAlertActionStyleDefault handler:nil];
+                UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Email", nil, [NSBundle bundleForClass:[self class]], nil) message:message preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault handler:nil];
                 [alertController addAction:dismiss];
                 [self presentViewController:alertController animated:YES completion:nil];
             }
@@ -199,10 +199,10 @@
                 
                 [self presentViewController:messageComposer animated:YES completion:nil];
             } else {
-                NSString *message = NSLocalizedString(@"Looks like you don\'t have Messages app setup. Please configure to share via SMS.", nil);
+                NSString *message = NSLocalizedStringFromTableInBundle(@"Looks like you don\'t have Messages app setup. Please configure to share via SMS.", nil, [NSBundle bundleForClass:[self class]], nil);
                 
-                UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Messages", nil) message:message preferredStyle:UIAlertControllerStyleAlert];
-                UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedString(@"Dismiss", nil) style:UIAlertActionStyleDefault handler:nil];
+                UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Messages", nil, [NSBundle bundleForClass:[self class]], nil) message:message preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction *dismiss = [UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Dismiss", nil, [NSBundle bundleForClass:[self class]], nil) style:UIAlertActionStyleDefault handler:nil];
                 [alertController addAction:dismiss];
                 [self presentViewController:alertController animated:YES completion:nil];
             }
@@ -227,8 +227,8 @@
         [composeViewController setInitialText:self.shareMessage];
         [self presentViewController:composeViewController animated:YES completion:nil];
     } else {
-        NSString *updateTwitterClientMessage = NSLocalizedString(@"Your Twitter client does not support sharing from other apps. Please update your Twitter client.", nil);
-        UIAlertController *alertView = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Update Twitter Client", nil)
+        NSString *updateTwitterClientMessage = NSLocalizedStringFromTableInBundle(@"Your Twitter client does not support sharing from other apps. Please update your Twitter client.", nil, [NSBundle bundleForClass:[self class]], nil);
+        UIAlertController *alertView = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Update Twitter Client", nil, [NSBundle bundleForClass:[self class]], nil)
                                                                            message:updateTwitterClientMessage
                                                                     preferredStyle:UIAlertControllerStyleAlert];
         

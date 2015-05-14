@@ -45,7 +45,7 @@
     double rotationAngle = asin(height/hypotenuse);
     
     UILabel* watermarkLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-    watermarkLabel.text = NSLocalizedString(@"EXAMPLE", nil);
+    watermarkLabel.text = NSLocalizedStringFromTableInBundle(@"EXAMPLE", nil, [NSBundle bundleForClass:[self class]], nil);
     watermarkLabel.font = [UIFont systemFontOfSize:72.0];
     watermarkLabel.textColor = [UIColor colorWithWhite:0 alpha:0.05];
     watermarkLabel.textAlignment = NSTextAlignmentCenter;
