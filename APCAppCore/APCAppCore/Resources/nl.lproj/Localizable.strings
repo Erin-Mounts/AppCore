@@ -1,0 +1,879 @@
+/* {count} {day/s} Remaining */
+"%lu %@ Remaining" = "%1$lu %2$@ resterend";
+
+/* No comment provided by engineer. */
+"7:00 AM" = "07.00";
+
+/* No comment provided by engineer. */
+"9:30 PM" = "21.30";
+
+/* (No Commment) */
+"AUDIO_CALL_TO_ACTION" = "Tik op \'Start\' om de test te starten.";
+
+/* (No Commment) */
+"AUDIO_INSTRUCTION" = "Zeg zo lang als u kunt \"Aaaaah\" in de microfoon.";
+
+/* (No Commment) */
+"AUDIO_INTENDED_USE" = "Met deze test wordt uw spraak geëvalueerd. Hiervoor wordt uw stem opgenomen via de microfoon onder aan uw telefoon.";
+
+/* (No Commment) */
+"AUDIO_INTRO_TEXT" = "Zeg zo lang als u kunt \"Aaaaah\" in de microfoon. Doe dit met een gelijkblijvend volume, zodat de audiobalkjes blauw blijven.";
+
+/* (No Commment) */
+"AUDIO_TASK_TITLE" = "Stemactiviteit";
+
+/* (No Commment) */
+"AUDIO_TOO_LOUD_LABEL" = "Te hard";
+
+/* Active Minutes */
+"Active Minutes" = "Actieve minuten";
+
+/* Activities */
+"Activities" = "Activiteiten";
+
+/* Activity Completion */
+"Activity Completion" = "Voltooiing van activiteit";
+
+/* No comment provided by engineer. */
+"Activity Reminders" = "Herinneringen activiteit";
+
+/* No comment provided by engineer. */
+"Add Your Medication Details" = "Voeg informatie over uw medicijnen toe";
+
+/* Additional Information */
+"Additional Information" = "Aanvullende informatie";
+
+/* No comment provided by engineer. */
+"Alert" = "Waarschuwing";
+
+/* Allow */
+"Allow" = "Sta toe";
+
+/* No comment provided by engineer. */
+"An email has been sent." = "Er is een e-mail verstuurd.";
+
+/* No comment provided by engineer. */
+"An unknown error occurred" = "Er is een onbekende fout opgetreden";
+
+/* (No Commment) */
+"Are you sure you want to completely withdraw from the study? This action cannot be undone." = "Weet u zeker dat u zich wilt terugtrekken uit het onderzoek?
+Deze bewerking kan niet ongedaan worden gemaakt.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to sign out?" = "Weet u zeker dat u zich wilt afmelden?";
+
+/* No comment provided by engineer. */
+"Authentication Error" = "Fout bij identiteitscontrole";
+
+/* No comment provided by engineer. */
+"Auto-Lock" = "Automatische vergrendeling";
+
+/* (No Commment) */
+"BLOOD_TYPE_A+" = "A+";
+
+/* (No Commment) */
+"BLOOD_TYPE_A-" = "A-";
+
+/* (No Commment) */
+"BLOOD_TYPE_AB+" = "AB+";
+
+/* (No Commment) */
+"BLOOD_TYPE_AB-" = "AB-";
+
+/* (No Commment) */
+"BLOOD_TYPE_B+" = "B+";
+
+/* (No Commment) */
+"BLOOD_TYPE_B-" = "B-";
+
+/* (No Commment) */
+"BLOOD_TYPE_O+" = "O+";
+
+/* (No Commment) */
+"BLOOD_TYPE_O-" = "O-";
+
+/* (No Commment) */
+"BOOL_NO" = "Nee";
+
+/* (No Commment) */
+"BOOL_YES" = "Ja";
+
+/* (No Commment) */
+"BUTTON_AGREE" = "Akkoord";
+
+/* (No Commment) */
+"BUTTON_CANCEL" = "Annuleer";
+
+/* (No Commment) */
+"BUTTON_CLEAR" = "Wis";
+
+/* (No Commment) */
+"BUTTON_DISAGREE" = "Niet akkoord";
+
+/* (No Commment) */
+"BUTTON_DONE" = "Klaar";
+
+/* (No Commment) */
+"BUTTON_GET_STARTED" = "Start";
+
+/* (No Commment) */
+"BUTTON_LEARN_MORE" = "Meer informatie";
+
+/* (No Commment) */
+"BUTTON_NEXT" = "Volgende";
+
+/* (No Commment) */
+"BUTTON_SKIP" = "Sla over";
+
+/* (No Commment) */
+"BUTTON_SKIP_QUESTION" = "Sla deze vraag over";
+
+/* (No Commment) */
+"BUTTON_START_TIMER" = "Start timer";
+
+/* (No Commment) */
+"BUTTON_TRY_AGAIN" = "Opnieuw";
+
+/* No comment provided by engineer. */
+"Below are your incomplete tasks from yesterday. These are for reference only." = "Hieronder ziet u de niet-voltooide taken van gisteren. Deze zijn alleen bedoeld ter referentie.";
+
+/* No comment provided by engineer. */
+"Biological Sex" = "Biologisch geslacht";
+
+/* No comment provided by engineer. */
+"Birthdate" = "Geboortedatum";
+
+/* No comment provided by engineer. */
+"Blood Type" = "Bloedgroep";
+
+/* No comment provided by engineer. */
+"By agreeing you confirm that you read the consent and that you wish to take part in this research study." = "Als u akkoord gaat, bevestigt u dat u het toestemmingsformulier hebt gelezen en dat u wilt deelnemen aan dit onderzoek.";
+
+/* (No Commment) */
+"CONSENT_DOC_LINE_DATE" = "Datum";
+
+/* (No Commment) */
+"CONSENT_DOC_LINE_PRINTED_NAME" = "Naam %@ (in blokletters)";
+
+/* (No Commment) */
+"CONSENT_DOC_LINE_SIGNATURE" = "Handtekening %@";
+
+/* (No Commment) */
+"CONSENT_LEARN_MORE_TITLE" = "Meer informatie";
+
+/* (No Commment) */
+"CONSENT_NAME_FIRST" = "Voornaam";
+
+/* (No Commment) */
+"CONSENT_NAME_LAST" = "Achternaam";
+
+/* (No Commment) */
+"CONSENT_NAME_PLACEHOLDER" = "Verplicht";
+
+/* (No Commment) */
+"CONSENT_NAME_TITLE" = "Toestemming";
+
+/* (No Commment) */
+"CONSENT_PAGE_NUMBER_FORMAT" = "Pagina %1$ld van %2$ld";
+
+/* (No Commment) */
+"CONSENT_REVIEW_ALERT_TITLE" = "Controle";
+
+/* (No Commment) */
+"CONSENT_REVIEW_INSTRUCTION" = "Controleer de onderstaande gegevens en tik op ‘Akkoord’ om verder te gaan.";
+
+/* (No Commment) */
+"CONSENT_REVIEW_TITLE" = "Controle";
+
+/* (No Commment) */
+"CONSENT_SECTION_DATA_GATHERING" = "Gegevensverzameling";
+
+/* (No Commment) */
+"CONSENT_SECTION_DATA_USE" = "Gegevensgebruik";
+
+/* (No Commment) */
+"CONSENT_SECTION_PRIVACY" = "Privacy";
+
+/* (No Commment) */
+"CONSENT_SECTION_STUDY_SURVEY" = "Vragenlijst onderzoek";
+
+/* (No Commment) */
+"CONSENT_SECTION_STUDY_TASKS" = "Taken onderzoek";
+
+/* (No Commment) */
+"CONSENT_SECTION_TIME_COMMITMENT" = "Tijdsbesteding";
+
+/* (No Commment) */
+"CONSENT_SECTION_WELCOME" = "Welkom";
+
+/* (No Commment) */
+"CONSENT_SECTION_WITHDRAWING" = "Terugtrekken";
+
+/* (No Commment) */
+"CONSENT_SIGNATURE_INSTRUCTION" = "Zet met uw vinger uw handtekening op de lijn hieronder.";
+
+/* (No Commment) */
+"CONSENT_SIGNATURE_PLACEHOLDER" = "Uw handtekening";
+
+/* (No Commment) */
+"CONSENT_SIGNATURE_TITLE" = "Handtekening";
+
+/* (No Commment) */
+"COUNTDOWN_LABEL" = "Start test over";
+
+/* No comment provided by engineer. */
+"Cancel" = "Annuleer";
+
+/* No comment provided by engineer. */
+"Change Details" = "Wijzig gegevens";
+
+/* No comment provided by engineer. */
+"Change Email" = "Wijzig e-mailadres";
+
+/* No comment provided by engineer. */
+"Change Passcode" = "Wijzig wachtwoordcode";
+
+/* No comment provided by engineer. */
+"Choose from Library" = "Kies uit bibliotheek";
+
+/* Consent */
+"Consent" = "Toestemming";
+
+/* No comment provided by engineer. */
+"Continue" = "Ga door";
+
+/* Day */
+"Day" = "Dag";
+
+/* Days */
+"Days" = "Dagen";
+
+/* No comment provided by engineer. */
+"Delete" = "Verwijder";
+
+/* Dismiss */
+"Dismiss" = "Sluit";
+
+/* Done */
+"Done" = "Klaar";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_COULD_NOT_FREE_SPACE" = "Onvoldoende logbestanden verwijderd om drempel te bereiken";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_COULD_NOT_MARK" = "Bestand niet gemarkeerd als verwijderd (niet gemarkeerd als geüpload)";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_CREATE_FILE" = "Kan bestand niet aanmaken";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_MULTIPLE" = "Meerdere fouten bij verwijderen van logbestanden";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_SET_ATTRIBUTE" = "Fout bij instellen van kenmerk";
+
+/* (No Commment) */
+"ERROR_RECORDER_NO_DATA" = "Er zijn geen verzamelde gegevens gevonden.";
+
+/* (No Commment) */
+"ERROR_RECORDER_NO_OUTPUT_DIRECTORY" = "Er is geen uitvoermap opgegeven";
+
+/* No comment provided by engineer. */
+"EXAMPLE" = "VOORBEELD";
+
+/* Edit */
+"Edit" = "Wijzig";
+
+/* No comment provided by engineer. */
+"Eligibility" = "Geschiktheid voor deelname";
+
+/* No comment provided by engineer. */
+"Email" = "E-mail";
+
+/* Email Consent Document */
+"Email Consent Document" = "Verstuur toestemmingsdocument per e-mail";
+
+/* No comment provided by engineer. */
+"Email Verification" = "Verificatie e-mailadres";
+
+/* No comment provided by engineer. */
+"Email address cannot be left empty." = "U moet een e-mailadres opgeven.";
+
+/* No comment provided by engineer. */
+"Enable Reminders" = "Schakel herinneringen in";
+
+/* No comment provided by engineer. */
+"Enter Passcode" = "Voer wachtwoordcode in";
+
+/* No comment provided by engineer. */
+"Enter the study and contribute your data" = "Doe mee aan het onderzoek en geef ons toegang tot uw gegevens";
+
+/* No comment provided by engineer. */
+"Enter your new passcode" = "Voer uw nieuwe wachtwoordcode in";
+
+/* No comment provided by engineer. */
+"Enter your old passcode" = "Voer uw oude wachtwoordcode in";
+
+/* (No Commment) */
+"FITNESS_DISTANCE_TITLE_FORMAT" = "Afstand (%@)";
+
+/* (No Commment) */
+"FITNESS_HEARTRATE_TITLE" = "Hartslag (bpm)";
+
+/* (No Commment) */
+"FITNESS_INTRO_2_TEXT_FORMAT" = "Loop buiten %1$@ zo snel als u kunt. Ga daarna zitten en rust %2$@ uit. Tik op \'Start\' om te beginnen.";
+
+/* (No Commment) */
+"FITNESS_INTRO_TEXT_FORMAT" = "Met deze test wordt uw hartslag gemeten en kijken we hoe ver u kunt lopen in %1$@.";
+
+/* (No Commment) */
+"FITNESS_SIT_INSTRUCTION_FORMAT" = "Rust %@ uit.";
+
+/* (No Commment) */
+"FITNESS_TASK_TITLE" = "Fitness-test";
+
+/* (No Commment) */
+"FITNESS_WALK_INSTRUCTION_FORMAT" = "Loop %@ zo snel als u kunt.";
+
+/* No comment provided by engineer. */
+"Failed to authenticate." = "De identiteitscontrole is mislukt.";
+
+/* No comment provided by engineer. */
+"Female" = "Vrouw";
+
+/* This is the title for the message that appears when the user asked for a ‘reset password,’ and that ‘resetting’ process failed. */
+"Forgot Password" = "Wachtwoord vergeten";
+
+/* (No Commment) */
+"GENDER_FEMALE" = "Vrouw";
+
+/* (No Commment) */
+"GENDER_MALE" = "Man";
+
+/* No comment provided by engineer. */
+"General Information" = "Algemene informatie";
+
+/* Granted */
+"Granted" = "Toestemming gegeven";
+
+/* No comment provided by engineer. */
+"Health Kit" = "HealthKit";
+
+/* No comment provided by engineer. */
+"Height" = "Lengte";
+
+/* No comment provided by engineer. */
+"Help us Spread the Word" = "Help ons om meer bekendheid te krijgen";
+
+/* No comment provided by engineer. */
+"Here is your activity and sleep assessment for the last 7 days" = "Dit is uw activiteiten- en slaappatroon voor de afgelopen zeven dagen";
+
+/* No comment provided by engineer. */
+"I agree to participate in this research Study." = "Ik bevestig dat ik wil deelnemen aan dit onderzoek.";
+
+/* No comment provided by engineer. */
+"Identification" = "Identificatie";
+
+/* No comment provided by engineer. */
+"Insight" = "Inzicht";
+
+/* (No Commment) */
+"Invalid email or password.  In case you have not verified your account, please do so by clicking the link in the email we have sent you." = "Ongeldig e-mailadres of wachtwoord.
+
+Als u uw account nog niet hebt bevestigd, kunt u dit nu doen door op de koppeling te klikken in de e-mail die we u hebben gestuurd.";
+
+/* Keep going */
+"Keep Going!" = "Hou vol!";
+
+/* (No Commment) */
+"LEARN_MORE_DATA_GATHERING" = "Meer informatie over de manier waarop gegevens worden verzameld";
+
+/* (No Commment) */
+"LEARN_MORE_DATA_USE" = "Meer informatie over de manier waarop gegevens worden gebruikt";
+
+/* (No Commment) */
+"LEARN_MORE_PRIVACY" = "Meer informatie over de bescherming van uw privacy en identiteit";
+
+/* (No Commment) */
+"LEARN_MORE_STUDY_SURVEY" = "Meer informatie over de vragenlijst van het onderzoek";
+
+/* (No Commment) */
+"LEARN_MORE_TASKS" = "Meer informatie over de taken die u moet uitvoeren";
+
+/* (No Commment) */
+"LEARN_MORE_TIME_COMMITMENT" = "Meer informatie over de tijd die het onderzoek van u vergt";
+
+/* (No Commment) */
+"LEARN_MORE_WELCOME" = "Meer informatie over het onderzoek";
+
+/* (No Commment) */
+"LEARN_MORE_WITHDRAWING" = "Meer informatie over terugtrekking uit het onderzoek";
+
+/* No comment provided by engineer. */
+"License Information" = "Licentiegegevens";
+
+/* Light */
+"Light" = "Licht";
+
+/* No comment provided by engineer. */
+"Location Services" = "Locatievoorzieningen";
+
+/* No comment provided by engineer. */
+"Log Your Medications" = "Registreer uw medicijnen";
+
+/* No comment provided by engineer. */
+"Looks like you don\'t have Mail app setup. Please configure to share via email." = "Het lijkt erop dat de app Mail nog niet is geconfigureerd. Configureer de app om gegevens te delen via e-mail.";
+
+/* No comment provided by engineer. */
+"Looks like you don\'t have Messages app setup. Please configure to share via SMS." = "Het lijkt erop dat de app Berichten nog niet is geconfigureerd. Configureer de app om gegevens te delen via sms.";
+
+/* (No Commment) */
+"MEDIA_BUTTON" = "Tik om een afbeelding vast te leggen";
+
+/* (No Commment) */
+"MEDIA_BUTTON_HAVE_IMAGE" = "Tik om een andere afbeelding vast te leggen";
+
+/* (No Commment) */
+"MEMORY_GAME_COMPLETE" = "Spel voltooid";
+
+/* (No Commment) */
+"MEMORY_GAME_COMPLETE_MESSAGE" = "Tik op \'Volgende\' om naar de volgende ronde te gaan";
+
+/* (No Commment) */
+"MEMORY_GAME_COMPLETE_TITLE" = "Ronde voltooid";
+
+/* (No Commment) */
+"MEMORY_GAME_FAILED_MESSAGE" = "Deze keer is het niet helemaal gelukt. Tik op \'Opnieuw\' om het nog een keer te proberen.";
+
+/* (No Commment) */
+"MEMORY_GAME_FAILED_TITLE" = "Opnieuw";
+
+/* (No Commment) */
+"MEMORY_GAME_GAMEPLAY_REVERSE_TITLE_%@" = "Tik in omgekeerde volgorde op de %@";
+
+/* (No Commment) */
+"MEMORY_GAME_GAMEPLAY_TITLE_%@" = "Tik op de %@ in de volgorde waarin ze oplichten";
+
+/* (No Commment) */
+"MEMORY_GAME_ITEM_COUNT_TITLE_%@" = "%@";
+
+/* (No Commment) */
+"MEMORY_GAME_PLAYBACK_TITLE_%@" = "Kijk hoe de %@ oplichten";
+
+/* (No Commment) */
+"MEMORY_GAME_SCORE_TITLE" = "Score";
+
+/* (No Commment) */
+"MEMORY_GAME_TIMEOUT_MESSAGE" = "U had niet genoeg tijd voor deze ronde.
+Tik op \'Opnieuw\' om het nog een keer te proberen.";
+
+/* (No Commment) */
+"MEMORY_GAME_TIMEOUT_TITLE" = "De tijd is voorbij";
+
+/* No comment provided by engineer. */
+"Male" = "Man";
+
+/* No comment provided by engineer. */
+"Medical Conditions" = "Medische aandoeningen";
+
+/* No comment provided by engineer. */
+"Medications" = "Medicijnen";
+
+/* No comment provided by engineer. */
+"Messages" = "Berichten";
+
+/* No comment provided by engineer. */
+"Microphone" = "Microfoon";
+
+/* Moderate */
+"Moderate" = "Gemiddeld";
+
+/* No comment provided by engineer. */
+"Motion Activity" = "Bewegingsactiviteit";
+
+/* (No Commment) */
+"NULL_ANSWER" = "Selecteer een antwoord";
+
+/* No comment provided by engineer. */
+"Name cannot be left empty." = "U moet een naam opgeven.";
+
+/* No comment provided by engineer. */
+"Next" = "Volgende";
+
+/* No Data */
+"No Data" = "Geen gegevens";
+
+/* No Internet */
+"No network connection. Please connect to the internet and try again." = "Geen netwerkverbinding. Maak verbinding met het internet en probeer het opnieuw.";
+
+/* Not enough data */
+"Not enough data" = "Onvoldoende gegevens";
+
+/* No comment provided by engineer. */
+"Notifications" = "Meldingen";
+
+/* OK action */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Okay" = "Oké";
+
+/* No comment provided by engineer. */
+"Oops! Something went wrong. We are really sorry for the inconvenience. Since we are not taking any risk on your data, you may need to restart the app." = "Helaas. Er is iets misgegaan. Onze excuses voor het ongemak. Aangezien we geen risico willen nemen met uw gegevens, moet u de app mogelijk opnieuw starten.";
+
+/* Spinner Option */
+"Other" = "Anders";
+
+/* (No Commment) */
+"PLACEHOLDER_LONG_TEXT" = "Tik om te schrijven";
+
+/* (No Commment) */
+"PLACEHOLDER_TEXT_OR_NUMBER" = "Voeg een antwoord toe";
+
+/* No comment provided by engineer. */
+"Participant" = "Deelnemer";
+
+/* No comment provided by engineer. */
+"Password" = "Wachtwoord";
+
+/* No comment provided by engineer. */
+"Password should be at least %d characters" = "Het wachtwoord moet minimaal %d lang zijn";
+
+/* No comment provided by engineer. */
+"Permissions" = "Toestemmingen";
+
+/* No comment provided by engineer. */
+"Permissions Denied" = "Toestemmingen geweigerd";
+
+/* No comment provided by engineer. */
+"Please Confirm Removal" = "Bevestig de verwijdering";
+
+/* No comment provided by engineer. */
+"Please authenticate with Touch ID" = "Voer een identiteitscontrole uit met Touch ID";
+
+/* No comment provided by engineer. */
+"Please enter a Password." = "Voer een wachtwoord in.";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address" = "Voer een geldig e-mailadres in";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address." = "Voer een geldig e-mailadres in.";
+
+/* No comment provided by engineer. */
+"Please enter again." = "Voer nogmaals in.";
+
+/* No comment provided by engineer. */
+"Please enter your email" = "Voer uw e-mailadres in";
+
+/* No comment provided by engineer. */
+"Please enter your email address." = "Voer uw e-mailadres in.";
+
+/* No comment provided by engineer. */
+"Please enter your password" = "Voer uw wachtwoord in";
+
+/* No comment provided by engineer. */
+"Please go to Settings -> Privacy -> Health -> %@ to re-enable." = "Ga naar \'Instellingen\' > \'Privacy\' > \'Gezondheid\' > \'%@\' om dit opnieuw in te schakelen.";
+
+/* No comment provided by engineer. */
+"Privacy Policy" = "Privacybeleid";
+
+/* (No Commment) */
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ is hoger dan de maximaal toegestane waarde (%2$@).";
+
+/* (No Commment) */
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ is lager dan de minimaal toegestane waarde (%2$@).";
+
+/* (No Commment) */
+"RANGE_ALERT_MESSAGE_OTHER" = "%@ is geen geldige waarde.";
+
+/* (No Commment) */
+"RANGE_ALERT_TITLE" = "Ongeldige waarde";
+
+/* No comment provided by engineer. */
+"Re-enter your new passcode" = "Voer uw nieuwe wachtwoordcode nogmaals in";
+
+/* No comment provided by engineer. */
+"Re-enter your passcode" = "Voer uw wachtwoordcode nogmaals in";
+
+/* Read Consent Document */
+"Read Consent Document" = "Lees toestemmingsdocument";
+
+/* No comment provided by engineer. */
+"Rejoin" = "Neem opnieuw deel";
+
+/* No comment provided by engineer. */
+"Resetting your 7 Day Assessment will clear all recorded data from the week." = "Als u het patroon voor de afgelopen zeven dagen opnieuw instelt, worden alle vastgelegde gegevens voor die periode verwijderd.";
+
+/* No comment provided by engineer. */
+"Review Consent" = "Controleer toestemming";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_CALL_TO_ACTION" = "Tik op \'Start\' om te beginnen en kijk goed naar het scherm van uw telefoon.";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "%@ zoals hieronder lichten in een bepaalde volgorde op. U wordt gevraagd om de volgorde te onthouden en de volgorde te herhalen door te tikken.";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "%@ zoals hieronder lichten in een bepaalde volgorde op. U wordt gevraagd om de volgorde te onthouden en deze in OMGEKEERDE volgorde aan te geven door te tikken.";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_INTRO_TEXT" = "Met deze test wordt uw ruimtelijke geheugen gemeten. Hiervoor wordt u gevraagd de weergegeven patronen te herhalen nadat ze van het scherm zijn verdwenen.";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_TARGET_PLURAL" = "bloemen";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_TITLE" = "Test van ruimtelijk geheugen";
+
+/* (No Commment) */
+"STEP_PROGRESS_FORMAT" = "Stap %1$lu van %2$lu";
+
+/* No comment provided by engineer. */
+"Sage Bionetworks, a non-profit biomedical research institute, is helping to collect data for this study and distribute it to the study investigators and other researchers. Please provide a unique email address and password to create a secure account." = "Sage Bionetworks, een non-profitinstelling die zich bezighoudt met biomedisch onderzoek, helpt bij het verzamelen van gegevens voor dit onderzoek en bij het beschikbaar stellen van deze gegevens aan de onderzoekers en andere onderzoekers. Geef een unieke combinatie van een e-mailadres en een wachtwoord op om een veilige account aan te maken.";
+
+/* Sedentary */
+"Sedentary" = "Zittend";
+
+/* No comment provided by engineer. */
+"Select Your Medication\'s Single Dose Amount" = "Selecteer de hoeveelheid van één dosis van uw medicijn";
+
+/* No comment provided by engineer. */
+"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application." = "Selecteer een wachtwoordcode van vier cijfers. Door een wachtwoordcode in te stellen, kunt u snel en veilig toegang tot deze app krijgen.";
+
+/* No comment provided by engineer. */
+"Select the Medication You Are Currently Taking" = "Selecteer de medicijnen die u op dit moment gebruikt";
+
+/* No comment provided by engineer. */
+"Send Again" = "Verstuur opnieuw";
+
+/* No comment provided by engineer. */
+"Settings" = "Instellingen";
+
+/* No comment provided by engineer. */
+"Share on Facebook" = "Deel op Facebook";
+
+/* No comment provided by engineer. */
+"Share on Twitter" = "Deel op Twitter";
+
+/* No comment provided by engineer. */
+"Share this Study" = "Deel dit onderzoek";
+
+/* No comment provided by engineer. */
+"Share via Email" = "Deel via e-mail";
+
+/* No comment provided by engineer. */
+"Share via SMS" = "Deel via e-sms";
+
+/* Sharing Options */
+"Sharing Options" = "Opties voor delen";
+
+/* No comment provided by engineer. */
+"Sign In" = "Meld aan";
+
+/* No comment provided by engineer. */
+"Sign Out" = "Meld af";
+
+/* No comment provided by engineer. */
+"Sign Up" = "Schrijf in";
+
+/* Sleep */
+"Sleep" = "Slaap";
+
+/* No comment provided by engineer. */
+"Somthings Wrong!" = "Er is iets mis.";
+
+/* No comment provided by engineer. */
+"Spread the Word" = "Help ons om meer bekendheid te krijgen";
+
+/* No comment provided by engineer. */
+"Step %i" = "Stap %i";
+
+/* {step value} steps taken */
+"Steps" = "Stappen";
+
+/* (No Commment) */
+"TAPPING_INSTRUCTION_FORMAT" = "Tik gedurende %@ zo snel mogelijk afwisselend met twee vingers.";
+
+/* (No Commment) */
+"TAPPING_INTRO_TEXT" = "Met deze activiteit kijken we of u een aantal keer achter elkaar met uw vingers een bepaald doel kunt aanraken.";
+
+/* (No Commment) */
+"TAPPING_INTRO_TEXT_2_FORMAT" = "Leg uw telefoon op een vlakke ondergrond. Gebruik vervolgens twee vingers van dezelfde hand om afwisselend op de knoppen te tikken die verschijnen. Tik gedurende %@ zo snel mogelijk en probeer zo regelmatig mogelijk te tikken.
+
+Tik op \'Start\' om de test te starten.";
+
+/* (No Commment) */
+"TAPPING_TASK_TITLE" = "Tikactiviteit";
+
+/* (No Commment) */
+"TAP_BUTTON_TITLE" = "Tik";
+
+/* (No Commment) */
+"TASK_COMPLETE_TEXT" = "Uw test wordt geanalyseerd en u krijgt bericht wanneer de resultaten beschikbaar zijn.";
+
+/* (No Commment) */
+"TASK_COMPLETE_TITLE" = "Test voltooid";
+
+/* (No Commment) */
+"TOTAL_TAPS_LABEL" = "Totaalaantal tikken";
+
+/* No comment provided by engineer. */
+"Take Photo" = "Maak foto";
+
+/* No comment provided by engineer. */
+"Tap on Items Above to Log Intake" = "Tik op bovenstaande items om uw opname te registreren";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Location and check ‘Always’" = "Tik op \'Instellingen\' > \'Locatie\' en schakel \'Altijd\' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Notifications and enable ‘Allow Notifications’" = "Tik op \'Instellingen\' > \'Meldingen\' en schakel \'Sta meldingen toe\' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Camera" = "Tik op \'Instellingen\' en schakel \'Camera\' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Microphone" = "Tik op \'Instellingen\' en schakel \'Microfoon\' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Motion Activity." = "Tik op \'Instellingen\' en schakel \'Bewegingsactiviteit\' in.";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Photos" = "Tik op \'Instellingen\' en schakel \'Foto\'s\' in";
+
+/* No comment provided by engineer. */
+"Tap the “+” Sign to Create Prescriptions" = "Tik op het plusteken (+) om recepten aan te maken";
+
+/* No comment provided by engineer. */
+"Tasks" = "Taken";
+
+/* No comment provided by engineer. */
+"The passcode you entered did not match your new passcode. Please enter again." = "De ingevoerde wachtwoordcode komt niet overeen met uw nieuwe wachtwoordcode. Voer nogmaals in.";
+
+/* No comment provided by engineer. */
+"This Action Cannot Be Undone" = "Deze bewerking kan niet ongedaan worden gemaakt";
+
+/* No comment provided by engineer. */
+"Time" = "Tijd";
+
+/* To see your results from surveys and tasks, check your “Dashboard” tab. */
+"To see your results from surveys and tasks, check your “Dashboard” tab." = "Ga naar het tabblad \'Dashboard\' om de resultaten van uw vragenlijsten en taken te zien.";
+
+/* No comment provided by engineer. */
+"To start an activity, select from the list below." = "Maak een keuze uit de onderstaande lijst om een activiteit te starten.";
+
+/* Today */
+"Today" = "Vandaag";
+
+/* No comment provided by engineer. */
+"Touch ID or Enter Passcode" = "Gebruik Touch ID of voer uw wachtwoordcode in";
+
+/* Try one of these extra activities, to enchance your experience in your study. */
+"Try one of these extra activities, to enchance your experience in your study." = "Probeer een van deze extra activiteiten om nog meer onderzoeksresultaten te genereren.";
+
+/* No comment provided by engineer. */
+"Update Twitter Client" = "Werk Twitter-client bij";
+
+/* No comment provided by engineer. */
+"User Consent Error" = "Fout bij toestemming van gebruiker";
+
+/* No comment provided by engineer. */
+"User Sign In Error" = "Fout bij aanmelden van gebruiker";
+
+/* View PDF */
+"View PDF" = "Toon PDF";
+
+/* View Slides */
+"View Slides" = "Toon dia\'s";
+
+/* Vigorous */
+"Vigorous" = "Zwaar";
+
+/* (No Commment) */
+"WALK_INTRO_TEXT" = "Met deze test wordt gekeken hoe u loopt en staat en hoe uw evenwicht daarbij is. Om deze test uit te voeren, moet u uw telefoon in uw zak doen en een koptelefoon of oortjes aansluiten om de gesproken instructies te volgen.";
+
+/* (No Commment) */
+"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "Loop %ld stappen in een rechte lijn.";
+
+/* (No Commment) */
+"WALK_RETURN_INSTRUCTION_FORMAT" = "Loop %ld stappen in een rechte lijn terug naar uw beginpositie.";
+
+/* (No Commment) */
+"WALK_STAND_INSTRUCTION_FORMAT" = "Sta %@ stil.";
+
+/* (No Commment) */
+"WALK_STAND_VOICE_INSTRUCTION_FORMAT" = "Sta nu %@ stil.";
+
+/* (No Commment) */
+"WALK_TASK_TITLE" = "Loopactiviteit";
+
+/* Watch Video */
+"Watch Video" = "Bekijk video";
+
+/* No comment provided by engineer. */
+"Weight" = "Gewicht";
+
+/* No comment provided by engineer. */
+"What time do you generally go to sleep?" = "Hoe laat gaat u meestal slapen?";
+
+/* No comment provided by engineer. */
+"What time do you generally wake up?" = "Hoe laat wordt u meestal wakker?";
+
+/* What to Expect */
+"What to Expect" = "Wat u kunt verwachten";
+
+/* No comment provided by engineer. */
+"Withdraw" = "Terugtrekken";
+
+/* No comment provided by engineer. */
+"Wrong Passcode" = "Onjuiste wachtwoordcode";
+
+/* No comment provided by engineer. */
+"Yesterday" = "Gisteren";
+
+/* No comment provided by engineer. */
+"You have previously withdrawn from this Study. Do you wish to rejoin?" = "U hebt zich eerder teruggetrokken uit dit onderzoek. Wilt u opnieuw deelnemen?";
+
+/* No comment provided by engineer. */
+"Your Twitter client does not support sharing from other apps. Please update your Twitter client." = "Uw Twitter-client biedt geen ondersteuning voor delen vanuit andere apps. Werk uw Twitter-client bij.";
+
+/* No comment provided by engineer. */
+"Your data is no longer being used for this study." = "Uw gegevens worden niet meer gebruikt voor dit onderzoek.";
+
+/* No comment provided by engineer. */
+"Your passcodes are not identical. Please enter it again." = "De wachtwoordcodes zijn niet identiek. Voer de code nogmaals in.";
+
+/* You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks. */
+"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks." = "Ga naar het tabblad \'Activiteiten\' voor een lijst met de dagelijkse vragenlijsten en taken. In de komende weken worden er nieuwe vragenlijsten en taken toegevoegd.";
+
+/* No comment provided by engineer. */
+"add birthdate" = "voeg geboortedatum toe";
+
+/* No comment provided by engineer. */
+"add password" = "voeg wachtwoord toe";
+
+/* No comment provided by engineer. */
+"add weight (lb)" = "voeg gewicht toe (kg)";
+
+/* {kilo calories} calories consumed */
+"calories consumed" = "verbruikte calorieën";
+
+/* {grams} carbohydrate consumed */
+"carbohydrates consumed" = "verbruikte koolhydraten";
+
+/* No comment provided by engineer. */
+"custom question" = "aangepaste vraag";
+
+/* No comment provided by engineer. */
+"minutes" = "minuten";
+
+/* {minutes} minutes spent active */
+"minutes spent active" = "minuten actief geweest";
+
+/* slept */
+"slept" = "geslapen";
+
+/* {grams} sugar consumed */
+"sugar consumed" = "verbruikte suiker";
+
