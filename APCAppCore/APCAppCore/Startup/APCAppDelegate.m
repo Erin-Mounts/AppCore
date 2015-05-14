@@ -454,7 +454,7 @@ static NSUInteger const kIndexOfProfileTab = 3;
     
     if (documentHtmlContent != nil && htmlContent != nil)
     {
-        NSString*   path    = [[NSBundle mainBundle] pathForResource:documentHtmlContent ofType:@"html" inDirectory:@"HTMLContent"];
+        NSString*   path    = [[NSBundle mainBundle] pathForResource:documentHtmlContent ofType:@"html"];
         NSAssert(path != nil, @"Unable to locate HTML file: %@", documentHtmlContent);
         
         NSError*    error   = nil;
@@ -521,7 +521,7 @@ static NSUInteger const kIndexOfProfileTab = 3;
         
         if (htmlContent != nil)
         {
-            NSString*   path    = [[NSBundle mainBundle] pathForResource:htmlContent ofType:@"html" inDirectory:@"HTMLContent"];
+            NSString*   path    = [[NSBundle mainBundle] pathForResource:htmlContent ofType:@"html"];
             NSAssert(path != nil, @"Unable to locate HTML file: %@", htmlContent);
             
             NSError*    error   = nil;

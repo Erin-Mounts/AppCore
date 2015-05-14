@@ -235,7 +235,7 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     } else {
         APCStudyOverviewCollectionViewCell *webViewCell = (APCStudyOverviewCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:kAPCStudyOverviewCollectionViewCellIdentifier forIndexPath:indexPath];
         
-        NSString *filePath = [[NSBundle mainBundle] pathForResource: studyDetails.detailText ofType:@"html" inDirectory:@"HTMLContent"];
+        NSString *filePath = [[NSBundle mainBundle] pathForResource: studyDetails.detailText ofType:@"html"];
         NSURL *targetURL = [NSURL URLWithString:filePath];
         NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
         [webViewCell.webView loadRequest:request];
