@@ -39,7 +39,8 @@
 
 static CGFloat kTintedCellHeight = 65;
 
-static CGFloat kTableViewSectionHeaderHeight = 77;
+//static CGFloat kTableViewSectionHeaderHeight = 77;
+static CGFloat kTableViewSectionHeaderBottomMargin = 10;
 
 typedef NS_ENUM(NSUInteger, APCActivitiesSections)
 {
@@ -237,18 +238,20 @@ typedef NS_ENUM(NSUInteger, APCActivitiesSections)
 - (CGFloat)        tableView: (UITableView *) __unused tableView
     heightForHeaderInSection: (NSInteger) __unused section
 {
-    CGFloat height = kTableViewSectionHeaderHeight;
-    
-    if (section == APCActivitiesSectionToday) {
-        height -= 15;
-    }
-    return height;
+//    CGFloat height = kTableViewSectionHeaderHeight;
+//    
+//    if (section == APCActivitiesSectionToday) {
+//        height -= 15;
+//    }
+//    return height;
+    APCActivitiesSectionHeaderView *headerView = (APCActivitiesSectionHeaderView *)[self tableView:tableView viewForHeaderInSection:section];
+    CGRect subTitleFrame = [headerView.subTitleLabel frame];
+    return subTitleFrame.origin.y - [headerView bounds].origin.y + subTitleFrame.size.height + kTableViewSectionHeaderBottomMargin;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     APCActivitiesSectionHeaderView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:kAPCActivitiesSectionHeaderViewIdentifier];
-    
     
     switch (section) {
         case APCActivitiesSectionToday:
@@ -274,7 +277,8 @@ typedef NS_ENUM(NSUInteger, APCActivitiesSections)
             break;
     }
     
-
+    [headerView setNeedsLayout];
+    [headerView layoutIfNeeded];
     return headerView;
 }
 
