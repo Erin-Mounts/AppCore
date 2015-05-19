@@ -409,6 +409,8 @@ Als u uw account nog niet hebt bevestigd, kunt u dit nu doen door op de koppelin
 /* (No Commment) */
 "LEARN_MORE_WITHDRAWING" = "Meer informatie over terugtrekking uit het onderzoek";
 
+"Learn" = "Ontdek";
+
 /* No comment provided by engineer. */
 "License Information" = "Licentiegegevens";
 
@@ -577,6 +579,8 @@ Tik op \'Opnieuw\' om het nog een keer te proberen.";
 
 /* No comment provided by engineer. */
 "Privacy Policy" = "Privacybeleid";
+
+"Profile" = "Profiel";
 
 /* (No Commment) */
 "RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ is hoger dan de maximaal toegestane waarde (%2$@).";

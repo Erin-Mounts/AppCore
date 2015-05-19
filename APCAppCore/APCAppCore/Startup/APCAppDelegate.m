@@ -961,7 +961,10 @@ static NSUInteger const kIndexOfProfileTab = 3;
     
     NSArray  *deselectedImageNames = @[ @"tab_activities", @"tab_dashboard", @"tab_learn", @"tab_profile" ];
     NSArray  *selectedImageNames   = @[ @"tab_activities_selected", @"tab_dashboard_selected", @"tab_learn_selected",  @"tab_profile_selected" ];
-    NSArray  *tabBarTitles         = @[ @"Activities", @"Dashboard", @"Learn",  @"Profile"];
+    NSArray  *tabBarTitles         = @[ NSLocalizedStringFromTableInBundle(@"Activities", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Activities tab bar title"),
+                                        NSLocalizedStringFromTableInBundle(@"Dashboard", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Dashboard tab bar title"),
+                                        NSLocalizedStringFromTableInBundle(@"Learn", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Learn tab bar title"),
+                                        NSLocalizedStringFromTableInBundle(@"Profile", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Profile tab bar title")];
     
     for (NSUInteger i=0; i<items.count; i++) {
         UITabBarItem  *item = items[i];
@@ -1001,7 +1004,10 @@ static NSUInteger const kIndexOfProfileTab = 3;
     self.tabster = (UITabBarController  *)self.window.rootViewController;
     NSArray  *deselectedImageNames = @[ @"tab_activities",          @"tab_dashboard",           @"tab_learn",           @"tab_profile" ];
     NSArray  *selectedImageNames   = @[ @"tab_activities_selected", @"tab_dashboard_selected",  @"tab_learn_selected",  @"tab_profile_selected" ];
-    NSArray  *tabBarTitles         = @[ @"Activities",              @"Dashboard",               @"Learn",               @"Profile"];
+    NSArray  *tabBarTitles         = @[ NSLocalizedStringFromTableInBundle(@"Activities", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Activities tab bar title"),
+                                        NSLocalizedStringFromTableInBundle(@"Dashboard", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Dashboard tab bar title"),
+                                        NSLocalizedStringFromTableInBundle(@"Learn", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Learn tab bar title"),
+                                        NSLocalizedStringFromTableInBundle(@"Profile", nil, [NSBundle bundleForClass:[APCOnboarding class]], @"Profile tab bar title")];
     
     if ([viewController isMemberOfClass: [UIViewController class]]) {
         
