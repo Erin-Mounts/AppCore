@@ -41,7 +41,7 @@
 "Cn0-x9-Mc1.placeholder" = "E-mail";
 
 /* Class = "UIButton"; normalTitle = "Let’s Begin"; ObjectID = "Cnn-8E-rCa"; */
-"Cnn-8E-rCa.normalTitle" = "Laten we aan de slag gaan";
+"Cnn-8E-rCa.normalTitle" = " Laten we aan de slag gaan ";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "DV8-yh-lrG"; */
 "DV8-yh-lrG.title" = "Sluit";
@@ -50,7 +50,7 @@
 "Dos-uz-ecK.text" = "Etiket";
 
 /* Class = "UILabel"; text = "This is your app to use as you choose."; ObjectID = "Dpb-za-qeG"; */
-"Dpb-za-qeG.text" = "Dit is uw app en u kunt hem gebruiken zoals u wilt.";
+"Dpb-za-qeG.text" = "Dit is uw app en u kunt\nhem gebruiken zoals u wilt.";
 
 /* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "FsH-Bl-UEj"; */
 "FsH-Bl-UEj.title" = "Volgende";
@@ -68,7 +68,7 @@
 "IXV-QN-OmM.text" = "Verstuur berichten per e-mail";
 
 /* Class = "UIButton"; normalTitle = "Start Consent"; ObjectID = "InD-hO-v4g"; */
-"InD-hO-v4g.normalTitle" = "Start toestemmingsprocedure";
+"InD-hO-v4g.normalTitle" = " Start toestemmingsprocedure ";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "J6q-RE-cYp"; */
 "J6q-RE-cYp.placeholder" = "Naam";
@@ -113,7 +113,7 @@
 "Sks-hO-MRD.text" = "Voorwaarden";
 
 /* Class = "UIButton"; normalTitle = "Join Study"; ObjectID = "Srh-gC-C98"; */
-"Srh-gC-C98.normalTitle" = "Neem deel aan onderzoek";
+"Srh-gC-C98.normalTitle" = " Neem deel aan onderzoek ";
 
 /* Class = "UILabel"; text = "Permissions Title"; ObjectID = "T8y-cm-IGj"; */
 "T8y-cm-IGj.text" = "Toestemmingen";

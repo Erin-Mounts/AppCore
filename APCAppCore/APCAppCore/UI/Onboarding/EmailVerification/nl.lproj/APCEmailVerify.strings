@@ -28,6 +28,5 @@ gestuurd op";
 "ikM-qL-vyw.text" = "Tik na de verificatie hieronder";
 
 /* Class = "UILabel"; text = "A full copy of the consent agreement\nwill be sent to you for your records."; ObjectID = "yX7-Jl-zxX"; */
-"yX7-Jl-zxX.text" = "We versturen u per e-mail een kopie van 
-het toestemmingsformulier voor uw administratie.";
+"yX7-Jl-zxX.text" = "We versturen u per e-mail een kopie van het\ntoestemmingsformulier voor uw administratie.";
 
