@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Average: "; ObjectID = "AEN-nF-Kgn"; */
+"AEN-nF-Kgn.text" = "平均： ";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "Bhg-Eh-jX8"; */
+"Bhg-Eh-jX8.normalTitle" = "好";
+
+/* Class = "UILabel"; text = "Steps"; ObjectID = "GW7-fg-rzK"; */
+"GW7-fg-rzK.text" = "步数";
+
+/* Class = "UILabel"; text = "Steps"; ObjectID = "Ncx-b9-JHk"; */
+"Ncx-b9-JHk.text" = "步数";
+

@@ -1,0 +1,18 @@
+/* Class = "UILabel"; text = "20 seconds"; ObjectID = "66n-Qe-jiA"; */
+"66n-Qe-jiA.text" = "20 秒";
+
+/* Class = "UILabel"; text = "Medication Tracker"; ObjectID = "GoE-Gh-4vr"; */
+"GoE-Gh-4vr.text" = "药物跟踪器";
+
+/* Class = "UITabBarItem"; title = "Activities"; ObjectID = "HnP-dZ-Edk"; */
+"HnP-dZ-Edk.title" = "活动";
+
+/* Class = "UILabel"; text = "99"; ObjectID = "MKz-GI-eCU"; */
+"MKz-GI-eCU.text" = "99";
+
+/* Class = "UILabel"; text = "Timed Walking "; ObjectID = "O5H-qy-8ZK"; */
+"O5H-qy-8ZK.text" = "定时步行 ";
+
+/* Class = "UINavigationController"; title = "Activities"; ObjectID = "hzw-2n-SwF"; */
+"hzw-2n-SwF.title" = "活动";
+

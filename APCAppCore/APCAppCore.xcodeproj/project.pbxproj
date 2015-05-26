@@ -884,6 +884,25 @@
 		5BFEB41C1AA72CCD0089DEF7 /* APCSharingOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCSharingOptionsViewController.m; sourceTree = "<group>"; };
 		6086CBC51B03E9F3009DF7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6086CBC71B03E9FF009DF7F5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		60B634EC1B0FB46000C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		60B634ED1B0FB46000C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCMedicationTrackerCalendarViewController.strings"; sourceTree = "<group>"; };
+		60B634EE1B0FB46000C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCLearn.strings"; sourceTree = "<group>"; };
+		60B634EF1B0FB46100C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCActivitiesSectionHeaderView.strings"; sourceTree = "<group>"; };
+		60B634F01B0FB46100C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCOnboarding.strings"; sourceTree = "<group>"; };
+		60B634F11B0FB46100C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCSimpleTaskSummaryViewController.strings"; sourceTree = "<group>"; };
+		60B634F21B0FB46100C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCEmailVerify.strings"; sourceTree = "<group>"; };
+		60B634F31B0FB46200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCDashboard.strings"; sourceTree = "<group>"; };
+		60B634F41B0FB46200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		60B634F51B0FB46200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCProfile.strings"; sourceTree = "<group>"; };
+		60B634F61B0FB46200C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCActivities.strings"; sourceTree = "<group>"; };
+		60B634F71B0FB46300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TabBar.strings"; sourceTree = "<group>"; };
+		60B634F81B0FB46300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CatastrophicError.strings"; sourceTree = "<group>"; };
+		60B634F91B0FB46300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCActivitiesViewWithNoTask.strings"; sourceTree = "<group>"; };
+		60B634FA1B0FB46300C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCSetupTableViewCell.strings"; sourceTree = "<group>"; };
+		60B634FB1B0FB46400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCMedicationTrackerDetailViewController.strings"; sourceTree = "<group>"; };
+		60B634FC1B0FB46400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		60B634FD1B0FB46400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/APCPasscode.strings"; sourceTree = "<group>"; };
+		60B634FE1B0FB46400C4DA63 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		60CAA8871B03C40A00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCMedicationTrackerCalendarViewController.strings; sourceTree = "<group>"; };
 		60CAA8881B03C40A00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCLearn.strings; sourceTree = "<group>"; };
 		60CAA8891B03C40B00DE3305 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCActivitiesSectionHeaderView.strings; sourceTree = "<group>"; };
@@ -3686,6 +3705,7 @@
 			children = (
 				6086CBC51B03E9F3009DF7F5 /* Base */,
 				6086CBC71B03E9FF009DF7F5 /* nl */,
+				60B634EC1B0FB46000C4DA63 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3694,6 +3714,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				60CAA8921B03C40F00DE3305 /* nl */,
+				60B634F41B0FB46200C4DA63 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3702,6 +3723,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				60CAA89E1B03C41400DE3305 /* nl */,
+				60B634FC1B0FB46400C4DA63 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3710,6 +3732,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				60CAA8A41B03C41600DE3305 /* nl */,
+				60B634FE1B0FB46400C4DA63 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3719,6 +3742,7 @@
 			children = (
 				80C3BBAF1B0249A3005EB005 /* Base */,
 				60CAA8961B03C41100DE3305 /* nl */,
+				60B634F71B0FB46300C4DA63 /* zh-Hans */,
 			);
 			name = TabBar.storyboard;
 			sourceTree = "<group>";
@@ -3728,6 +3752,7 @@
 			children = (
 				80C3BBB01B0249A3005EB005 /* Base */,
 				60CAA88A1B03C40C00DE3305 /* nl */,
+				60B634F01B0FB46100C4DA63 /* zh-Hans */,
 			);
 			name = APCOnboarding.storyboard;
 			sourceTree = "<group>";
@@ -3737,6 +3762,7 @@
 			children = (
 				80C3BBB11B0249A4005EB005 /* Base */,
 				60CAA88C1B03C40C00DE3305 /* nl */,
+				60B634F21B0FB46100C4DA63 /* zh-Hans */,
 			);
 			name = APCEmailVerify.storyboard;
 			sourceTree = "<group>";
@@ -3746,6 +3772,7 @@
 			children = (
 				80C3BBB21B0249A4005EB005 /* Base */,
 				60CAA8951B03C41000DE3305 /* nl */,
+				60B634F61B0FB46200C4DA63 /* zh-Hans */,
 			);
 			name = APCActivities.storyboard;
 			sourceTree = "<group>";
@@ -3755,6 +3782,7 @@
 			children = (
 				80C3BBB31B0249A4005EB005 /* Base */,
 				60CAA8981B03C41200DE3305 /* nl */,
+				60B634F91B0FB46300C4DA63 /* zh-Hans */,
 			);
 			name = APCActivitiesViewWithNoTask.xib;
 			sourceTree = "<group>";
@@ -3764,6 +3792,7 @@
 			children = (
 				80C3BBB41B0249A4005EB005 /* Base */,
 				60CAA88D1B03C40D00DE3305 /* nl */,
+				60B634F31B0FB46200C4DA63 /* zh-Hans */,
 			);
 			name = APCDashboard.storyboard;
 			sourceTree = "<group>";
@@ -3773,6 +3802,7 @@
 			children = (
 				80C3BBB51B0249A4005EB005 /* Base */,
 				60CAA8881B03C40A00DE3305 /* nl */,
+				60B634EE1B0FB46000C4DA63 /* zh-Hans */,
 			);
 			name = APCLearn.storyboard;
 			sourceTree = "<group>";
@@ -3782,6 +3812,7 @@
 			children = (
 				80C3BBB61B0249A4005EB005 /* Base */,
 				60CAA8941B03C41000DE3305 /* nl */,
+				60B634F51B0FB46200C4DA63 /* zh-Hans */,
 			);
 			name = APCProfile.storyboard;
 			sourceTree = "<group>";
@@ -3791,6 +3822,7 @@
 			children = (
 				80C3BBB71B0249A4005EB005 /* Base */,
 				60CAA8891B03C40B00DE3305 /* nl */,
+				60B634EF1B0FB46100C4DA63 /* zh-Hans */,
 			);
 			name = APCActivitiesSectionHeaderView.xib;
 			sourceTree = "<group>";
@@ -3800,6 +3832,7 @@
 			children = (
 				80C3BBB81B0249A4005EB005 /* Base */,
 				60CAA88B1B03C40C00DE3305 /* nl */,
+				60B634F11B0FB46100C4DA63 /* zh-Hans */,
 			);
 			name = APCSimpleTaskSummaryViewController.xib;
 			sourceTree = "<group>";
@@ -3809,6 +3842,7 @@
 			children = (
 				80C3BBB91B0249A4005EB005 /* Base */,
 				60CAA8A01B03C41500DE3305 /* nl */,
+				60B634FD1B0FB46400C4DA63 /* zh-Hans */,
 			);
 			name = APCPasscode.storyboard;
 			sourceTree = "<group>";
@@ -3818,6 +3852,7 @@
 			children = (
 				80C3BBBA1B0249A4005EB005 /* Base */,
 				60CAA8991B03C41300DE3305 /* nl */,
+				60B634FA1B0FB46300C4DA63 /* zh-Hans */,
 			);
 			name = APCSetupTableViewCell.xib;
 			sourceTree = "<group>";
@@ -3827,6 +3862,7 @@
 			children = (
 				80C3BBBB1B0249A4005EB005 /* Base */,
 				60CAA8871B03C40A00DE3305 /* nl */,
+				60B634ED1B0FB46000C4DA63 /* zh-Hans */,
 			);
 			name = APCMedicationTrackerCalendarViewController.xib;
 			path = MedicationTrackingAppComponent;
@@ -3837,6 +3873,7 @@
 			children = (
 				80C3BBBC1B0249A5005EB005 /* Base */,
 				60CAA89A1B03C41300DE3305 /* nl */,
+				60B634FB1B0FB46400C4DA63 /* zh-Hans */,
 			);
 			name = APCMedicationTrackerDetailViewController.xib;
 			path = MedicationTrackingAppComponent;
@@ -3887,6 +3924,7 @@
 			children = (
 				80C3BBBE1B024A0E005EB005 /* Base */,
 				60CAA8971B03C41200DE3305 /* nl */,
+				60B634F81B0FB46300C4DA63 /* zh-Hans */,
 			);
 			name = CatastrophicError.storyboard;
 			sourceTree = "<group>";

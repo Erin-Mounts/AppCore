@@ -60,9 +60,10 @@ static NSString * const kAPCAppNamePlaceholderString = @"$appName$";
  Text of an alert shown if the user taps the button and
  we think she hasn't clicked that email link yet.
  */
-static NSString * const kAPCPleaseClickEmailAlertTitle = @"Please Check Your Email";
-static NSString * const kAPCPleaseClickEmailAlertMessageFormatString = @"\nYour email address has not yet been verified.\n\nPlease check your email for a message from $appName$, and click the link in that message.";
-static NSString * const kAPCPleaseCheckEmailAlertOkButton = @"OK";
+// STATIC STRINGS ARE NOT LOCALIZABLE. Don't do this.
+//static NSString * const kAPCPleaseClickEmailAlertTitle = @"Please Check Your Email";
+//static NSString * const kAPCPleaseClickEmailAlertMessageFormatString = @"\nYour email address has not yet been verified.\n\nPlease check your email for a message from $appName$, and click the link in that message.";
+//static NSString * const kAPCPleaseCheckEmailAlertOkButton = @"OK";
 
 
 @interface APCEmailVerifyViewController ()
@@ -299,14 +300,14 @@ static NSString * const kAPCPleaseCheckEmailAlertOkButton = @"OK";
 {
     [self hideSpinnerUsingAnimation: YES andThenDoThis:^{
 
-        NSString *message = [kAPCPleaseClickEmailAlertMessageFormatString stringByReplacingOccurrencesOfString: kAPCAppNamePlaceholderString
-                                                                                                    withString: [APCUtilities appName]];
+        NSString *messageFormat = NSLocalizedStringFromTableInBundle(@"\nYour email address has not yet been verified.\n\nPlease check your email for a message from %@, and click the link in that message.", nil, [NSBundle bundleForClass:[self class]], @"Text for body of dialog informing user to check their email for a confirmation link, to be filled in with the app name.");
+        NSString *message = [NSString stringWithFormat:messageFormat, [APCUtilities appName]];
 
-        self.pleaseCheckEmailAlert = [UIAlertController alertControllerWithTitle: kAPCPleaseClickEmailAlertTitle
+        self.pleaseCheckEmailAlert = [UIAlertController alertControllerWithTitle: NSLocalizedStringFromTableInBundle(@"Please Check Your Email", nil, [NSBundle bundleForClass:[self class]], @"Title for dialog informing user to check their email for a confirmation link.")
                                                                          message: message
                                                                   preferredStyle: UIAlertControllerStyleAlert];
 
-        UIAlertAction *okayAction = [UIAlertAction actionWithTitle: kAPCPleaseCheckEmailAlertOkButton
+        UIAlertAction *okayAction = [UIAlertAction actionWithTitle: NSLocalizedStringFromTableInBundle(@"OK", nil, [NSBundle bundleForClass:[self class]], @"Title for OK button in dialog informing user to check their email for a confirmation link.")
                                                              style: UIAlertActionStyleDefault
                                                            handler: ^(UIAlertAction * __unused action)
                                      {

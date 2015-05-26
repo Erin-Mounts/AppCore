@@ -1,0 +1,6 @@
+/* Class = "UILabel"; text = "Touch ID or Enter Passcode"; ObjectID = "cKG-bB-Ib1"; */
+"cKG-bB-Ib1.text" = "Touch ID 或输入密码";
+
+/* Class = "UIButton"; normalTitle = "Use Touch ID"; ObjectID = "ygh-IW-MBW"; */
+"ygh-IW-MBW.normalTitle" = "使用 Touch ID";
+

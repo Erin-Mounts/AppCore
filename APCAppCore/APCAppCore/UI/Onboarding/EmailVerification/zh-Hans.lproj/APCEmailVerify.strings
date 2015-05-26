@@ -1,0 +1,33 @@
+/* Class = "UILabel"; text = "johnny@appleseed.com"; ObjectID = "3xK-c0-Pah"; */
+"3xK-c0-Pah.text" = "johnny@appleseed.com";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "39l-Jf-hqN"; */
+"39l-Jf-hqN.text" = "电子邮件";
+
+/* Class = "UILabel"; text = "Enter your email address "; ObjectID = "JFo-Ee-63n"; */
+"JFo-Ee-63n.text" = "输入电子邮件地址 ";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "QwO-ep-Om3"; */
+"QwO-ep-Om3.normalTitle" = "继续";
+
+/* Class = "UINavigationItem"; title = "Change Email"; ObjectID = "bLv-ce-Rcj"; */
+"bLv-ce-Rcj.title" = "更改电子邮件";
+
+/* Class = "UIButton"; normalTitle = "Resend Verification Email"; ObjectID = "cVc-Jw-LIH"; */
+"cVc-Jw-LIH.normalTitle" = "重新发送验证电子邮件";
+
+/* Class = "UIButton"; normalTitle = "Wrong email address? Tap here."; ObjectID = "gY2-y5-fND"; */
+"gY2-y5-fND.normalTitle" = "电子邮件地址有误？轻点此处。";
+
+/* Class = "UILabel"; text = "$appName$\nhas sent you\na verification email at"; ObjectID = "hsa-BE-Hkq"; */
+"hsa-BE-Hkq.text" = "$appName$
+已将验证
+电子邮件发送至";
+
+/* Class = "UILabel"; text = "Once verified, tap below"; ObjectID = "ikM-qL-vyw"; */
+"ikM-qL-vyw.text" = "验证后，轻点下方";
+
+/* Class = "UILabel"; text = "A full copy of the consent agreement\nwill be sent to you for your records."; ObjectID = "yX7-Jl-zxX"; */
+"yX7-Jl-zxX.text" = "同意书的完整副本
+将发送给您以作记录。";
+

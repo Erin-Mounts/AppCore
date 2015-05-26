@@ -1,0 +1,129 @@
+/* Class = "UILabel"; text = "Label"; ObjectID = "0YA-qB-6Tx"; */
+"0YA-qB-6Tx.text" = "标签";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "3LN-Wg-wfS"; */
+"3LN-Wg-wfS.text" = "详情";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "8hk-Wz-D1n"; */
+"8hk-Wz-D1n.placeholder" = "姓名";
+
+/* Class = "UITextField"; text = "Johnny Appleseed"; ObjectID = "8hk-Wz-D1n"; */
+"8hk-Wz-D1n.text" = "Johnny Appleseed";
+
+/* Class = "UILabel"; text = "Describe why you are withdrawing in your own words."; ObjectID = "17V-e9-oMl"; */
+"17V-e9-oMl.text" = "请用自己的话描述您选择退出的原因。";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AuT-nK-R7J"; */
+"AuT-nK-R7J.text" = "标签";
+
+/* Class = "UILabel"; text = "Thank you for your contribution to this study. We are sorry that you could not continue."; ObjectID = "BcC-vd-hvB"; */
+"BcC-vd-hvB.text" = "感谢您对本研究所作出的贡献。很遗憾，您无法继续。";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CIm-PK-XD0"; */
+"CIm-PK-XD0.text" = "标题";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "FQR-cG-rBp"; */
+"FQR-cG-rBp.text" = "标题";
+
+/* Class = "UIButton"; normalTitle = "Take Survey"; ObjectID = "GLS-pp-w0E"; */
+"GLS-pp-w0E.normalTitle" = "参与调查";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "Gvf-JT-xq5"; */
+"Gvf-JT-xq5.text" = "编辑";
+
+/* Class = "UILabel"; text = "Journey"; ObjectID = "H3m-U4-zNB"; */
+"H3m-U4-zNB.text" = "行程";
+
+/* Class = "UIButton"; normalTitle = "No Thanks"; ObjectID = "LoM-ah-GGy"; */
+"LoM-ah-GGy.normalTitle" = "不，谢谢";
+
+/* Class = "UINavigationItem"; title = "Activity Reminders"; ObjectID = "TLB-6i-pxR"; */
+"TLB-6i-pxR.title" = "活动提醒事项";
+
+/* Class = "UIButton"; normalTitle = "Leave Study"; ObjectID = "UMm-O6-rLy"; */
+"UMm-O6-rLy.normalTitle" = "退出研究";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "VBq-NL-8m0"; */
+"VBq-NL-8m0.title" = "关闭";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vxa-dH-1Bp"; */
+"Vxa-dH-1Bp.text" = "标签";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WO7-sk-hXC"; */
+"WO7-sk-hXC.text" = "标签";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "XHH-KD-Naj"; */
+"XHH-KD-Naj.text" = "标题";
+
+/* Class = "UILabel"; text = "Sharing Options"; ObjectID = "YzK-0P-Xe3"; */
+"YzK-0P-Xe3.text" = "共享选项";
+
+/* Class = "UILabel"; text = "add weight (lbs.)"; ObjectID = "bZk-oc-H5i"; */
+"bZk-oc-H5i.text" = "添加体重（磅）";
+
+/* Class = "UILabel"; text = "Currently Participating In "; ObjectID = "bb2-UZ-Wan"; */
+"bb2-UZ-Wan.text" = "当前正参与 ";
+
+/* Class = "UINavigationItem"; title = "License Information"; ObjectID = "cB3-5h-qSC"; */
+"cB3-5h-qSC.title" = "许可信息";
+
+/* Class = "UILabel"; text = "Select all that apply."; ObjectID = "cpP-7K-8Bb"; */
+"cpP-7K-8Bb.text" = "选择所有适用项。";
+
+/* Class = "UILabel"; text = "Research Institute will receive your study data form your participation in this study."; ObjectID = "cy9-c7-W6M"; */
+"cy9-c7-W6M.text" = "研究机构将从您参与的本研究中接收研究数据。";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dxl-CJ-CsB"; */
+"dxl-CJ-CsB.text" = "标签";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "fF4-PR-bA8"; */
+"fF4-PR-bA8.title" = "编辑";
+
+/* Class = "UILabel"; text = "Please help us improve by filling out a survey"; ObjectID = "fz7-NV-sxF"; */
+"fz7-NV-sxF.text" = "请完成调查以帮助我们做得更好";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "gJx-nK-Mzv"; */
+"gJx-nK-Mzv.text" = "详情";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gyM-2c-l4q"; */
+"gyM-2c-l4q.text" = "标签";
+
+/* Class = "UILabel"; text = "This study was taking up too much of my time."; ObjectID = "hCE-XZ-mEv"; */
+"hCE-XZ-mEv.text" = "此研究占用的时间过多。";
+
+/* Class = "UINavigationItem"; title = "Withdrawal Survey"; ObjectID = "kM7-G5-UuZ"; */
+"kM7-G5-UuZ.title" = "退出调查";
+
+/* Class = "UINavigationItem"; title = "Withdrawal Survey"; ObjectID = "mj3-6G-awB"; */
+"mj3-6G-awB.title" = "退出调查";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nCp-5d-3Br"; */
+"nCp-5d-3Br.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "o0S-br-ebJ"; */
+"o0S-br-ebJ.normalTitle" = "提交";
+
+/* Class = "UINavigationItem"; title = "Withdrawal Complete"; ObjectID = "rLJ-rs-VCY"; */
+"rLJ-rs-VCY.title" = "已退出";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "roj-Aw-erm"; */
+"roj-Aw-erm.normalTitle" = "完成";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "soI-ZX-7k6"; */
+"soI-ZX-7k6.title" = "个人简介";
+
+/* Class = "UINavigationItem"; title = "Change Passcode"; ObjectID = "tbR-5e-7V1"; */
+"tbR-5e-7V1.title" = "更改密码";
+
+/* Class = "UINavigationItem"; title = "Sharing Options"; ObjectID = "tiu-ME-eWu"; */
+"tiu-ME-eWu.title" = "共享选项";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "v3i-D8-I5m"; */
+"v3i-D8-I5m.text" = "标签";
+
+/* Class = "UILabel"; text = "jappleseed123@me.com"; ObjectID = "vQl-IA-A14"; */
+"vQl-IA-A14.text" = "jappleseed123@me.com";
+
+/* Class = "UILabel"; text = "Please help us make our study better by explaining the reasons for your withdrawal."; ObjectID = "w0A-pl-Wzd"; */
+"w0A-pl-Wzd.text" = "请给出您选择退出的原因，帮助我们完善本研究。";
+

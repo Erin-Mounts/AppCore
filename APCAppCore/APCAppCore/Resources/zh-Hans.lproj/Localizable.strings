@@ -1,0 +1,886 @@
+/* {count} {day/s} Remaining */
+"%lu %@ Remaining" = "剩余 %1$lu %2$@";
+
+/* No comment provided by engineer. */
+"7:00 AM" = "上午 7:00";
+
+/* No comment provided by engineer. */
+"9:30 PM" = "下午 9:30";
+
+/* (No Commment) */
+"AUDIO_CALL_TO_ACTION" = "轻点“开始”以开始测试。";
+
+/* (No Commment) */
+"AUDIO_INSTRUCTION" = "请对着麦克风说“啊啊啊”，时间越长越好。";
+
+/* (No Commment) */
+"AUDIO_INTENDED_USE" = "本测试通过将您的语音录制到手机底部的麦克风来对其进行评估。";
+
+/* (No Commment) */
+"AUDIO_INTRO_TEXT" = "请对着麦克风说“啊啊啊”，时间越长越好。保持平稳的声音大小以使音频条保持蓝色。";
+
+/* (No Commment) */
+"AUDIO_TASK_TITLE" = "语音活动";
+
+/* (No Commment) */
+"AUDIO_TOO_LOUD_LABEL" = "太大声";
+
+/* Active Minutes */
+"Active Minutes" = "活跃分钟数";
+
+/* Activities
+   Activities tab bar title */
+"Activities" = "活动";
+
+/* Activity Completion */
+"Activity Completion" = "活动完成";
+
+/* No comment provided by engineer. */
+"Activity Reminders" = "活动提醒事项";
+
+/* No comment provided by engineer. */
+"Add Your Medication Details" = "添加您的药物详情";
+
+/* Additional Information */
+"Additional Information" = "其他信息";
+
+/* No comment provided by engineer. */
+"Alert" = "提醒";
+
+/* Allow */
+"Allow" = "允许";
+
+/* No comment provided by engineer. */
+"An email has been sent." = "电子邮件已发送。";
+
+/* No comment provided by engineer. */
+"An unknown error occurred" = "发生未知错误";
+
+/* (No Commment) */
+"Are you sure you want to completely withdraw from the study? This action cannot be undone." = "您确定要完全退出本研究吗？
+此操作无法撤销。";
+
+/* No comment provided by engineer. */
+"Are you sure you want to sign out?" = "您确定要注销吗？";
+
+/* No comment provided by engineer. */
+"Authentication Error" = "认证错误";
+
+/* No comment provided by engineer. */
+"Auto-Lock" = "自动锁定";
+
+/* (No Commment) */
+"BLOOD_TYPE_A+" = "A+";
+
+/* (No Commment) */
+"BLOOD_TYPE_A-" = "A-";
+
+/* (No Commment) */
+"BLOOD_TYPE_AB+" = "AB+";
+
+/* (No Commment) */
+"BLOOD_TYPE_AB-" = "AB-";
+
+/* (No Commment) */
+"BLOOD_TYPE_B+" = "B+";
+
+/* (No Commment) */
+"BLOOD_TYPE_B-" = "B-";
+
+/* (No Commment) */
+"BLOOD_TYPE_O+" = "O+";
+
+/* (No Commment) */
+"BLOOD_TYPE_O-" = "O-";
+
+/* (No Commment) */
+"BOOL_NO" = "否";
+
+/* (No Commment) */
+"BOOL_YES" = "是";
+
+/* (No Commment) */
+"BUTTON_AGREE" = "同意";
+
+/* (No Commment) */
+"BUTTON_CANCEL" = "取消";
+
+/* (No Commment) */
+"BUTTON_CLEAR" = "清除";
+
+/* (No Commment) */
+"BUTTON_DISAGREE" = "不同意";
+
+/* (No Commment) */
+"BUTTON_DONE" = "完成";
+
+/* (No Commment) */
+"BUTTON_GET_STARTED" = "开始";
+
+/* (No Commment) */
+"BUTTON_LEARN_MORE" = "了解更多";
+
+/* (No Commment) */
+"BUTTON_NEXT" = "下一步";
+
+/* (No Commment) */
+"BUTTON_SKIP" = "跳过";
+
+/* (No Commment) */
+"BUTTON_SKIP_QUESTION" = "跳过此问题";
+
+/* (No Commment) */
+"BUTTON_START_TIMER" = "启动定时器";
+
+/* (No Commment) */
+"BUTTON_TRY_AGAIN" = "再试一次";
+
+/* No comment provided by engineer. */
+"Below are your incomplete tasks from yesterday. These are for reference only." = "以下是昨天未完成的任务。仅供参考。";
+
+/* No comment provided by engineer. */
+"Biological Sex" = "生理性别";
+
+/* No comment provided by engineer. */
+"Birthdate" = "出生日期";
+
+/* No comment provided by engineer. */
+"Blood Type" = "血型";
+
+/* No comment provided by engineer. */
+"By agreeing you confirm that you read the consent and that you wish to take part in this research study." = "同意即表明您确认已阅读同意书并希望参与此调查研究。";
+
+/* (No Commment) */
+"CONSENT_DOC_LINE_DATE" = "日期";
+
+/* (No Commment) */
+"CONSENT_DOC_LINE_PRINTED_NAME" = "%@的姓名（正楷书写）";
+
+/* (No Commment) */
+"CONSENT_DOC_LINE_SIGNATURE" = "%@的签名";
+
+/* (No Commment) */
+"CONSENT_LEARN_MORE_TITLE" = "了解更多";
+
+/* (No Commment) */
+"CONSENT_NAME_FIRST" = "名";
+
+/* (No Commment) */
+"CONSENT_NAME_LAST" = "姓";
+
+/* (No Commment) */
+"CONSENT_NAME_PLACEHOLDER" = "必填";
+
+/* (No Commment) */
+"CONSENT_NAME_TITLE" = "同意";
+
+/* (No Commment) */
+"CONSENT_PAGE_NUMBER_FORMAT" = "第 %1$ld/%2$ld 页";
+
+/* (No Commment) */
+"CONSENT_REVIEW_ALERT_TITLE" = "检查";
+
+/* (No Commment) */
+"CONSENT_REVIEW_INSTRUCTION" = "请检查下方的信息，确认后请轻点“同意”。";
+
+/* (No Commment) */
+"CONSENT_REVIEW_TITLE" = "检查";
+
+/* (No Commment) */
+"CONSENT_SECTION_DATA_GATHERING" = "数据收集";
+
+/* (No Commment) */
+"CONSENT_SECTION_DATA_USE" = "数据使用";
+
+/* (No Commment) */
+"CONSENT_SECTION_PRIVACY" = "隐私";
+
+/* (No Commment) */
+"CONSENT_SECTION_STUDY_SURVEY" = "研究调查";
+
+/* (No Commment) */
+"CONSENT_SECTION_STUDY_TASKS" = "研究任务";
+
+/* (No Commment) */
+"CONSENT_SECTION_TIME_COMMITMENT" = "时间保证";
+
+/* (No Commment) */
+"CONSENT_SECTION_WELCOME" = "欢迎使用";
+
+/* (No Commment) */
+"CONSENT_SECTION_WITHDRAWING" = "退出研究";
+
+/* (No Commment) */
+"CONSENT_SIGNATURE_INSTRUCTION" = "请用手指在下方的横线上签名。";
+
+/* (No Commment) */
+"CONSENT_SIGNATURE_PLACEHOLDER" = "在此签名";
+
+/* (No Commment) */
+"CONSENT_SIGNATURE_TITLE" = "签名";
+
+/* (No Commment) */
+"COUNTDOWN_LABEL" = "即将开始测试";
+
+/* No comment provided by engineer. */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Change Details" = "更改详情";
+
+/* No comment provided by engineer. */
+"Change Email" = "更改电子邮件";
+
+/* No comment provided by engineer. */
+"Change Passcode" = "更改密码";
+
+/* No comment provided by engineer. */
+"Choose from Library" = "从资料库中选取";
+
+/* Consent */
+"Consent" = "同意";
+
+/* No comment provided by engineer. */
+"Continue" = "继续";
+
+"Dashboard" = "图表汇总";
+
+/* Day */
+"Day" = "天";
+
+/* Days */
+"Days" = "天";
+
+/* No comment provided by engineer. */
+"Delete" = "删除";
+
+/* Dismiss */
+"Dismiss" = "关闭";
+
+/* Done */
+"Done" = "完成";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_COULD_NOT_FREE_SPACE" = "无法移除足够的日志文件来达到阈值";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_COULD_NOT_MARK" = "文件未标记为删除（未标记为上传）";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_CREATE_FILE" = "无法创建文件";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_MULTIPLE" = "移除日志时出现多个错误";
+
+/* (No Commment) */
+"ERROR_DATALOGGER_SET_ATTRIBUTE" = "设定属性时出错";
+
+/* (No Commment) */
+"ERROR_RECORDER_NO_DATA" = "未找到任何已收集的数据。";
+
+/* (No Commment) */
+"ERROR_RECORDER_NO_OUTPUT_DIRECTORY" = "未指定输出目录";
+
+/* No comment provided by engineer. */
+"EXAMPLE" = "示例";
+
+/* Edit */
+"Edit" = "编辑";
+
+/* No comment provided by engineer. */
+"Eligibility" = "资格";
+
+/* No comment provided by engineer. */
+"Email" = "电子邮件";
+
+/* Email Consent Document */
+"Email Consent Document" = "通过电子邮件发送同意书";
+
+/* No comment provided by engineer. */
+"Email Verification" = "电子邮件验证";
+
+/* No comment provided by engineer. */
+"Email address cannot be left empty." = "电子邮件地址不能留空。";
+
+/* No comment provided by engineer. */
+"Enable Reminders" = "启用提醒事项";
+
+/* No comment provided by engineer. */
+"Enter Passcode" = "输入密码";
+
+/* No comment provided by engineer. */
+"Enter the study and contribute your data" = "加入本研究并贡献您的数据";
+
+/* No comment provided by engineer. */
+"Enter your new passcode" = "输入新密码";
+
+/* No comment provided by engineer. */
+"Enter your old passcode" = "输入旧密码";
+
+/* (No Commment) */
+"FITNESS_DISTANCE_TITLE_FORMAT" = "距离（%@）";
+
+/* (No Commment) */
+"FITNESS_HEARTRATE_TITLE" = "心率（次/分）";
+
+/* (No Commment) */
+"FITNESS_INTRO_2_TEXT_FORMAT" = "请在室外以最快的速度步行 %1$@。步行完成后，请静坐 %2$@。若要开始，请轻点“开始”。";
+
+/* (No Commment) */
+"FITNESS_INTRO_TEXT_FORMAT" = "本测试监控您的心率并测量 %1$@内的步行距离。";
+
+/* (No Commment) */
+"FITNESS_SIT_INSTRUCTION_FORMAT" = "请静坐 %@。";
+
+/* (No Commment) */
+"FITNESS_TASK_TITLE" = "健身测试";
+
+/* (No Commment) */
+"FITNESS_WALK_INSTRUCTION_FORMAT" = "以最快速度步行 %@。";
+
+/* No comment provided by engineer. */
+"Failed to authenticate." = "认证失败。";
+
+/* No comment provided by engineer. */
+"Female" = "女";
+
+/* This is the title for the message that appears when the user asked for a ‘reset password,’ and that ‘resetting’ process failed. */
+"Forgot Password" = "忘记密码";
+
+/* (No Commment) */
+"GENDER_FEMALE" = "女";
+
+/* (No Commment) */
+"GENDER_MALE" = "男";
+
+/* No comment provided by engineer. */
+"General Information" = "基本信息";
+
+/* Granted */
+"Granted" = "已授权";
+
+/* No comment provided by engineer. */
+"Health Kit" = "Health Kit";
+
+/* No comment provided by engineer. */
+"Height" = "身高";
+
+/* No comment provided by engineer. */
+"Help us Spread the Word" = "帮助推广";
+
+/* No comment provided by engineer. */
+"Here is your activity and sleep assessment for the last 7 days" = "这是您过去 7 天的活动和睡眠状况评估";
+
+/* No comment provided by engineer. */
+"I agree to participate in this research Study." = "我同意参与此调查研究。";
+
+/* No comment provided by engineer. */
+"Identification" = "鉴定";
+
+/* No comment provided by engineer. */
+"Insight" = "分析结果";
+
+/* (No Commment) */
+"Invalid email or password.  In case you have not verified your account, please do so by clicking the link in the email we have sent you." = "无效的电子邮件或密码。
+
+如果您尚未验证帐户，请找到我们发送给您的电子邮件，点按其中的链接来验证。";
+
+/* Keep going */
+"Keep Going!" = "请继续！";
+
+/* (No Commment) */
+"LEARN_MORE_DATA_GATHERING" = "了解有关数据收集方式的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_DATA_USE" = "了解有关数据使用方式的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_PRIVACY" = "了解有关隐私和身份保护方式的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_STUDY_SURVEY" = "了解有关研究调查的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_TASKS" = "了解有关所涉及任务的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_TIME_COMMITMENT" = "了解有关研究所占用时间的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_WELCOME" = "首先了解有关研究的更多信息";
+
+/* (No Commment) */
+"LEARN_MORE_WITHDRAWING" = "了解有关退出研究的更多信息";
+
+"Learn" = "了解";
+
+/* No comment provided by engineer. */
+"License Information" = "许可信息";
+
+/* Light */
+"Light" = "轻微";
+
+/* No comment provided by engineer. */
+"Location Services" = "定位服务";
+
+/* No comment provided by engineer. */
+"Log Your Medications" = "记录您的药物";
+
+/* No comment provided by engineer. */
+"Looks like you don't have Mail app setup. Please configure to share via email." = "“邮件”应用程序似乎没有设置好。请作相关配置以通过电子邮件进行共享。";
+
+/* No comment provided by engineer. */
+"Looks like you don't have Messages app setup. Please configure to share via SMS." = "“信息”应用程序似乎没有设置好。请作相关配置以通过短信进行共享。";
+
+/* (No Commment) */
+"MEDIA_BUTTON" = "轻点来捕捉图像";
+
+/* (No Commment) */
+"MEDIA_BUTTON_HAVE_IMAGE" = "轻点来捕捉其他图像";
+
+/* (No Commment) */
+"MEMORY_GAME_COMPLETE" = "游戏完成";
+
+/* (No Commment) */
+"MEMORY_GAME_COMPLETE_MESSAGE" = "轻点“下一步”来继续下一回合";
+
+/* (No Commment) */
+"MEMORY_GAME_COMPLETE_TITLE" = "回合完成";
+
+/* (No Commment) */
+"MEMORY_GAME_FAILED_MESSAGE" = "您好像记错了顺序。轻点“再试一次”来重现。";
+
+/* (No Commment) */
+"MEMORY_GAME_FAILED_TITLE" = "再试一次";
+
+/* (No Commment) */
+"MEMORY_GAME_GAMEPLAY_REVERSE_TITLE_%@" = "请以相反的顺序轻点%@";
+
+/* (No Commment) */
+"MEMORY_GAME_GAMEPLAY_TITLE_%@" = "请以%@亮起的顺序轻点它们";
+
+/* (No Commment) */
+"MEMORY_GAME_ITEM_COUNT_TITLE_%@" = "%@";
+
+/* (No Commment) */
+"MEMORY_GAME_PLAYBACK_TITLE_%@" = "观察亮起的%@";
+
+/* (No Commment) */
+"MEMORY_GAME_SCORE_TITLE" = "得分";
+
+/* (No Commment) */
+"MEMORY_GAME_TIMEOUT_MESSAGE" = "本回合时间已到。
+轻点“再试一次”来重现。";
+
+/* (No Commment) */
+"MEMORY_GAME_TIMEOUT_TITLE" = "时间已到";
+
+/* No comment provided by engineer. */
+"Male" = "男";
+
+/* No comment provided by engineer. */
+"Medical Conditions" = "医疗状况";
+
+/* No comment provided by engineer. */
+"Medications" = "药物";
+
+/* No comment provided by engineer. */
+"Messages" = "信息";
+
+/* No comment provided by engineer. */
+"Microphone" = "麦克风";
+
+/* Moderate */
+"Moderate" = "中等";
+
+/* No comment provided by engineer. */
+"Motion Activity" = "运动活动";
+
+/* (No Commment) */
+"NULL_ANSWER" = "选择一个答案";
+
+/* No comment provided by engineer. */
+"Name cannot be left empty." = "姓名不能留空。";
+
+/* No comment provided by engineer. */
+"Next" = "下一步";
+
+/* No Data */
+"No Data" = "无数据";
+
+/* No Internet */
+"No network connection. Please connect to the internet and try again." = "无网络链接。请连接互联网并再试一次。";
+
+/* Not enough data */
+"Not enough data" = "没有足够的数据";
+
+/* No comment provided by engineer. */
+"Notifications" = "通知";
+
+/* OK action */
+"OK" = "好";
+
+/* No comment provided by engineer. */
+"Okay" = "好的";
+
+/* No comment provided by engineer. */
+"Oops! Something went wrong. We are really sorry for the inconvenience. Since we are not taking any risk on your data, you may need to restart the app." = "糟糕！发生错误。实在很抱歉给您带来不便。为了保证数据安全，您可能需要重新启动应用程序。";
+
+/* Spinner Option */
+"Other" = "其他";
+
+/* (No Commment) */
+"PLACEHOLDER_LONG_TEXT" = "轻点来书写";
+
+/* (No Commment) */
+"PLACEHOLDER_TEXT_OR_NUMBER" = "添加答案";
+
+/* No comment provided by engineer. */
+"Participant" = "参与者";
+
+/* No comment provided by engineer. */
+"Password" = "密码";
+
+/* No comment provided by engineer. */
+"Password should be at least %d characters" = "密码必须至少为 %d 个字符";
+
+/* No comment provided by engineer. */
+"Permissions" = "权限";
+
+/* No comment provided by engineer. */
+"Permissions Denied" = "已拒绝权限";
+
+/* No comment provided by engineer. */
+"Please Confirm Removal" = "请确认移除";
+
+/* No comment provided by engineer. */
+"Please authenticate with Touch ID" = "请使用 Touch ID 进行认证";
+
+/* No comment provided by engineer. */
+"Please enter a Password." = "请输入密码。";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address" = "请输入有效的电子邮件地址";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address." = "请输入有效的电子邮件地址。";
+
+/* No comment provided by engineer. */
+"Please enter again." = "请重新输入。";
+
+/* No comment provided by engineer. */
+"Please enter your email" = "请输入电子邮件";
+
+/* No comment provided by engineer. */
+"Please enter your email address." = "请输入电子邮件地址。";
+
+/* No comment provided by engineer. */
+"Please enter your password" = "请输入密码";
+
+/* No comment provided by engineer. */
+"Please go to Settings -> Privacy -> Health -> %@ to re-enable." = "请前往“设置”->“隐私”->“健康”->“%@”以重新启用。";
+
+/* No comment provided by engineer. */
+"Privacy Policy" = "隐私政策";
+
+"Profile" = "个人简介";
+
+/* (No Commment) */
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ 超出了允许的最大值 (%2$@)。";
+
+/* (No Commment) */
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ 低于允许的最小值 (%2$@)。";
+
+/* (No Commment) */
+"RANGE_ALERT_MESSAGE_OTHER" = "%@ 不是有效值。";
+
+/* (No Commment) */
+"RANGE_ALERT_TITLE" = "无效值";
+
+/* No comment provided by engineer. */
+"Re-enter your new passcode" = "再次输入新密码";
+
+/* No comment provided by engineer. */
+"Re-enter your passcode" = "再次输入密码";
+
+/* Read Consent Document */
+"Read Consent Document" = "阅读同意书";
+
+/* No comment provided by engineer. */
+"Rejoin" = "重新参与";
+
+/* No comment provided by engineer. */
+"Resetting your 7 Day Assessment will clear all recorded data from the week." = "重设 7 天评估将清除这一周所有已记录的数据。";
+
+/* No comment provided by engineer. */
+"Review Consent" = "查看同意书";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_CALL_TO_ACTION" = "若要开始，请轻点“开始”，然后留心观察。";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "如下方所示的%@将按顺序亮起。您需要记住这个顺序并通过轻点来进行重现。";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "如下方所示的%@将按顺序亮起。您需要记住这个顺序并以相反的顺序轻点来进行重现。";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_INTRO_TEXT" = "本测试通过显示图案并要求您进行回忆和重现来测量您的空间记忆能力。";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_TARGET_PLURAL" = "花朵";
+
+/* (No Commment) */
+"SPATIAL_SPAN_MEMORY_TITLE" = "空间记忆测试";
+
+/* (No Commment) */
+"STEP_PROGRESS_FORMAT" = "第 %1$lu/%2$lu 步";
+
+/* No comment provided by engineer. */
+"Sage Bionetworks, a non-profit biomedical research institute, is helping to collect data for this study and distribute it to the study investigators and other researchers. Please provide a unique email address and password to create a secure account." = "作为非盈利性生物医学研究机构，Sage Bionetworks 正帮助此研究收集数据，并将数据分发给研究负责人及其他研究人员。请提供唯一的电子邮件地址和密码以创建安全帐户。";
+
+/* Sedentary */
+"Sedentary" = "久坐";
+
+/* No comment provided by engineer. */
+"Select Your Medication's Single Dose Amount" = "选择您的药物单剂量";
+
+/* No comment provided by engineer. */
+"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application." = "选择一个 4 位数密码。设置密码将有助于快速及安全地访问此应用程序。";
+
+/* No comment provided by engineer. */
+"Select the Medication You Are Currently Taking" = "选择您当前正在服用的药物";
+
+/* No comment provided by engineer. */
+"Send Again" = "再次发送";
+
+/* No comment provided by engineer. */
+"Settings" = "设置";
+
+/* No comment provided by engineer. */
+"Share on Facebook" = "在 Facebook 上共享";
+
+/* No comment provided by engineer. */
+"Share on Twitter" = "在 Twitter 上共享";
+
+/* No comment provided by engineer. */
+"Share this Study" = "共享此研究";
+
+/* No comment provided by engineer. */
+"Share via Email" = "通过电子邮件共享";
+
+/* No comment provided by engineer. */
+"Share via SMS" = "通过短信共享";
+
+/* Sharing Options */
+"Sharing Options" = "共享选项";
+
+/* No comment provided by engineer. */
+"Sign In" = "登录";
+
+/* No comment provided by engineer. */
+"Sign Out" = "注销";
+
+/* No comment provided by engineer. */
+"Sign Up" = "注册";
+
+/* Sleep */
+"Sleep" = "睡眠";
+
+/* No comment provided by engineer. */
+"Somthings Wrong!" = "发生错误！";
+
+/* No comment provided by engineer. */
+"Spread the Word" = "推广";
+
+/* No comment provided by engineer. */
+"Step %i" = "第 %i 步";
+
+/* {step value} steps taken */
+"Steps" = "步数";
+
+/* (No Commment) */
+"TAPPING_INSTRUCTION_FORMAT" = "使用两个手指以最快速度交替轻点 %@。";
+
+/* (No Commment) */
+"TAPPING_INTRO_TEXT" = "本活动测试您通过手指连续轻点目标位置的能力。";
+
+/* (No Commment) */
+"TAPPING_INTRO_TEXT_2_FORMAT" = "请将您的手机置于平面。然后使用同一只手的两个手指交替轻点出现的按钮。请以最快速度持续轻点 %@，同时尽可能保持节奏一致。
+
+轻点“开始”以开始测试。";
+
+/* (No Commment) */
+"TAPPING_TASK_TITLE" = "轻点活动";
+
+/* (No Commment) */
+"TAP_BUTTON_TITLE" = "轻点";
+
+/* (No Commment) */
+"TASK_COMPLETE_TEXT" = "将对您的测试进行分析并在结果可用时通知您。";
+
+/* (No Commment) */
+"TASK_COMPLETE_TITLE" = "测试完成";
+
+/* (No Commment) */
+"TOTAL_TAPS_LABEL" = "轻点总次数";
+
+/* No comment provided by engineer. */
+"Take Photo" = "拍照";
+
+/* No comment provided by engineer. */
+"Tap on Items Above to Log Intake" = "轻点上方项目以记录摄入量";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Location and check ‘Always’" = "轻点“设置”->“位置”并勾选“始终”";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Notifications and enable ‘Allow Notifications’" = "轻点“设置”->“通知”并启用“允许通知”";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Camera" = "轻点“设置”并启用“相机”";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Microphone" = "轻点“设置”并启用“麦克风”";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Motion Activity." = "轻点“设置”并启用“运动活动”。";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Photos" = "轻点“设置”并启用“照片”";
+
+/* No comment provided by engineer. */
+"Tap the “+” Sign to Create Prescriptions" = "轻点“+”符号以创建处方";
+
+/* No comment provided by engineer. */
+"Tasks" = "任务";
+
+/* No comment provided by engineer. */
+"The passcode you entered did not match your new passcode. Please enter again." = "您输入的密码与新密码不匹配。请重新输入。";
+
+/* No comment provided by engineer. */
+"This Action Cannot Be Undone" = "此操作无法撤销";
+
+/* No comment provided by engineer. */
+"Time" = "时间";
+
+/* To see your results from surveys and tasks, check your “Dashboard” tab. */
+"To see your results from surveys and tasks, check your “Dashboard” tab." = "若要查看调查和任务的结果，请浏览“图表汇总”标签页。";
+
+/* No comment provided by engineer. */
+"To start an activity, select from the list below." = "若要开始活动，请从下方列表中进行选择。";
+
+/* Today */
+"Today" = "今天";
+
+/* No comment provided by engineer. */
+"Touch ID or Enter Passcode" = "Touch ID 或输入密码";
+
+/* Try one of these extra activities, to enchance your experience in your study. */
+"Try one of these extra activities, to enchance your experience in your study." = "请尝试其中一项额外活动，以增强您的研究体验。";
+
+/* No comment provided by engineer. */
+"Update Twitter Client" = "更新 Twitter 客户端";
+
+/* No comment provided by engineer. */
+"User Consent Error" = "用户同意出错";
+
+/* No comment provided by engineer. */
+"User Sign In Error" = "用户登录出错";
+
+/* View PDF */
+"View PDF" = "查看 PDF";
+
+/* View Slides */
+"View Slides" = "查看幻灯片";
+
+/* Vigorous */
+"Vigorous" = "精力充沛";
+
+/* (No Commment) */
+"WALK_INTRO_TEXT" = "本测试测量您在步行及站立时的步态和平衡。若要完成本测试，您需要将手机放入口袋，同时连接耳机来跟随音频指示。";
+
+/* (No Commment) */
+"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "请直线步行 %ld 步。";
+
+/* (No Commment) */
+"WALK_RETURN_INSTRUCTION_FORMAT" = "请直线步行 %ld 步来返回起点。";
+
+/* (No Commment) */
+"WALK_STAND_INSTRUCTION_FORMAT" = "请站立 %@。";
+
+/* (No Commment) */
+"WALK_STAND_VOICE_INSTRUCTION_FORMAT" = "现在请站立 %@。";
+
+/* (No Commment) */
+"WALK_TASK_TITLE" = "步行活动";
+
+/* Watch Video */
+"Watch Video" = "观看视频";
+
+/* No comment provided by engineer. */
+"Weight" = "体重";
+
+/* No comment provided by engineer. */
+"What time do you generally go to sleep?" = "您平时几点睡觉？";
+
+/* No comment provided by engineer. */
+"What time do you generally wake up?" = "您平时几点起床？";
+
+/* What to Expect */
+"What to Expect" = "预期结果";
+
+/* No comment provided by engineer. */
+"Withdraw" = "退出";
+
+/* No comment provided by engineer. */
+"Wrong Passcode" = "密码错误";
+
+/* No comment provided by engineer. */
+"Yesterday" = "昨天";
+
+/* No comment provided by engineer. */
+"You have previously withdrawn from this Study. Do you wish to rejoin?" = "您先前已退出此研究。您希望重新参与吗？";
+
+/* No comment provided by engineer. */
+"Your Twitter client does not support sharing from other apps. Please update your Twitter client." = "Twitter 客户端不支持从其他应用程序进行共享。请更新 Twitter 客户端。";
+
+/* No comment provided by engineer. */
+"Your data is no longer being used for this study." = "您的数据不再用于此研究。";
+
+/* No comment provided by engineer. */
+"Your passcodes are not identical. Please enter it again." = "密码不一致。请重新输入。";
+
+/* You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks. */
+"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks." = "“活动”标签页将列出您的日常调查和任务。新的调查和任务将于未来几周内出现。";
+
+/* No comment provided by engineer. */
+"add birthdate" = "添加出生日期";
+
+/* No comment provided by engineer. */
+"add password" = "添加密码";
+
+/* No comment provided by engineer. */
+"add weight (lb)" = "添加体重（磅）";
+
+/* {kilo calories} calories consumed */
+"calories consumed" = "消耗的卡路里";
+
+/* {grams} carbohydrate consumed */
+"carbohydrates consumed" = "消耗的碳水化合物";
+
+/* No comment provided by engineer. */
+"custom question" = "自定问题";
+
+/* No comment provided by engineer. */
+"minutes" = "分钟";
+
+/* {minutes} minutes spent active */
+"minutes spent active" = "占用的活跃分钟数";
+
+/* slept */
+"slept" = "入睡";
+
+/* {grams} sugar consumed */
+"sugar consumed" = "消耗的糖分";
+

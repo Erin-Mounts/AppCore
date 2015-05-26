@@ -1,0 +1,213 @@
+/* Class = "UILabel"; text = "Set a passcode for secure identification"; ObjectID = "1SP-0o-KOV"; */
+"1SP-0o-KOV.text" = "设定密码以保证鉴定安全";
+
+/* Class = "UILabel"; text = "About the App"; ObjectID = "1hj-JM-Iql"; */
+"1hj-JM-Iql.text" = "关于本应用程序";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "2b8-Nk-Sgj"; */
+"2b8-Nk-Sgj.text" = "电子邮件";
+
+/* Class = "UILabel"; text = "Help us spread the word."; ObjectID = "3fs-Sy-NwE"; */
+"3fs-Sy-NwE.text" = "帮助推广。";
+
+/* Class = "UILabel"; text = "Welcome to mPower"; ObjectID = "6Zu-Wv-agv"; */
+"6Zu-Wv-agv.text" = "欢迎使用 mPower";
+
+/* Class = "UIButton"; normalTitle = "I Agree"; ObjectID = "6nF-Df-Qpg"; */
+"6nF-Df-Qpg.normalTitle" = "我同意";
+
+/* Class = "UINavigationItem"; title = "Consent"; ObjectID = "6uW-cz-b2s"; */
+"6uW-cz-b2s.title" = "同意";
+
+/* Class = "UILabel"; text = "Enter your email address in order to reset your Password."; ObjectID = "6xa-7v-RVb"; */
+"6xa-7v-RVb.text" = "输入电子邮件地址来重设密码。";
+
+/* Class = "UIButton"; normalTitle = "Email consent document"; ObjectID = "8qu-gd-IIq"; */
+"8qu-gd-IIq.normalTitle" = "通过电子邮件发送同意书";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "Ajq-Tk-Wbx"; */
+"Ajq-Tk-Wbx.title" = "下一步";
+
+/* Class = "UILabel"; text = "Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease."; ObjectID = "Akn-CY-9hP"; */
+"Akn-CY-9hP.text" = "使用运动协处理器可让应用程序确定您的活动，有助于使研究更好地发现活动程度会对疾病产生怎样的影响。";
+
+/* Class = "UINavigationItem"; title = "Share"; ObjectID = "CKz-Ae-Z1c"; */
+"CKz-Ae-Z1c.title" = "共享";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ccj-sG-x4h"; */
+"Ccj-sG-x4h.text" = "标签";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Cn0-x9-Mc1"; */
+"Cn0-x9-Mc1.placeholder" = "电子邮件";
+
+/* Class = "UIButton"; normalTitle = "Let’s Begin"; ObjectID = "Cnn-8E-rCa"; */
+"Cnn-8E-rCa.normalTitle" = "让我们开始吧";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "DV8-yh-lrG"; */
+"DV8-yh-lrG.title" = "关闭";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dos-uz-ecK"; */
+"Dos-uz-ecK.text" = "标签";
+
+/* Class = "UILabel"; text = "This is your app to use as you choose."; ObjectID = "Dpb-za-qeG"; */
+"Dpb-za-qeG.text" = "这是您所选使用的应用程序。";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "FsH-Bl-UEj"; */
+"FsH-Bl-UEj.title" = "下一步";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "G6f-H1-fOg"; */
+"G6f-H1-fOg.title" = "完成";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HQF-Pi-Ndp"; */
+"HQF-Pi-Ndp.text" = "标签";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HY5-da-KSX"; */
+"HY5-da-KSX.text" = "标签";
+
+/* Class = "UILabel"; text = "Email messages"; ObjectID = "IXV-QN-OmM"; */
+"IXV-QN-OmM.text" = "发送电子邮件";
+
+/* Class = "UIButton"; normalTitle = "Start Consent"; ObjectID = "InD-hO-v4g"; */
+"InD-hO-v4g.normalTitle" = "开始同意流程";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "J6q-RE-cYp"; */
+"J6q-RE-cYp.placeholder" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "Read consent document"; ObjectID = "JKF-q1-PXq"; */
+"JKF-q1-PXq.normalTitle" = "阅读同意书";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JQh-zw-o59"; */
+"JQh-zw-o59.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "Join"; ObjectID = "JU2-ai-Tcq"; */
+"JU2-ai-Tcq.normalTitle" = "参与";
+
+/* Class = "UILabel"; text = "Thank you for enrolling in"; ObjectID = "K7m-b5-z1N"; */
+"K7m-b5-z1N.text" = "感谢你的参与";
+
+/* Class = "UILabel"; text = "All Set!"; ObjectID = "LNe-1J-aJJ"; */
+"LNe-1J-aJJ.text" = "一切准备妥当！";
+
+/* Class = "UINavigationItem"; title = "Eligibility"; ObjectID = "M0R-Kr-X77"; */
+"M0R-Kr-X77.title" = "资格";
+
+/* Class = "UILabel"; text = "Share on Twitter"; ObjectID = "MGi-6n-04M"; */
+"MGi-6n-04M.text" = "在 Twitter 上共享";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "Mts-kI-asi"; */
+"Mts-kI-asi.title" = "关闭";
+
+/* Class = "UILabel"; text = "Unfortunately, you are ineligible to join this study."; ObjectID = "OEh-rs-UeO"; */
+"OEh-rs-UeO.text" = "很遗憾，您不具备参与本研究的资格。";
+
+/* Class = "UILabel"; text = "Swipe to preview"; ObjectID = "Okl-v3-pRl"; */
+"Okl-v3-pRl.text" = "轻扫来预览";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Pgt-IW-QQA"; */
+"Pgt-IW-QQA.text" = "密码";
+
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "S02-oT-YCu"; */
+"S02-oT-YCu.normalTitle" = "男";
+
+/* Class = "UITextView"; text = "Terms and conditions"; ObjectID = "Sks-hO-MRD"; */
+"Sks-hO-MRD.text" = "条款与条件";
+
+/* Class = "UIButton"; normalTitle = "Join Study"; ObjectID = "Srh-gC-C98"; */
+"Srh-gC-C98.normalTitle" = "参与研究";
+
+/* Class = "UILabel"; text = "Permissions Title"; ObjectID = "T8y-cm-IGj"; */
+"T8y-cm-IGj.text" = "权限标题";
+
+/* Class = "UINavigationItem"; title = "Forgot Password"; ObjectID = "VJi-su-bLn"; */
+"VJi-su-bLn.title" = "忘记密码";
+
+/* Class = "UIButton"; normalTitle = "Allow"; ObjectID = "X94-Hr-vqz"; */
+"X94-Hr-vqz.normalTitle" = "允许";
+
+/* Class = "UINavigationItem"; title = "Sign In"; ObjectID = "YVt-DL-ok6"; */
+"YVt-DL-ok6.title" = "登录";
+
+/* Class = "UINavigationItem"; title = "Eligibility"; ObjectID = "alz-yR-DVn"; */
+"alz-yR-DVn.title" = "资格";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aoS-Ay-W9H"; */
+"aoS-Ay-W9H.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "Already Participating?"; ObjectID = "bc0-QL-BYl"; */
+"bc0-QL-BYl.normalTitle" = "已经参与了？";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "dEh-z0-2pc"; */
+"dEh-z0-2pc.text" = "电子邮件";
+
+/* Class = "UINavigationItem"; title = "Consent"; ObjectID = "eDU-QN-yEg"; */
+"eDU-QN-yEg.title" = "同意";
+
+/* Class = "UIButton"; normalTitle = "Okay"; ObjectID = "fGt-jE-Min"; */
+"fGt-jE-Min.normalTitle" = "好的";
+
+/* Class = "UILabel"; text = "App Name"; ObjectID = "gVA-FA-dsp"; */
+"gVA-FA-dsp.text" = "应用程序名称";
+
+/* Class = "UINavigationItem"; title = "Additional Information"; ObjectID = "gou-Uc-1H7"; */
+"gou-Uc-1H7.title" = "其他信息";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "guc-NA-MN5"; */
+"guc-NA-MN5.text" = "标签";
+
+/* Class = "UILabel"; text = "You are eligible to join the study."; ObjectID = "jjP-Xm-7aC"; */
+"jjP-Xm-7aC.text" = "您具备参与本研究的资格。";
+
+/* Class = "UILabel"; text = "Parkinson’s Disease Study"; ObjectID = "kk3-fj-UpN"; */
+"kk3-fj-UpN.text" = "帕金森病研究";
+
+/* Class = "UILabel"; text = "Disease Study"; ObjectID = "lDJ-SH-lam"; */
+"lDJ-SH-lam.text" = "疾病研究";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lgU-Hg-9zH"; */
+"lgU-Hg-9zH.text" = "标签";
+
+/* Class = "UINavigationItem"; title = "Registration"; ObjectID = "lnu-pF-0qk"; */
+"lnu-pF-0qk.title" = "注册";
+
+/* Class = "UIButton"; normalTitle = "Forgot Your Password?"; ObjectID = "o0E-mU-oFG"; */
+"o0E-mU-oFG.normalTitle" = "忘记密码了？";
+
+/* Class = "UILabel"; text = "Please tap on the image below to watch a short video about the Asthma Study and this app."; ObjectID = "o0c-pC-Zdb"; */
+"o0c-pC-Zdb.text" = "请轻点下方图像，观看有关哮喘病研究与本应用程序的视频简介。";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oiW-sY-8Xt"; */
+"oiW-sY-8Xt.text" = "标签";
+
+/* Class = "UILabel"; text = "Tap the button below to begin the consent process"; ObjectID = "pqL-2G-mFb"; */
+"pqL-2G-mFb.text" = "轻点下方的按钮来开始同意流程";
+
+/* Class = "UINavigationItem"; title = "Permissions"; ObjectID = "sGE-ru-L9d"; */
+"sGE-ru-L9d.title" = "权限";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "tbW-Ox-hif"; */
+"tbW-Ox-hif.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "A Parkinson’s Disease Research Study"; ObjectID = "uxw-oh-YJl"; */
+"uxw-oh-YJl.text" = "帕金森病调查研究";
+
+/* Class = "UILabel"; text = "Please help us find study participants by sharing information about the study."; ObjectID = "v88-nG-H6D"; */
+"v88-nG-H6D.text" = "请共享有关本研究的信息以帮助我们寻找研究参与者。";
+
+/* Class = "UILabel"; text = "What to Expect"; ObjectID = "vVd-e0-MNW"; */
+"vVd-e0-MNW.text" = "预期结果";
+
+/* Class = "UINavigationItem"; title = "Terms & Conditions"; ObjectID = "xXM-0a-f2s"; */
+"xXM-0a-f2s.title" = "条款与条件";
+
+/* Class = "UINavigationItem"; title = "Identification"; ObjectID = "z0N-Tv-d4D"; */
+"z0N-Tv-d4D.title" = "鉴定";
+
+/* Class = "UIButton"; normalTitle = "Got It"; ObjectID = "z5w-pH-4Mb"; */
+"z5w-pH-4Mb.normalTitle" = "明白了";
+
+/* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "zMc-Pg-Iea"; */
+"zMc-Pg-Iea.normalTitle" = "重设密码";
+
+/* Class = "UIButton"; normalTitle = "Female"; ObjectID = "za5-xM-hxy"; */
+"za5-xM-hxy.normalTitle" = "女";
+

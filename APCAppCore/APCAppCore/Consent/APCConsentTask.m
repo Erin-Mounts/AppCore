@@ -118,8 +118,7 @@ static NSString*    kStepIdentifierSuffixStart          = @"+X";
 
 - (instancetype)initWithIdentifier:(NSString*)identifier propertiesFileName:(NSString*)fileName
 {
-    NSString*   reason      = @"By agreeing you confirm that you read the information and that you "
-                              @"wish to take part in this research study.";
+    NSString*   reason      = NSLocalizedStringFromTableInBundle(@"By agreeing you confirm that you read the information and that you wish to take part in this research study.", nil, [NSBundle bundleForClass:[self class]], nil);
     NSArray*    consentSteps = [self commonInitWithPropertiesFileName:fileName customSteps:nil reasonForConsent:reason];
     
     _consentSteps = [consentSteps mutableCopy];
@@ -144,8 +143,7 @@ static NSString*    kStepIdentifierSuffixStart          = @"+X";
 
 - (instancetype)initWithIdentifier:(NSString*)identifier propertiesFileName:(NSString*)fileName customSteps:(NSArray*)customSteps
 {
-    NSString*   reason      = @"By agreeing you confirm that you read the information and that you "
-                              @"wish to take part in this research study.";
+    NSString*   reason      = NSLocalizedStringFromTableInBundle(@"By agreeing you confirm that you read the information and that you wish to take part in this research study.", nil, [NSBundle bundleForClass:[self class]], nil);
     NSArray*    consentSteps = [self commonInitWithPropertiesFileName:fileName customSteps:customSteps reasonForConsent:reason];
 
     _consentSteps = [consentSteps mutableCopy];
