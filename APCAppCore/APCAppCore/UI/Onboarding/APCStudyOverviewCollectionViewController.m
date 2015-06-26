@@ -209,6 +209,7 @@ static NSString *kConsentEmailSubject = @"Consent Document";
         landingCell.titleLabel.text = studyDetails.caption;
         landingCell.subTitleLabel.text = studyDetails.detailText;
         landingCell.readConsentButton.hidden = YES;
+        landingCell.emailConsentButton.hidden = [((APCAppDelegate *)[UIApplication sharedApplication].delegate) hideEmailOnWelcomeScreen];
         
         if ([MFMailComposeViewController canSendMail]) {
             [landingCell.emailConsentButton setTitleColor:[UIColor appPrimaryColor] forState:UIControlStateNormal];
@@ -394,12 +395,12 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     APCWebViewController *webViewController = [[UIStoryboard storyboardWithName:@"APCOnboarding" bundle:[NSBundle appleCoreBundle]] instantiateViewControllerWithIdentifier:@"APCWebViewController"];
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"consent" ofType:@"pdf"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
-    [webViewController.webview setDataDetectorTypes:UIDataDetectorTypeAll];
+    [webViewController.webView setDataDetectorTypes:UIDataDetectorTypeAll];
     webViewController.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], @"Consent");
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:webViewController];
     [self.navigationController presentViewController:navController animated:YES completion:^{
-        [webViewController.webview loadData:data MIMEType:@"application/pdf" textEncodingName:@"utf-8" baseURL:nil];
+        [webViewController.webView loadData:data MIMEType:@"application/pdf" textEncodingName:@"utf-8" baseURL:nil];
     }];
 
 }
@@ -464,12 +465,12 @@ static NSString *kConsentEmailSubject = @"Consent Document";
     APCWebViewController *webViewController = [[UIStoryboard storyboardWithName:@"APCOnboarding" bundle:[NSBundle appleCoreBundle]] instantiateViewControllerWithIdentifier:@"APCWebViewController"];
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"consent" ofType:@"pdf"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
-    [webViewController.webview setDataDetectorTypes:UIDataDetectorTypeAll];
+    [webViewController.webView setDataDetectorTypes:UIDataDetectorTypeAll];
     webViewController.title = NSLocalizedStringFromTableInBundle(@"Consent", nil, [NSBundle bundleForClass:[self class]], @"Consent");
     
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:webViewController];
     [self.navigationController presentViewController:navController animated:YES completion:^{
-        [webViewController.webview loadData:data MIMEType:@"application/pdf" textEncodingName:@"utf-8" baseURL:nil];
+        [webViewController.webView loadData:data MIMEType:@"application/pdf" textEncodingName:@"utf-8" baseURL:nil];
     }];
 }
 
