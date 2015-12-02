@@ -1,36 +1,36 @@
-
-/* Class = "UILabel"; text = "Email"; ObjectID = "39l-Jf-hqN"; */
-"39l-Jf-hqN.text" = "Email";
-
 /* Class = "UILabel"; text = "johnny@appleseed.com"; ObjectID = "3xK-c0-Pah"; */
 "3xK-c0-Pah.text" = "johnny@appleseed.com";
 
+/* Class = "UILabel"; text = "Email"; ObjectID = "39l-Jf-hqN"; */
+"39l-Jf-hqN.text" = "E-Mail";
+
 /* Class = "UIButton"; normalTitle = "Share"; ObjectID = "Bzr-zG-t0U"; */
-"Bzr-zG-t0U.normalTitle" = "Share";
+"Bzr-zG-t0U.normalTitle" = "Teilen";
 
 /* Class = "UILabel"; text = "Enter your email address "; ObjectID = "JFo-Ee-63n"; */
-"JFo-Ee-63n.text" = "Enter your email address ";
+"JFo-Ee-63n.text" = "Geben Sie Ihre E-Mail-Adresse ein ";
 
 /* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "QwO-ep-Om3"; */
-"QwO-ep-Om3.normalTitle" = "Continue";
+"QwO-ep-Om3.normalTitle" = "Fortfahren";
 
 /* Class = "UINavigationItem"; title = "Change Email"; ObjectID = "bLv-ce-Rcj"; */
-"bLv-ce-Rcj.title" = "Change Email";
+"bLv-ce-Rcj.title" = "E-Mail-Adresse ändern";
 
 /* Class = "UIButton"; normalTitle = "Resend Verification Email"; ObjectID = "cVc-Jw-LIH"; */
-"cVc-Jw-LIH.normalTitle" = "Resend Verification Email";
+"cVc-Jw-LIH.normalTitle" = "E-Mail zur Prüfung erneut versenden";
 
 /* Class = "UILabel"; text = "While you wait, you can share the app by pressing the share button below"; ObjectID = "fuD-QG-wP8"; */
-"fuD-QG-wP8.text" = "While you wait, you can share the app by pressing the share button below";
+"fuD-QG-wP8.text" = "In der Zwischenzeit können Sie die App teilen, indem Sie unten auf den Button „Teilen“ tippen.";
 
 /* Class = "UIButton"; normalTitle = "Wrong email address? Tap here."; ObjectID = "gY2-y5-fND"; */
-"gY2-y5-fND.normalTitle" = "Wrong email address? Tap here.";
+"gY2-y5-fND.normalTitle" = "Falsche E-Mail-Adresse? Tippen Sie hier.";
 
 /* Class = "UILabel"; text = "$appName$\nhas sent you\na verification email at"; ObjectID = "hsa-BE-Hkq"; */
-"hsa-BE-Hkq.text" = "$appName$\nhas sent you\na verification email at";
+"hsa-BE-Hkq.text" = "$appName$\nhat Ihnen eine\nE-Mail zur Prüfung an folgende Adresse gesendet:";
 
 /* Class = "UILabel"; text = "Once verified, tap below"; ObjectID = "ikM-qL-vyw"; */
-"ikM-qL-vyw.text" = "Once verified, tap below";
+"ikM-qL-vyw.text" = "Tippen Sie nach der Prüfung unten";
 
 /* Class = "UILabel"; text = "A full copy of the consent agreement\nwill be sent to you for your records."; ObjectID = "yX7-Jl-zxX"; */
-"yX7-Jl-zxX.text" = "A full copy of the consent agreement\nwill be sent to you for your records.";
+"yX7-Jl-zxX.text" = "Für Ihre Unterlagen erhalten Sie \neine ungekürzte Ausfertigung der Einwilligungserklärung.";
+

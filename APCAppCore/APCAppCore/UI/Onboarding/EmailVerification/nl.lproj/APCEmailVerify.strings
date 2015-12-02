@@ -2,35 +2,35 @@
 "3xK-c0-Pah.text" = "johnny@appleseed.com";
 
 /* Class = "UILabel"; text = "Email"; ObjectID = "39l-Jf-hqN"; */
-"39l-Jf-hqN.text" = "Courriel";
+"39l-Jf-hqN.text" = "E-mail";
 
 /* Class = "UIButton"; normalTitle = "Share"; ObjectID = "Bzr-zG-t0U"; */
-"Bzr-zG-t0U.normalTitle" = "Partager";
+"Bzr-zG-t0U.normalTitle" = "Deel";
 
 /* Class = "UILabel"; text = "Enter your email address "; ObjectID = "JFo-Ee-63n"; */
-"JFo-Ee-63n.text" = "Veuillez saisir votre adresse électronique. ";
+"JFo-Ee-63n.text" = "Voer uw e-mailadres in ";
 
 /* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "QwO-ep-Om3"; */
-"QwO-ep-Om3.normalTitle" = "Continuer";
+"QwO-ep-Om3.normalTitle" = "Ga door";
 
 /* Class = "UINavigationItem"; title = "Change Email"; ObjectID = "bLv-ce-Rcj"; */
-"bLv-ce-Rcj.title" = "Modifier l'adresse électronique";
+"bLv-ce-Rcj.title" = "Wijzig e-mailadres";
 
 /* Class = "UIButton"; normalTitle = "Resend Verification Email"; ObjectID = "cVc-Jw-LIH"; */
-"cVc-Jw-LIH.normalTitle" = "Me renvoyer le courriel de validation d'adresse";
+"cVc-Jw-LIH.normalTitle" = "Verstuur verificatiemail opnieuw";
 
 /* Class = "UILabel"; text = "While you wait, you can share the app by pressing the share button below"; ObjectID = "fuD-QG-wP8"; */
-"fuD-QG-wP8.text" = "Pendant l'attente, vous pouvez en profiter pour partager l'app en appuyant sur le bouton Partager ci-dessous";
+"fuD-QG-wP8.text" = "Terwijl u wacht, kunt u de app delen door op de deelknop hieronder te tikken";
 
 /* Class = "UIButton"; normalTitle = "Wrong email address? Tap here."; ObjectID = "gY2-y5-fND"; */
-"gY2-y5-fND.normalTitle" = "Adresse électronique incorrecte ? Touchez cette zone.";
+"gY2-y5-fND.normalTitle" = "Onjuist e-mailadres? Tik hier.";
 
 /* Class = "UILabel"; text = "$appName$\nhas sent you\na verification email at"; ObjectID = "hsa-BE-Hkq"; */
-"hsa-BE-Hkq.text" = "$appName$\nvous a envoyé\nun courriel de validation d'adresse à l'adresse";
+"hsa-BE-Hkq.text" = "$appName$\nheeft u een verificatiemail\ngestuurd op";
 
 /* Class = "UILabel"; text = "Once verified, tap below"; ObjectID = "ikM-qL-vyw"; */
-"ikM-qL-vyw.text" = "Une fois votre adresse validée, touchez la zone ci-dessous";
+"ikM-qL-vyw.text" = "Tik na de verificatie hieronder";
 
 /* Class = "UILabel"; text = "A full copy of the consent agreement\nwill be sent to you for your records."; ObjectID = "yX7-Jl-zxX"; */
-"yX7-Jl-zxX.text" = "Une copie intégrale du document de consentement\nvous sera envoyée pour conserver une trace écrite.";
+"yX7-Jl-zxX.text" = "We versturen u per e-mail een kopie van \nhet toestemmingsformulier voor uw administratie.";
 

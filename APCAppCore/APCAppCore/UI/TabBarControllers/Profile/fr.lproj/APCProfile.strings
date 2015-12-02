@@ -1,138 +1,138 @@
-
 /* Class = "UILabel"; text = "Label"; ObjectID = "0YA-qB-6Tx"; */
-"0YA-qB-6Tx.text" = "Label";
-
-/* Class = "UILabel"; text = "Describe why you are withdrawing in your own words."; ObjectID = "17V-e9-oMl"; */
-"17V-e9-oMl.text" = "Describe why you are withdrawing in your own words.";
+"0YA-qB-6Tx.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "3LN-Wg-wfS"; */
-"3LN-Wg-wfS.text" = "Detail";
+"3LN-Wg-wfS.text" = "Détails";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "8hk-Wz-D1n"; */
-"8hk-Wz-D1n.placeholder" = "Name";
+"8hk-Wz-D1n.placeholder" = "Nom";
 
 /* Class = "UITextField"; text = "Johnny Appleseed"; ObjectID = "8hk-Wz-D1n"; */
 "8hk-Wz-D1n.text" = "Johnny Appleseed";
 
+/* Class = "UILabel"; text = "Describe why you are withdrawing in your own words."; ObjectID = "17V-e9-oMl"; */
+"17V-e9-oMl.text" = "Avec vos propres mots, dites-nous pourquoi vous avez décidé de vous rétracter.";
+
 /* Class = "UILabel"; text = "Label"; ObjectID = "AuT-nK-R7J"; */
-"AuT-nK-R7J.text" = "Label";
+"AuT-nK-R7J.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Thank you for your contribution to this study. We are sorry that you could not continue."; ObjectID = "BcC-vd-hvB"; */
-"BcC-vd-hvB.text" = "Thank you for your contribution to this study. We are sorry that you could not continue.";
+"BcC-vd-hvB.text" = "Merci de votre contribution à cette étude. Nous sommes désolés que vous ne puissiez pas poursuivre.";
 
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "BoM-Yo-Bi2"; */
-"BoM-Yo-Bi2.title" = "Cancel";
+"BoM-Yo-Bi2.title" = "Annuler";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "CIm-PK-XD0"; */
-"CIm-PK-XD0.text" = "Title";
+"CIm-PK-XD0.text" = "Titre";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "FQR-cG-rBp"; */
-"FQR-cG-rBp.text" = "Title";
+"FQR-cG-rBp.text" = "Titre";
 
 /* Class = "UILabel"; text = "End"; ObjectID = "GvA-QA-AGt"; */
-"GvA-QA-AGt.text" = "End";
+"GvA-QA-AGt.text" = "Terminer";
 
 /* Class = "UILabel"; text = "Edit"; ObjectID = "Gvf-JT-xq5"; */
-"Gvf-JT-xq5.text" = "Edit";
+"Gvf-JT-xq5.text" = "Modifier";
 
 /* Class = "UILabel"; text = "Journey"; ObjectID = "H3m-U4-zNB"; */
-"H3m-U4-zNB.text" = "Journey";
+"H3m-U4-zNB.text" = "Parcours";
 
 /* Class = "UILabel"; text = "Start"; ObjectID = "OE7-14-4fc"; */
-"OE7-14-4fc.text" = "Start";
+"OE7-14-4fc.text" = "Démarrer";
 
 /* Class = "UINavigationItem"; title = "Activity Reminders"; ObjectID = "TLB-6i-pxR"; */
-"TLB-6i-pxR.title" = "Activity Reminders";
+"TLB-6i-pxR.title" = "Rappels des activités";
 
 /* Class = "UIButton"; normalTitle = "Leave Study"; ObjectID = "UMm-O6-rLy"; */
-"UMm-O6-rLy.normalTitle" = "Leave Study";
+"UMm-O6-rLy.normalTitle" = "Quitter l'étude";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "VBq-NL-8m0"; */
-"VBq-NL-8m0.title" = "Close";
+"VBq-NL-8m0.title" = "Fermer";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Vxa-dH-1Bp"; */
-"Vxa-dH-1Bp.text" = "Label";
+"Vxa-dH-1Bp.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "WO7-sk-hXC"; */
-"WO7-sk-hXC.text" = "Label";
+"WO7-sk-hXC.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "XHH-KD-Naj"; */
-"XHH-KD-Naj.text" = "Title";
+"XHH-KD-Naj.text" = "Titre";
 
 /* Class = "UILabel"; text = "Sharing Options"; ObjectID = "YzK-0P-Xe3"; */
-"YzK-0P-Xe3.text" = "Sharing Options";
+"YzK-0P-Xe3.text" = "Options de partage";
 
 /* Class = "UINavigationItem"; title = "Download Data"; ObjectID = "aoG-ly-D0T"; */
-"aoG-ly-D0T.title" = "Download Data";
+"aoG-ly-D0T.title" = "Télécharger les données";
 
 /* Class = "UILabel"; text = "add weight (lbs.)"; ObjectID = "bZk-oc-H5i"; */
-"bZk-oc-H5i.text" = "add weight (lbs.)";
+"bZk-oc-H5i.text" = "ajoutez votre poids (en kg)";
 
 /* Class = "UILabel"; text = "Currently Participating In "; ObjectID = "bb2-UZ-Wan"; */
-"bb2-UZ-Wan.text" = "Currently Participating In ";
+"bb2-UZ-Wan.text" = "Participe actuellement à ";
 
 /* Class = "UINavigationItem"; title = "License Information"; ObjectID = "cB3-5h-qSC"; */
-"cB3-5h-qSC.title" = "License Information";
+"cB3-5h-qSC.title" = "Informations de licence";
 
 /* Class = "UILabel"; text = "Select all that apply."; ObjectID = "cpP-7K-8Bb"; */
-"cpP-7K-8Bb.text" = "Select all that apply.";
+"cpP-7K-8Bb.text" = "Sélectionner toutes les propositions qui s'appliquent.";
 
 /* Class = "UILabel"; text = "Research Institute will receive your study data form your participation in this study."; ObjectID = "cy9-c7-W6M"; */
-"cy9-c7-W6M.text" = "Research Institute will receive your study data form your participation in this study.";
+"cy9-c7-W6M.text" = "L'institut de recherche recevra le formulaire des données de votre participation à cette étude.";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "dxl-CJ-CsB"; */
-"dxl-CJ-CsB.text" = "Label";
+"dxl-CJ-CsB.text" = "Étiquette";
 
 /* Class = "UIButton"; normalTitle = "Download Data"; ObjectID = "eUN-2a-GKO"; */
-"eUN-2a-GKO.normalTitle" = "Download Data";
+"eUN-2a-GKO.normalTitle" = "Télécharger les données";
 
 /* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "fF4-PR-bA8"; */
-"fF4-PR-bA8.title" = "Edit";
+"fF4-PR-bA8.title" = "Modifier";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "gJx-nK-Mzv"; */
-"gJx-nK-Mzv.text" = "Detail";
+"gJx-nK-Mzv.text" = "Détails";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "gyM-2c-l4q"; */
-"gyM-2c-l4q.text" = "Label";
+"gyM-2c-l4q.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "This study was taking up too much of my time."; ObjectID = "hCE-XZ-mEv"; */
-"hCE-XZ-mEv.text" = "This study was taking up too much of my time.";
+"hCE-XZ-mEv.text" = "Cette étude me prenait trop de temps.";
 
 /* Class = "UINavigationItem"; title = "Withdrawal Survey"; ObjectID = "kM7-G5-UuZ"; */
-"kM7-G5-UuZ.title" = "Withdrawal Survey";
+"kM7-G5-UuZ.title" = "Questionnaire sur le retrait de l'étude";
 
 /* Class = "UINavigationItem"; title = "Withdraw From Study"; ObjectID = "mj3-6G-awB"; */
-"mj3-6G-awB.title" = "Withdraw From Study";
+"mj3-6G-awB.title" = "Se retirer de l'étude";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "nCp-5d-3Br"; */
-"nCp-5d-3Br.text" = "Label";
+"nCp-5d-3Br.text" = "Étiquette";
 
 /* Class = "UIButton"; normalTitle = "Withdraw"; ObjectID = "o0S-br-ebJ"; */
-"o0S-br-ebJ.normalTitle" = "Withdraw";
+"o0S-br-ebJ.normalTitle" = "Se retirer";
 
 /* Class = "UINavigationItem"; title = "Withdrawal Complete"; ObjectID = "rLJ-rs-VCY"; */
-"rLJ-rs-VCY.title" = "Withdrawal Complete";
+"rLJ-rs-VCY.title" = "Rétractation accomplie";
 
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "roj-Aw-erm"; */
-"roj-Aw-erm.normalTitle" = "Done";
+"roj-Aw-erm.normalTitle" = "Terminé";
 
 /* Class = "UINavigationItem"; title = "Profile"; ObjectID = "soI-ZX-7k6"; */
-"soI-ZX-7k6.title" = "Profile";
+"soI-ZX-7k6.title" = "Profil";
 
 /* Class = "UINavigationItem"; title = "Change Passcode"; ObjectID = "tbR-5e-7V1"; */
-"tbR-5e-7V1.title" = "Change Passcode";
+"tbR-5e-7V1.title" = "Modifier le code secret";
 
 /* Class = "UINavigationItem"; title = "Sharing Options"; ObjectID = "tiu-ME-eWu"; */
-"tiu-ME-eWu.title" = "Sharing Options";
+"tiu-ME-eWu.title" = "Options de partage";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "v3i-D8-I5m"; */
-"v3i-D8-I5m.text" = "Label";
+"v3i-D8-I5m.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "jappleseed123@me.com"; ObjectID = "vQl-IA-A14"; */
 "vQl-IA-A14.text" = "jappleseed123@me.com";
 
 /* Class = "UILabel"; text = "Please help us make our study better by explaining the reasons for your withdrawal."; ObjectID = "w0A-pl-Wzd"; */
-"w0A-pl-Wzd.text" = "Please help us make our study better by explaining the reasons for your withdrawal.";
+"w0A-pl-Wzd.text" = "Aidez-nous à améliorer notre étude en nous expliquant les raisons de votre rétractation.";
 
 /* Class = "UIButton"; normalTitle = "Pause Study"; ObjectID = "ymU-X3-A4W"; */
-"ymU-X3-A4W.normalTitle" = "Pause Study";
+"ymU-X3-A4W.normalTitle" = "Mettre l'étude en pause";
+

@@ -323,6 +323,10 @@
 		80A98DD71BFD49EC0060146F /* APCProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A98DD91BFD49EC0060146F /* APCProfile.storyboard */; };
 		80A98DDA1BFD4A290060146F /* APCPasscode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A98DDC1BFD4A290060146F /* APCPasscode.storyboard */; };
 		80A98DDD1BFD517C0060146F /* APCLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A98DB01BFCFE430060146F /* APCLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CBB1561C0F986800E50D06 /* APCAppCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1581C0F986800E50D06 /* APCAppCore.strings */; };
+		80CBB15B1C0F986900E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB15D1C0F986900E50D06 /* InfoPlist.strings */; };
+		80CBB1611C0F986B00E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1631C0F986B00E50D06 /* InfoPlist.strings */; };
+		80CBB1671C0F9AD300E50D06 /* APCAppCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1691C0F9AD300E50D06 /* APCAppCore.strings */; };
 		A7CFE4B51A8B05F4009A171C /* APCStudyOverviewCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CFE4B11A8B05F4009A171C /* APCStudyOverviewCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7CFE4B61A8B05F4009A171C /* APCStudyOverviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CFE4B21A8B05F4009A171C /* APCStudyOverviewCollectionViewCell.m */; };
 		A7CFE4B71A8B05F4009A171C /* APCStudyOverviewCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CFE4B31A8B05F4009A171C /* APCStudyOverviewCollectionViewController.h */; };
@@ -1055,6 +1059,21 @@
 		80A98DE31BFD56D70060146F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/APCEmailVerify.strings; sourceTree = "<group>"; };
 		80A98DE41BFD56D70060146F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/APCProfile.strings; sourceTree = "<group>"; };
 		80A98DE51BFD56D70060146F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/APCPasscode.strings; sourceTree = "<group>"; };
+		80CBB1511C0F985F00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCEmailVerify.strings; sourceTree = "<group>"; };
+		80CBB1521C0F986300E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCProfile.strings; sourceTree = "<group>"; };
+		80CBB1531C0F986700E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCOnboarding.strings; sourceTree = "<group>"; };
+		80CBB1571C0F986800E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCAppCore.strings; sourceTree = "<group>"; };
+		80CBB15C1C0F986900E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB15E1C0F986900E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCPasscode.strings; sourceTree = "<group>"; };
+		80CBB1621C0F986B00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1641C0F9AD100E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1681C0F9AD300E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/APCAppCore.strings; sourceTree = "<group>"; };
+		80CBB16A1C0F9AD500E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/APCAppCore.strings; sourceTree = "<group>"; };
+		80CBB16B1C0F9AD600E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB16C1C0F9B4600E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB16D1C0F9B4900E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/APCAppCore.strings; sourceTree = "<group>"; };
+		80CBB16E1C0F9B4B00E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/APCAppCore.strings; sourceTree = "<group>"; };
+		80CBB16F1C0F9B4D00E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7CFE4B11A8B05F4009A171C /* APCStudyOverviewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCStudyOverviewCollectionViewCell.h; sourceTree = "<group>"; };
 		A7CFE4B21A8B05F4009A171C /* APCStudyOverviewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCStudyOverviewCollectionViewCell.m; sourceTree = "<group>"; };
 		A7CFE4B31A8B05F4009A171C /* APCStudyOverviewCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCStudyOverviewCollectionViewController.h; sourceTree = "<group>"; };
@@ -2590,6 +2609,8 @@
 		F5F1291A1A2F78490015982C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB15D1C0F986900E50D06 /* InfoPlist.strings */,
+				80CBB1581C0F986800E50D06 /* APCAppCore.strings */,
 				5B4574C61ABFD07A00601DCC /* Licenses */,
 				08027A3A1A7319AC00B358CC /* Assets */,
 				F5F12B1B1A2F78AE0015982C /* Info.plist */,
@@ -3023,6 +3044,8 @@
 		F5F129D91A2F78490015982C /* APCAppCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB1691C0F9AD300E50D06 /* APCAppCore.strings */,
+				80CBB1631C0F986B00E50D06 /* InfoPlist.strings */,
 				36EE894F1A2FEFD700AEA9E6 /* APCScheduleExpressionTests */,
 				F5F129E01A2F78490015982C /* Info.plist */,
 				360C63CF1A33971B002EC86C /* NSDateComponents+HelperTests */,
@@ -3474,6 +3497,7 @@
 				369E28161A96B7A200D35DFA /* APCMedTrackerPredefinedPrescriptionColors.plist in Resources */,
 				3650C65D1AA29BB50075C935 /* CatastrophicError.storyboard in Resources */,
 				08027A7D1A7319AC00B358CC /* consent_07@2x.png in Resources */,
+				80CBB15B1C0F986900E50D06 /* InfoPlist.strings in Resources */,
 				08027A891A7319AC00B358CC /* phonesoundwaves@2x.png in Resources */,
 				08027A7B1A7319AC00B358CC /* consent_05@2x.png in Resources */,
 				08027A991A7319AC00B358CC /* walkingman@3x.png in Resources */,
@@ -3517,6 +3541,7 @@
 				08027A8A1A7319AC00B358CC /* phonetapping@2x.png in Resources */,
 				5B4574CC1ABFD07A00601DCC /* License_ZipZap.txt in Resources */,
 				CF130B7A1A9E8DCD002DA023 /* APCSetupButtonTableViewCell.xib in Resources */,
+				80CBB1561C0F986800E50D06 /* APCAppCore.strings in Resources */,
 				5BD4CA071AF0E46F008D97AE /* APCNewsFeed.storyboard in Resources */,
 				08027A801A7319AC00B358CC /* consent_03@3x.png in Resources */,
 				5B4574CA1ABFD07A00601DCC /* License_BridgeSDK.txt in Resources */,
@@ -3536,6 +3561,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36829A411A96B937000AA2AB /* APCMedTrackerPredefinedMedications.plist in Resources */,
+				80CBB1611C0F986B00E50D06 /* InfoPlist.strings in Resources */,
+				80CBB1671C0F9AD300E50D06 /* APCAppCore.strings in Resources */,
 				36829A431A96B937000AA2AB /* APCMedTrackerPredefinedPrescriptionColors.plist in Resources */,
 				36829A421A96B937000AA2AB /* APCMedTrackerPredefinedPossibleDosages.plist in Resources */,
 			);
@@ -3889,6 +3916,7 @@
 				80A98DCF1BFD49180060146F /* Base */,
 				80A98DDE1BFD56C00060146F /* fr */,
 				80A98DE21BFD56D70060146F /* de */,
+				80CBB1531C0F986700E50D06 /* nl */,
 			);
 			name = APCOnboarding.storyboard;
 			sourceTree = "<group>";
@@ -3899,6 +3927,7 @@
 				80A98DD51BFD496C0060146F /* Base */,
 				80A98DDF1BFD56C10060146F /* fr */,
 				80A98DE31BFD56D70060146F /* de */,
+				80CBB1511C0F985F00E50D06 /* nl */,
 			);
 			name = APCEmailVerify.storyboard;
 			sourceTree = "<group>";
@@ -3909,6 +3938,7 @@
 				80A98DD81BFD49EC0060146F /* Base */,
 				80A98DE01BFD56C10060146F /* fr */,
 				80A98DE41BFD56D70060146F /* de */,
+				80CBB1521C0F986300E50D06 /* nl */,
 			);
 			name = APCProfile.storyboard;
 			sourceTree = "<group>";
@@ -3919,8 +3949,48 @@
 				80A98DDB1BFD4A290060146F /* Base */,
 				80A98DE11BFD56C10060146F /* fr */,
 				80A98DE51BFD56D70060146F /* de */,
+				80CBB15E1C0F986900E50D06 /* nl */,
 			);
 			name = APCPasscode.storyboard;
+			sourceTree = "<group>";
+		};
+		80CBB1581C0F986800E50D06 /* APCAppCore.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1571C0F986800E50D06 /* nl */,
+				80CBB16A1C0F9AD500E50D06 /* fr */,
+				80CBB16E1C0F9B4B00E50D06 /* de */,
+			);
+			name = APCAppCore.strings;
+			sourceTree = "<group>";
+		};
+		80CBB15D1C0F986900E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB15C1C0F986900E50D06 /* nl */,
+				80CBB1641C0F9AD100E50D06 /* fr */,
+				80CBB16C1C0F9B4600E50D06 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CBB1631C0F986B00E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1621C0F986B00E50D06 /* nl */,
+				80CBB16B1C0F9AD600E50D06 /* fr */,
+				80CBB16F1C0F9B4D00E50D06 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CBB1691C0F9AD300E50D06 /* APCAppCore.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1681C0F9AD300E50D06 /* fr */,
+				80CBB16D1C0F9B4900E50D06 /* de */,
+			);
+			name = APCAppCore.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

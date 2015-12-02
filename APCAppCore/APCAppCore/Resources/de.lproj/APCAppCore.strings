@@ -1,0 +1,675 @@
+/* No comment provided by engineer. */
+"%0.0f %@" = "%1$.0f %2$@";
+
+/* Steps taken, to be filled in with the number of steps */
+"%@ Steps" = "%@ Schritte";
+
+/* (Kilo)calories consumed, to be filled in with the number of kilocalories */
+"%@ calories consumed" = "%@ Kalorien konsumiert";
+
+/* Grams of carbohydrate consumed, to be filled in with the number of grams */
+"%@ carbohydrates consumed" = "%@ Kohlenhydrate konsumiert";
+
+/* Hours slept, to be filled in with the number of hours */
+"%@ hours slept" = "%@ Stunden geschlafen";
+
+/* Minutes spent active, to be filled in with the number of minutes */
+"%@ minutes spent active" = "%@ Minuten aktiv gewesen";
+
+/* Format string for Activity Reminders view Tasks section footer describing when reminder will be sent, to be filled in with the reminder body text. */
+"%@ reminder will be sent 2 hours later." = "%@ Erinnerung wird zwei Stunden später versendet.";
+
+/* Grams of sugar consumed, to be filled in with the number of grams */
+"%@ sugar consumed" = "%@ Zucker konsumiert";
+
+/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
+"%@ will receive your study data from your participation in this study.\n\nSharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ erhält Ihre Studiendaten aus Ihrer Teilnahme an dieser Studie.\n\nEine breiter gefasste Überlassung (ohne Nennung von Daten wie etwa Ihrem Namen) könnte sich positiv auf diese und auf künftige Studien auswirken.";
+
+/* {count} {day/s} Remaining */
+"%lu %@ Remaining" = "%1$lu %2$@ verbleiben";
+
+/* No comment provided by engineer. */
+"7:00 AM" = "7:00 Uhr";
+
+/* No comment provided by engineer. */
+"9:30 PM" = "21:30 Uhr";
+
+/* Description of activity tracking */
+"APC_ACTVITY_TRACKING_DESCRIPTION" = "Der Kreis zeigt anhand der Sensordaten Ihres Smartphones bzw. Ihres Wearable-Geräts Schätzwerte für die Zeitanteile, die Sie mit Aktivitäten unterschiedlicher Art verbracht haben. Geschätzt werden auch Ihre angesammelten „aktiven Minuten“, die moderate und heftige Aktivitäten umfassen, sowie die am Tag zurückgelegten Schritte. Dies dient zu Informationszwecken. Die präzise Beurteilung der einzelnen Aktivitäten anhand der Sensordaten unterliegt ständiger Erforschung und Weiterentwicklung. Mithilfe Ihrer Daten können wir diese Schätzungen optimieren und die Zusammenhänge zwischen den Aktivitäten und dem Gesundheitszustand des Herzens besser erkennen.";
+
+/* Prompt to select color of medication label */
+"APC_MEDICATION_COLOR_PROMPT" = "Wählen Sie eine Kennzeichnungsfarbe für Ihre Medikamente";
+
+/* Title for view shown to select color of medication label */
+"APC_MEDICATION_COLOR_TITLE" = "Kennzeichnungsfarbe für Medikamente";
+
+/* Text of choice indicating medication is taken every day */
+"APC_MEDICATION_FREQUENCY_DAILY" = "täglich";
+
+/* Prompt for section where user chooses which days of the week they take a medication */
+"APC_MEDICATION_FREQUENCY_DAYS_PROMPT" = "An welchen Tagen nehmen Sie diese Medikamente ein?";
+
+/* Prompt for section where user chooses how many times per day they take a medication */
+"APC_MEDICATION_FREQUENCY_TIMES_PER_DAY_PROMPT" = "Wie oft am Tag nehmen Sie diese Medikamente ein?";
+
+/* Title for view shown to select how often medication is taken */
+"APC_MEDICATION_FREQUENCY_TITLE" = "Häufigkeit der Einnahme";
+
+/* Title for Cancel item in Pause/Resume Study action sheets */
+"APC_PROFILE_PAUSE_CANCEL_TITLE" = "Abbrechen";
+
+/* Title for action sheet item to pause sharing data with the study */
+"APC_PROFILE_PAUSE_ITEM_TITLE" = "Pause";
+
+/* Prompt for action sheet brought up by the Pause button */
+"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Möchten Sie die Teilnahme an der Studie wirklich unterbrechen?\nDaten, die Sie während der Pause erfassen, verbleiben auf Ihrem Smartphone und werden bei der Studie nicht berücksichtigt.";
+
+/* Title for action sheet brought up by the Pause button */
+"APC_PROFILE_PAUSE_SHEET_TITLE" = "Pause";
+
+/* Title for action sheet item to resume sharing data with the study */
+"APC_PROFILE_RESUME_ITEM_TITLE" = "Fortsetzen";
+
+/* Prompt for action sheet brought up by the Resume button */
+"APC_PROFILE_RESUME_SHEET_PROMPT" = "Dadurch werden die von Ihnen gesammelten Daten wieder an die Studie übermittelt.";
+
+/* Title for action sheet brought up by the Resume button */
+"APC_PROFILE_RESUME_SHEET_TITLE" = "Fortsetzen";
+
+/* No comment provided by engineer. */
+"Access to microphone is required for your Voice Recording Activity." = "Für die Sprachaufzeichnungsaktivität benötigen Sie ein Mikrofon.";
+
+/* Active Minutes */
+"Active Minutes" = "Aktive Minuten";
+
+/* Activities */
+"Activities" = "Aktivitäten";
+
+/* Activity Completion */
+"Activity Completion" = "Abschluss der Aktivität";
+
+/* No comment provided by engineer. */
+"Activity Reminders" = "Erinnerungen an Aktivität";
+
+/* No comment provided by engineer. */
+"Add Your Medication Details" = "Medikationsangaben eingeben";
+
+/* Additional Information */
+"Additional Information" = "Zusatzinformationen";
+
+/* No comment provided by engineer. */
+"Alert" = "Warnmeldung";
+
+/* Allow */
+"Allow" = "Gestatten";
+
+/* No comment provided by engineer. */
+"Allowing notifications enables the app to show you reminders." = "Wenn Sie Benachrichtigungen zulassen, kann die App Ihnen Erinnerungen anzeigen.";
+
+/* Error message when participant attempts to sign up for a new account using an email address already associated with an account in this study */
+"An account has already been created for this email address. Please use a different email address, or sign in using the \"already participating\" link at the bottom of the Welcome page." = "Für diese E-Mail-Adresse wurde bereits ein Account erstellt. Bitte verwenden Sie eine andere E-Mail-Adresse, oder melden Sie sich mit dem Link „Ich nehme bereits teil“ unten auf der Begrüßungsseite an.";
+
+/* No comment provided by engineer. */
+"An email has been sent." = "Es wurde eine E-Mail versendet.";
+
+/* No comment provided by engineer. */
+"An error occured while fetching news feed." = "Beim Abruf des Newsfeeds ist ein Fehler aufgetreten.";
+
+/* Error message indicating unexpected network problem */
+"An unexpected network condition has occurred. Please try again soon." = "Ein unerwartetes Netzwerkproblem ist aufgetreten. Bitte wiederholen Sie den Vorgang in Kürze.";
+
+/* No comment provided by engineer. */
+"An unknown error occurred" = "Ein unbekannter Fehler ist aufgetreten.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to completely withdraw from the study?\nYou will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Möchten Sie die Studie wirklich komplett abbrechen?\nSie werden von Ihrem Account abgemeldet. Es werden keine weiteren Daten erfasst. Wenn Sie sich zu einem späteren Zeitpunkt erneut registrieren möchten, werden Sie dazu aufgefordert, erneut nach entsprechender Aufklärung Ihre Einwilligung zu erteilen.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to sign out?" = "Möchten Sie sich wirklich abmelden?";
+
+/* No comment provided by engineer. */
+"Auto-Lock" = "Automatische Sperre";
+
+/* No comment provided by engineer. */
+"Average" = "Durchschnitt";
+
+/* No comment provided by engineer. */
+"Birthdate" = "Geburtsdatum";
+
+/* No comment provided by engineer. */
+"Blood Type" = "Blutgruppe";
+
+/* No comment provided by engineer. */
+"By agreeing you confirm that you read the consent and that you wish to take part in this research study." = "Mit Ihrer Zustimmung bestätigen Sie, dass Sie die Einwilligungserklärung gelesen haben und dass Sie an dieser Forschungsstudie teilnehmen möchten.";
+
+/* No comment provided by engineer. */
+"Cancel" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"Change Details" = "Detailangaben ändern";
+
+/* No comment provided by engineer. */
+"Change Email" = "E-Mail-Adresse ändern";
+
+/* No comment provided by engineer. */
+"Change Passcode" = "Zugangscode ändern";
+
+/* No comment provided by engineer. */
+"Choose from Library" = "Aus Bibliothek auswählen";
+
+/* Consent */
+"Consent" = "Einwilligung";
+
+/* No comment provided by engineer. */
+"Continue" = "Fortfahren";
+
+/* Text to show at top of Profile view above the study name when not 'paused' (when sharing data) */
+"Currently participating in" = "Derzeitige Teilnahme an";
+
+/* No comment provided by engineer. */
+"Dashboard" = "Übersicht";
+
+/* Day */
+"Day" = "Tag";
+
+/* Days */
+"Days" = "Tage";
+
+/* No comment provided by engineer. */
+"Delete" = "Löschen";
+
+/* Dismiss */
+"Dismiss" = "Verwerfen";
+
+/* Done */
+"Done" = "Fertig";
+
+/* No comment provided by engineer. */
+"Download Data" = "Daten herunterladen";
+
+/* No comment provided by engineer. */
+"EXAMPLE" = "BEISPIEL";
+
+/* Edit */
+"Edit" = "Bearbeiten";
+
+/* No comment provided by engineer. */
+"Eligibility" = "Berechtigung";
+
+/* No comment provided by engineer. */
+"Email" = "E-Mail";
+
+/* Email Consent Document */
+"Email Consent Document" = "Einwilligungserklärung per E-Mail versenden";
+
+/* No comment provided by engineer. */
+"Email Verification" = "Prüfung der E-Mail-Adresse";
+
+/* No comment provided by engineer. */
+"Email address cannot be left empty." = "E-Mail-Adresse muss eingegeben werden.";
+
+/* No comment provided by engineer. */
+"Enable Reminders" = "Erinnerungen aktivieren";
+
+/* No comment provided by engineer. */
+"Enter Passcode" = "Zugangscode eingeben";
+
+/* No comment provided by engineer. */
+"Enter the study and contribute your data" = "Nehmen Sie an der Studie teil und stellen Sie Ihre Daten bereit.";
+
+/* No comment provided by engineer. */
+"Enter your new passcode" = "Geben Sie Ihren neuen Zugangscode ein.";
+
+/* No comment provided by engineer. */
+"Enter your old passcode" = "Geben Sie Ihren alten Zugangscode ein.";
+
+/* Error message when participant attempts to sign up with a non-valid email address or password */
+"Entered email address or password is not valid. Please correct the email address or password and try again." = "Die eingegebene E-Mail-Adresse bzw. das eingegebene Passwort ist ungültig. Bitte korrigieren Sie die E-Mail-Adresse bzw. das Passwort und wiederholen Sie den Vorgang.";
+
+/* No comment provided by engineer. */
+"Female" = "weiblich";
+
+/* No comment provided by engineer. */
+"Fetch Error" = "Fehler beim Abruf";
+
+/* This is the title for the message that appears when the user asked for a 'reset password,' and that 'resetting' process failed. */
+"Forgot Password" = "Passwort vergessen";
+
+/* No comment provided by engineer. */
+"General Information" = "Allgemeine Informationen";
+
+/* Granted */
+"Granted" = "Gewährt";
+
+/* No comment provided by engineer. */
+"Health Kit" = "Health Kit";
+
+/* No comment provided by engineer. */
+"Height" = "Körpergröße";
+
+/* No comment provided by engineer. */
+"Help us Spread the Word" = "Empfehlen Sie uns weiter";
+
+/* No comment provided by engineer. */
+"Here is your activity and sleep assessment for the last 7 days" = "Hier die Beurteilung Ihrer Aktivitäten und Ihres Schlafs der letzten 7 Tage";
+
+/* No comment provided by engineer. */
+"I agree to participate in this research Study." = "Ich willige ein, an dieser Forschungsstudie teilzunehmen.";
+
+/* No comment provided by engineer. */
+"Identification" = "Identifizierung";
+
+/* No comment provided by engineer. */
+"Index of" = "Index von";
+
+/* No comment provided by engineer. */
+"Insight" = "Erkenntnisse";
+
+/* No comment provided by engineer. */
+"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you." = "E-Mail-Adresse oder Passwort ungültig.\n\nFalls Sie Ihren Account noch nicht verifiziert haben, holen Sie dies bitte nach, indem Sie auf den Link in der E-Mail klicken, die wir Ihnen gesendet haben.";
+
+/* No comment provided by engineer. */
+"Learn" = "Lernen";
+
+/* No comment provided by engineer. */
+"License Information" = "Lizenzinformationen";
+
+/* Light */
+"Light" = "Licht";
+
+/* No comment provided by engineer. */
+"Location Services" = "Standortdienste";
+
+/* No comment provided by engineer. */
+"Log Your Medications" = "Erfassen Sie Ihre Medikamente";
+
+/* No comment provided by engineer. */
+"Looks like you don't have Mail app setup. Please configure to share via email." = "Offenbar haben Sie die App „Mail“ nicht eingerichtet. Bitte konfigurieren Sie diese, um Nachrichten per E-Mail senden und empfangen zu können.";
+
+/* No comment provided by engineer. */
+"Looks like you don't have Messages app setup. Please configure to share via SMS." = "Offenbar haben Sie die App „Nachrichten“ nicht eingerichtet. Bitte konfigurieren Sie diese, um Nachrichten per SMS senden und empfangen zu können.";
+
+/* No comment provided by engineer. */
+"Male" = "männlich";
+
+/* No comment provided by engineer. */
+"Max" = "max.";
+
+/* No comment provided by engineer. */
+"Medical Conditions" = "Erkrankungen";
+
+/* No comment provided by engineer. */
+"Medications" = "Medikamente";
+
+/* No comment provided by engineer. */
+"Messages" = "Nachrichten";
+
+/* No comment provided by engineer. */
+"Microphone" = "Mikrofon";
+
+/* No comment provided by engineer. */
+"Min" = "min.";
+
+/* Moderate */
+"Moderate" = "Moderat";
+
+/* No comment provided by engineer. */
+"Motion Activity" = "Aktivitätsdaten";
+
+/* No comment provided by engineer. */
+"Name cannot be left empty." = "Der Name muss eingegeben werden.";
+
+/* No comment provided by engineer. */
+"News Feed" = "Newsfeed";
+
+/* No comment provided by engineer. */
+"Next" = "Weiter";
+
+/* No Data */
+"No Data" = "Keine Daten";
+
+/* No Internet */
+"No network connection. Please connect to the internet and try again." = "Keine Netzwerkverbindung. Bitte stellen Sie eine Verbindung zum Internet her und wiederholen Sie den Vorgang.";
+
+/* Not enough data */
+"Not enough data" = "Nicht genügend Daten";
+
+/* No comment provided by engineer. */
+"Notifications" = "Benachrichtigungen";
+
+/* OK action */
+"OK" = "OK";
+
+/* Okay */
+"Okay" = "OK";
+
+/* Format string for Profile tab option to share data narrowly, to be filled in with the long name of the institution sponsoring the study */
+"Only share my data with %@" = "Meine Daten nur weitergeben an %@";
+
+/* No comment provided by engineer. */
+"Oops! Something went wrong. We are really sorry for the inconvenience. Since we are not taking any risk on your data, you may need to restart the app." = "Hoppla! Ein Fehler ist aufgetreten. Das tut uns wirklich leid. Da wir im Hinblick auf Ihre Daten keine Risiken eingehen, müssen Sie die App ggf. neu starten.";
+
+/* Spinner Option */
+"Other" = "Sonstige(s)";
+
+/* No comment provided by engineer. */
+"Participant" = "Teilnehmer";
+
+/* No comment provided by engineer. */
+"Password" = "Passwort";
+
+/* Description of password requirements, to be filled in with the minimum password length */
+"Password should be at least %d characters" = "Das Passwort muss aus mindestens %d Zeichen bestehen.";
+
+/* Title for Pause Study button in Profile view */
+"Pause Study" = "Studie unterbrechen";
+
+/* No comment provided by engineer. */
+"Permissions" = "Berechtigungen";
+
+/* No comment provided by engineer. */
+"Permissions Denied" = "Berechtigungen verweigert";
+
+/* No comment provided by engineer. */
+"Please Confirm Removal" = "Bitte bestätigen Sie die Entfernung.";
+
+/* No comment provided by engineer. */
+"Please authenticate with Touch ID" = "Bitte authentifizieren Sie sich per Touch ID.";
+
+/* Text for daily reminder to complete activities, to be filled in with the name of the study, the name of the study again, and the concatenation of the bodies of the individual reminders of activities yet to complete. */
+"Please complete your %@ activities today. Thank you for participating in the %@ study! %@" = "Bitte absolvieren Sie heute Ihre %1$@ Aktivitäten. Vielen Dank für Ihre Teilnahme an der %2$@-Studie! %3$@";
+
+/* No comment provided by engineer. */
+"Please enter a Password." = "Bitte geben Sie ein Passwort ein.";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address" = "Bitte geben Sie eine gültige E-Mail-Adresse ein.";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address." = "Bitte geben Sie eine gültige E-Mail-Adresse ein.";
+
+/* No comment provided by engineer. */
+"Please enter again." = "Bitte wiederholen Sie die Eingabe.";
+
+/* No comment provided by engineer. */
+"Please enter your email" = "Bitte geben Sie Ihre E-Mail-Adresse ein.";
+
+/* No comment provided by engineer. */
+"Please enter your email address." = "Bitte geben Sie Ihre E-Mail-Adresse ein.";
+
+/* No comment provided by engineer. */
+"Please enter your password" = "Bitte geben Sie Ihr Passwort ein.";
+
+/* No comment provided by engineer. */
+"Please go to Settings -> Privacy -> Health -> %@ to re-enable." = "Bitte gehen Sie zu „Einstellungen -> Datenschutz -> Health -> %@“, um die Funktion erneut zu aktivieren.";
+
+/* No comment provided by engineer. */
+"Press “Allow” to individually specify which general health information the app may read from and write to HealthKit" = "Drücken Sie „Gestatten“, um einzeln anzugeben, welche allgemeinen Gesundheitsinformationen die App aus HealthKit lesen und in HealthKit speichern darf.";
+
+/* No comment provided by engineer. */
+"Privacy Policy" = "Datenschutzrichtlinie";
+
+/* No comment provided by engineer. */
+"Profile" = "Profil";
+
+/* No comment provided by engineer. */
+"Re-enter your new passcode" = "Bitte geben Sie Ihren neuen Zugangscode erneut ein.";
+
+/* No comment provided by engineer. */
+"Re-enter your passcode" = "Bitte geben Sie Ihren Zugangscode erneut ein.";
+
+/* Read Consent Document */
+"Read Consent Document" = "Einwilligungserklärung lesen";
+
+/* No comment provided by engineer. */
+"Rejoin" = "Wieder teilnehmen";
+
+/* \"Snooze\" prompt for reminder notification */
+"Remind me in 1 hour" = "Erinnerung in 1 Stunde";
+
+/* No comment provided by engineer. */
+"Resetting your 7 Day Assessment will clear all recorded data from the week." = "Durch das Zurücksetzen Ihrer 7-Tage-Beurteilung werden alle aufgezeichneten Daten der Woche gelöscht.";
+
+/* Title for Resume button in Profile view */
+"Resume Study" = "Studie fortsetzen";
+
+/* No comment provided by engineer. */
+"Review Consent" = "Einwilligungserklärung lesen";
+
+/* No comment provided by engineer. */
+"Sage Bionetworks, a non-profit biomedical research institute, is helping to collect data for this study and distribute it to the study investigators and other researchers. Please provide a unique email address and password to create a secure account." = "Sage Bionetworks, ein gemeinnütziges biomedizinisches Forschungsinstitut, leistet Unterstützung bei der Erhebung von Daten für diese Studie und bei der Weiterleitung der Daten an die an der Studie beteiligten Wissenschaftler sowie an andere Wissenschaftler. Bitte geben Sie eine eindeutige E-Mail-Adresse und ein Passwort ein, um einen gesicherten Account zu erstellen.";
+
+/* Sedentary */
+"Sedentary" = "Sitzend";
+
+/* No comment provided by engineer. */
+"Select Series 1" = "Serie 1 auswählen";
+
+/* No comment provided by engineer. */
+"Select Series 2" = "Serie 2 auswählen";
+
+/* No comment provided by engineer. */
+"Select Your Medication's Single Dose Amount" = "Wählen Sie die Menge einer Einzeldosis Ihres Medikaments";
+
+/* No comment provided by engineer. */
+"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application." = "Wählen Sie einen aus vier Ziffern bestehenden Zugangscode. Die Einrichtung eines Zugangscodes ermöglicht einen schnellen, sicheren Zugriff auf diese App.";
+
+/* No comment provided by engineer. */
+"Select the Medication You Are Currently Taking" = "Wählen Sie das Medikament aus, dass Sie zurzeit einnehmen.";
+
+/* No comment provided by engineer. */
+"Send Again" = "Erneut senden";
+
+/* No comment provided by engineer. */
+"Settings" = "Einstellungen";
+
+/* No comment provided by engineer. */
+"Sex" = "Geschlecht";
+
+/* Format string for Profile tab option to share data broadly, to be filled in with the short name of the institution sponsoring the study */
+"Share my data with %@ and qualified researchers worldwide" = "Meine Daten mit %@ und qualifizierten Wissenschaftlern aus aller Welt teilen";
+
+/* No comment provided by engineer. */
+"Share on Facebook" = "Auf Facebook teilen";
+
+/* No comment provided by engineer. */
+"Share on Twitter" = "Auf Twitter teilen";
+
+/* No comment provided by engineer. */
+"Share this Study" = "Diese Studie teilen";
+
+/* No comment provided by engineer. */
+"Share via Email" = "Per E-Mail teilen";
+
+/* No comment provided by engineer. */
+"Share via SMS" = "Per SMS teilen";
+
+/* Sharing Options */
+"Sharing Options" = "Optionen für das Teilen";
+
+/* No comment provided by engineer. */
+"Sign In" = "Anmelden";
+
+/* No comment provided by engineer. */
+"Sign Out" = "Abmelden";
+
+/* No comment provided by engineer. */
+"Sign Up" = "Registrieren";
+
+/* Sleep */
+"Sleep" = "Schlaf";
+
+/* No comment provided by engineer. */
+"Somethings Wrong!" = "Ein Fehler ist aufgetreten!";
+
+/* No comment provided by engineer. */
+"Spread the Word" = "Empfehlen Sie uns weiter";
+
+/* No comment provided by engineer. */
+"Step %i" = "Schritt %i";
+
+/* Success */
+"Success" = "Erfolg";
+
+/* No comment provided by engineer. */
+"Take Photo" = "Foto aufnehmen";
+
+/* No comment provided by engineer. */
+"Tap on Items Above to Log Intake" = "Tippen Sie auf die oben aufgeführten Einträge, um die Einnahme zu protokollieren.";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Location and check 'Always'" = "Tippen Sie auf „Einstellungen -> Standort“ und aktivieren Sie die Option „Immer“.";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Notifications and enable 'Allow Notifications'" = "Tippen Sie auf „Einstellungen -> Mitteilungen“ und aktivieren Sie die Option „Mitteilungen erlauben“.";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Camera" = "Tippen Sie auf „Einstellungen“ und aktivieren Sie die Option „Kamera“.";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Microphone" = "Tippen Sie auf „Einstellungen“ und aktivieren Sie die Option „Mikrofon“.";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Motion Activity." = "Tippen Sie auf „Einstellungen“ und aktivieren Sie die Option „Aktivitätsdaten“.";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Photos" = "Tippen Sie auf „Einstellungen“ und aktivieren Sie die Option „Fotos“.";
+
+/* No comment provided by engineer. */
+"Tap the “+” Sign to Create Prescriptions" = "Tippen Sie auf das Pluszeichen, um Rezepte zu erstellen.";
+
+/* No comment provided by engineer. */
+"Tasks" = "Aufgaben";
+
+/* Error message when server is too busy to respond */
+"Thank you for your interest in this study. We are working hard to process the large volume of interest, and should be back up momentarily. Please try again soon." = "Vielen Dank für Ihr Interesse an dieser Studie. Wir bemühen uns nach Kräften, das hohe Aufkommen von Interessenten zu bearbeiten, und werden in Kürze wieder einsatzbereit sein. Bitte wiederholen Sie den Vorgang in Kürze.";
+
+/* Error message when participant attempts to sign up using a non-valid email address */
+"The email address submitted is not a valid email address. Please correct the email address and try again." = "Die angegebene E-Mail-Adresse ist ungültig. Bitte korrigieren Sie die E-Mail-Adresse und wiederholen Sie den Vorgang.";
+
+/* No comment provided by engineer. */
+"The passcode you entered did not match your new passcode. Please enter again." = "Der eingegebene Zugangscode entspricht nicht Ihrem neuen Zugangscode. Bitte wiederholen Sie die Eingabe.";
+
+/* Error message when participant attempts to sign up with a non-valid password */
+"The password you have entered is not a valid password.  Please try again." = "Das eingegebene Passwort ist ungültig.  Bitte wiederholen Sie den Vorgang.";
+
+/* Error message when server is undergoing maintenance and temporarily unavailable */
+"The study server is currently undergoing maintanence. Please try again soon." = "Der Studienserver wird derzeit gewartet. Bitte wiederholen Sie den Vorgang in Kürze.";
+
+/* Error message when participant attempts to sign in to an existing account with an incorrect email address or password */
+"There is no account registered for this email address and password combination." = "Für diese E-Mail-Adresse und dieses Passwort ist kein Account registriert.";
+
+/* No comment provided by engineer. */
+"There's nothing here yet." = "Hier ist noch nichts.";
+
+/* No comment provided by engineer. */
+"This Action Cannot Be Undone" = "Diese Maßnahme kann nicht rückgängig gemacht werden.";
+
+/* No comment provided by engineer. */
+"Time" = "Zeit";
+
+/* No comment provided by engineer. */
+"To see your results from surveys and tasks, check your “Dashboard” tab." = "Ihre Ergebnisse aus Umfragen und Aufgaben finden Sie auf dem Tab „Übersicht“.";
+
+/* Today */
+"Today" = "Heute";
+
+/* No comment provided by engineer. */
+"Touch ID or Enter Passcode" = "Touch ID oder Zugangscode eingeben";
+
+/* No comment provided by engineer. */
+"Update Twitter Client" = "Twitter-Client aktualisieren";
+
+/* No comment provided by engineer. */
+"User Consent Error" = "Fehler bei der Einwilligung des Benutzers";
+
+/* No comment provided by engineer. */
+"User Sign In Error" = "Fehler bei der Anmeldung des Benutzers";
+
+/* No comment provided by engineer. */
+"Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease." = "Mithilfe des Motion Coprozessors des iPhone kann die App Ihre Aktivitäten ermitteln, sodass in der Studie besser ausgewertet werden kann, wie sich die Intensität der Aktivitäten möglicherweise auf die Erkrankung auswirkt.";
+
+/* No comment provided by engineer. */
+"Using your GPS enables the app to accurately determine distances travelled. Your actual location will never be shared." = "Mithilfe der GPS-Funktion kann die App präzise die zurückgelegten Strecken ermitteln. Ihr tatsächlicher Standort wird niemals weitergegeben.";
+
+/* View PDF */
+"View PDF" = "PDF-Datei anzeigen";
+
+/* View Slides */
+"View Slides" = "Folien anzeigen";
+
+/* Vigorous */
+"Vigorous" = "heftig";
+
+/* Watch Video */
+"Watch Video" = "Video ansehen";
+
+/* Error message when the app is unable to reach the Bridge server */
+"We are currently not able to reach the study server. Please retry in a few moments." = "Wir können den Studienserver derzeit nicht erreichen. Bitte versuchen Sie es demnächst erneut.";
+
+/* No comment provided by engineer. */
+"Weight" = "Gewicht";
+
+/* No comment provided by engineer. */
+"What time do you generally go to sleep?" = "Zu welcher Uhrzeit gehen Sie normalerweise schlafen?";
+
+/* No comment provided by engineer. */
+"What time do you generally wake up?" = "Zu welcher Uhrzeit wachen Sie normalerweise auf?";
+
+/* What to Expect */
+"What to Expect" = "Das erwartet Sie";
+
+/* No comment provided by engineer. */
+"Withdraw" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"Wrong Passcode" = "Falscher Zugangscode";
+
+/* No comment provided by engineer. */
+"Yesterday" = "gestern";
+
+/* Error message when no network connection found */
+"You are currently not connected to the Internet. Please try again when you are connected to a network." = "Sie sind derzeit nicht mit dem Internet verbunden. Bitte wiederholen Sie den Vorgang, wenn Sie eine Netzwerkverbindung haben.";
+
+/* No comment provided by engineer. */
+"You have previously withdrawn from this Study. Do you wish to rejoin?" = "Sie haben diese Studie bereits zuvor abgebrochen. Möchten Sie wieder daran teilnehmen?";
+
+/* No comment provided by engineer. */
+"Your Twitter client does not support sharing from other apps. Please update your Twitter client." = "Ihr Twitter-Client unterstützt das Teilen aus anderen Apps nicht. Bitte aktualisieren Sie Ihren Twitter-Client.";
+
+/* Text to show at top of Profile view when 'paused' (not sharing data) */
+"Your data is not currently being used for this study." = "Ihre Daten werden für diese Studie derzeit nicht genutzt.";
+
+/* Your data will be emailed to you shortly */
+"Your data will be emailed to you shortly" = "Ihre Daten werden Ihnen in Kürze per E-Mail zugesendet.";
+
+/* No comment provided by engineer. */
+"Your passcodes are not identical. Please enter it again." = "Ihre Zugangscodes stimmen nicht überein. Bitte wiederholen Sie die Eingabe.";
+
+/* No comment provided by engineer. */
+"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks." = "Die Liste mit Ihren täglichen Umfragen und Aufgaben finden Sie auf dem Tab „Aktivitäten“. Neue Umfragen und Aufgaben werden im Laufe der nächsten Wochen angezeigt werden.";
+
+/* No comment provided by engineer. */
+"add birthdate" = "Geburtsdatum hinzufügen";
+
+/* No comment provided by engineer. */
+"add password" = "Passwort hinzufügen";
+
+/* No comment provided by engineer. */
+"add weight (lb)" = "Gewicht hinzufügen (kg)";
+
+/* No comment provided by engineer. */
+"custom question" = "angepasste Frage";
+
+/* No comment provided by engineer. */
+"invalid speed" = "ungültige Geschwindigkeit";
+
+/* No comment provided by engineer. */
+"minutes" = "Minuten";
+
+/* No comment provided by engineer. */
+"not available" = "nicht verfügbar";
+
+/* No comment provided by engineer. */
+"vs" = "im Vgl. zu";
+

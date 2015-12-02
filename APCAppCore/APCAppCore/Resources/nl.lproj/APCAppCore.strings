@@ -1,0 +1,675 @@
+/* No comment provided by engineer. */
+"%0.0f %@" = "%1$.0f %2$@";
+
+/* Steps taken, to be filled in with the number of steps */
+"%@ Steps" = "%@ stappen";
+
+/* (Kilo)calories consumed, to be filled in with the number of kilocalories */
+"%@ calories consumed" = "%@ calorieën verbruikt";
+
+/* Grams of carbohydrate consumed, to be filled in with the number of grams */
+"%@ carbohydrates consumed" = "%@ koolhydraten verbruikt";
+
+/* Hours slept, to be filled in with the number of hours */
+"%@ hours slept" = "%@ uur geslapen";
+
+/* Minutes spent active, to be filled in with the number of minutes */
+"%@ minutes spent active" = "%@ minuten actief geweest";
+
+/* Format string for Activity Reminders view Tasks section footer describing when reminder will be sent, to be filled in with the reminder body text. */
+"%@ reminder will be sent 2 hours later." = "%@-herinnering wordt na 2 uur verstuurd.";
+
+/* Grams of sugar consumed, to be filled in with the number of grams */
+"%@ sugar consumed" = "%@ suiker verbruikt";
+
+/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
+"%@ will receive your study data from your participation in this study.\n\nSharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ ontvangt de gegevens van uw deelname aan dit onderzoek.\n\nWanneer uw onderzoeksgegevens (zonder persoonlijke gegevens, zoals uw naam) gecodeerd worden gedeeld met anderen, kan dat zowel dit onderzoek als toekomstig onderzoek ten goede komen.";
+
+/* {count} {day/s} Remaining */
+"%lu %@ Remaining" = "%1$lu %2$@ resterend";
+
+/* No comment provided by engineer. */
+"7:00 AM" = "07.00 uur";
+
+/* No comment provided by engineer. */
+"9:30 PM" = "21:30";
+
+/* Description of activity tracking */
+"APC_ACTVITY_TRACKING_DESCRIPTION" = "De cirkel geeft een indicatie van hoe u uw tijd hebt verdeeld over verschillende activiteitsniveaus. Dit is gebaseerd op de sensorgegevens van uw telefoon of draagbare meetapparaat. Daarnaast kunt u er uw totale aantal \"actieve minuten\" in aflezen, dat is opgebouwd uit gemiddelde en zware inspanning en de stappen die u per dag zet. Deze gegevens zijn ter informatie, aangezien het nog niet mogelijk is om alle soorten activiteiten die door de sensoren worden gemeten nauwkeurig te bepalen. Met uw gegevens kunnen we deze indicaties verfijnen en meer inzicht krijgen in de relatie tussen activiteit en een gezond hart.";
+
+/* Prompt to select color of medication label */
+"APC_MEDICATION_COLOR_PROMPT" = "Selecteer een etiketkleur voor uw medicijn";
+
+/* Title for view shown to select color of medication label */
+"APC_MEDICATION_COLOR_TITLE" = "Etiketkleur medicijn";
+
+/* Text of choice indicating medication is taken every day */
+"APC_MEDICATION_FREQUENCY_DAILY" = "Dagelijks";
+
+/* Prompt for section where user chooses which days of the week they take a medication */
+"APC_MEDICATION_FREQUENCY_DAYS_PROMPT" = "Op welke dagen neemt u dit medicijn in?";
+
+/* Prompt for section where user chooses how many times per day they take a medication */
+"APC_MEDICATION_FREQUENCY_TIMES_PER_DAY_PROMPT" = "Hoe vaak per dag neemt u dit medicijn in?";
+
+/* Title for view shown to select how often medication is taken */
+"APC_MEDICATION_FREQUENCY_TITLE" = "Frequentie medicijngebruik";
+
+/* Title for Cancel item in Pause/Resume Study action sheets */
+"APC_PROFILE_PAUSE_CANCEL_TITLE" = "Annuleer";
+
+/* Title for action sheet item to pause sharing data with the study */
+"APC_PROFILE_PAUSE_ITEM_TITLE" = "Pauzeer";
+
+/* Prompt for action sheet brought up by the Pause button */
+"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Weet u zeker dat u uw deelname aan het onderzoek wilt pauzeren?\nDe gegevens die u verzamelt terwijl uw deelname is gepauzeerd, worden alleen op uw telefoon bewaard en worden niet in het onderzoek opgenomen.";
+
+/* Title for action sheet brought up by the Pause button */
+"APC_PROFILE_PAUSE_SHEET_TITLE" = "Pauzeer";
+
+/* Title for action sheet item to resume sharing data with the study */
+"APC_PROFILE_RESUME_ITEM_TITLE" = "Hervat";
+
+/* Prompt for action sheet brought up by the Resume button */
+"APC_PROFILE_RESUME_SHEET_PROMPT" = "Hiermee worden de door u verzamelde gegevens weer naar de onderzoeksinstelling gestuurd.";
+
+/* Title for action sheet brought up by the Resume button */
+"APC_PROFILE_RESUME_SHEET_TITLE" = "Hervat";
+
+/* No comment provided by engineer. */
+"Access to microphone is required for your Voice Recording Activity." = "U hebt een microfoon nodig voor de stemactiviteit.";
+
+/* Active Minutes */
+"Active Minutes" = "Actieve minuten";
+
+/* Activities */
+"Activities" = "Activiteiten";
+
+/* Activity Completion */
+"Activity Completion" = "Voltooiing van activiteit";
+
+/* No comment provided by engineer. */
+"Activity Reminders" = "Herinneringen activiteit";
+
+/* No comment provided by engineer. */
+"Add Your Medication Details" = "Voeg informatie over uw medicijnen toe";
+
+/* Additional Information */
+"Additional Information" = "Aanvullende informatie";
+
+/* No comment provided by engineer. */
+"Alert" = "Waarschuwing";
+
+/* Allow */
+"Allow" = "Sta toe";
+
+/* No comment provided by engineer. */
+"Allowing notifications enables the app to show you reminders." = "Als u meldingen toestaat, kunnen er herinneringen worden weergegeven door de app.";
+
+/* Error message when participant attempts to sign up for a new account using an email address already associated with an account in this study */
+"An account has already been created for this email address. Please use a different email address, or sign in using the \"already participating\" link at the bottom of the Welcome page." = "Er is al een account aangemaakt voor dit e-mailadres. Gebruik een ander e-mailadres of log in via de koppeling 'Neemt u al deel?' onder aan de welkomstpagina.";
+
+/* No comment provided by engineer. */
+"An email has been sent." = "Er is een e-mail verstuurd.";
+
+/* No comment provided by engineer. */
+"An error occured while fetching news feed." = "Er is een fout opgetreden bij het ophalen van de nieuwsfeed.";
+
+/* Error message indicating unexpected network problem */
+"An unexpected network condition has occurred. Please try again soon." = "Er is een onverwachte netwerkfout opgetreden. Probeer het straks opnieuw.";
+
+/* No comment provided by engineer. */
+"An unknown error occurred" = "Er is een onbekende fout opgetreden";
+
+/* No comment provided by engineer. */
+"Are you sure you want to completely withdraw from the study?\nYou will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Weet u zeker dat u zich wilt terugtrekken uit het onderzoek?\nU wordt uitgelogd bij uw account en er worden geen verdere gegevens verzameld. Als u later toch weer wilt deelnemen, wordt u opnieuw om toestemming gevraagd.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to sign out?" = "Weet u zeker dat u zich wilt afmelden?";
+
+/* No comment provided by engineer. */
+"Auto-Lock" = "Automatische vergrendeling";
+
+/* No comment provided by engineer. */
+"Average" = "Gemiddelde";
+
+/* No comment provided by engineer. */
+"Birthdate" = "Geboortedatum";
+
+/* No comment provided by engineer. */
+"Blood Type" = "Bloedgroep";
+
+/* No comment provided by engineer. */
+"By agreeing you confirm that you read the consent and that you wish to take part in this research study." = "Als u akkoord gaat, bevestigt u dat u het toestemmingsformulier hebt gelezen en dat u wilt deelnemen aan dit onderzoek.";
+
+/* No comment provided by engineer. */
+"Cancel" = "Annuleer";
+
+/* No comment provided by engineer. */
+"Change Details" = "Wijzig gegevens";
+
+/* No comment provided by engineer. */
+"Change Email" = "Wijzig e-mailadres";
+
+/* No comment provided by engineer. */
+"Change Passcode" = "Wijzig wachtwoordcode";
+
+/* No comment provided by engineer. */
+"Choose from Library" = "Kies uit bibliotheek";
+
+/* Consent */
+"Consent" = "Toestemming";
+
+/* No comment provided by engineer. */
+"Continue" = "Ga door";
+
+/* Text to show at top of Profile view above the study name when not 'paused' (when sharing data) */
+"Currently participating in" = "Huidige deelname";
+
+/* No comment provided by engineer. */
+"Dashboard" = "Dashboard";
+
+/* Day */
+"Day" = "Dag";
+
+/* Days */
+"Days" = "Dagen";
+
+/* No comment provided by engineer. */
+"Delete" = "Verwijder";
+
+/* Dismiss */
+"Dismiss" = "Sluit";
+
+/* Done */
+"Done" = "Klaar";
+
+/* No comment provided by engineer. */
+"Download Data" = "Download gegevens";
+
+/* No comment provided by engineer. */
+"EXAMPLE" = "VOORBEELD";
+
+/* Edit */
+"Edit" = "Wijzig";
+
+/* No comment provided by engineer. */
+"Eligibility" = "Geschiktheid voor deelname";
+
+/* No comment provided by engineer. */
+"Email" = "E-mail";
+
+/* Email Consent Document */
+"Email Consent Document" = "Verstuur toestemmingsdocument per e-mail";
+
+/* No comment provided by engineer. */
+"Email Verification" = "Verificatie e-mailadres";
+
+/* No comment provided by engineer. */
+"Email address cannot be left empty." = "U moet een e-mailadres opgeven.";
+
+/* No comment provided by engineer. */
+"Enable Reminders" = "Schakel herinneringen in";
+
+/* No comment provided by engineer. */
+"Enter Passcode" = "Voer wachtwoordcode in";
+
+/* No comment provided by engineer. */
+"Enter the study and contribute your data" = "Doe mee aan het onderzoek en geef ons toegang tot uw gegevens";
+
+/* No comment provided by engineer. */
+"Enter your new passcode" = "Voer uw nieuwe wachtwoordcode in";
+
+/* No comment provided by engineer. */
+"Enter your old passcode" = "Voer uw oude wachtwoordcode in";
+
+/* Error message when participant attempts to sign up with a non-valid email address or password */
+"Entered email address or password is not valid. Please correct the email address or password and try again." = "Het opgegeven e-mailadres of wachtwoord is ongeldig. Voer het juiste e-mailadres of wachtwoord in en probeer het opnieuw.";
+
+/* No comment provided by engineer. */
+"Female" = "Vrouw";
+
+/* No comment provided by engineer. */
+"Fetch Error" = "Fout bij ophalen";
+
+/* This is the title for the message that appears when the user asked for a 'reset password,' and that 'resetting' process failed. */
+"Forgot Password" = "Wachtwoord vergeten";
+
+/* No comment provided by engineer. */
+"General Information" = "Algemene informatie";
+
+/* Granted */
+"Granted" = "Toestemming gegeven";
+
+/* No comment provided by engineer. */
+"Health Kit" = "HealthKit";
+
+/* No comment provided by engineer. */
+"Height" = "Lengte";
+
+/* No comment provided by engineer. */
+"Help us Spread the Word" = "Help ons om meer bekendheid te krijgen";
+
+/* No comment provided by engineer. */
+"Here is your activity and sleep assessment for the last 7 days" = "Dit is uw activiteiten- en slaappatroon voor de afgelopen zeven dagen";
+
+/* No comment provided by engineer. */
+"I agree to participate in this research Study." = "Ik bevestig dat ik wil deelnemen aan dit onderzoek.";
+
+/* No comment provided by engineer. */
+"Identification" = "Identificatie";
+
+/* No comment provided by engineer. */
+"Index of" = "Index van";
+
+/* No comment provided by engineer. */
+"Insight" = "Inzicht";
+
+/* No comment provided by engineer. */
+"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you." = "Ongeldig e-mailadres of wachtwoord.\n\nAls u uw account nog niet hebt bevestigd, kunt u dit nu doen door op de koppeling te klikken in de e-mail die we u hebben gestuurd.";
+
+/* No comment provided by engineer. */
+"Learn" = "Informatie";
+
+/* No comment provided by engineer. */
+"License Information" = "Licentiegegevens";
+
+/* Light */
+"Light" = "Licht";
+
+/* No comment provided by engineer. */
+"Location Services" = "Locatievoorzieningen";
+
+/* No comment provided by engineer. */
+"Log Your Medications" = "Registreer uw medicijnen";
+
+/* No comment provided by engineer. */
+"Looks like you don't have Mail app setup. Please configure to share via email." = "Het lijkt erop dat de app Mail nog niet is geconfigureerd. Configureer de app om gegevens te delen via e-mail.";
+
+/* No comment provided by engineer. */
+"Looks like you don't have Messages app setup. Please configure to share via SMS." = "Het lijkt erop dat de app Berichten nog niet is geconfigureerd. Configureer de app om gegevens te delen via sms.";
+
+/* No comment provided by engineer. */
+"Male" = "Man";
+
+/* No comment provided by engineer. */
+"Max" = "Max.";
+
+/* No comment provided by engineer. */
+"Medical Conditions" = "Medische aandoeningen";
+
+/* No comment provided by engineer. */
+"Medications" = "Medicijnen";
+
+/* No comment provided by engineer. */
+"Messages" = "Berichten";
+
+/* No comment provided by engineer. */
+"Microphone" = "Microfoon";
+
+/* No comment provided by engineer. */
+"Min" = "Min.";
+
+/* Moderate */
+"Moderate" = "Gemiddeld";
+
+/* No comment provided by engineer. */
+"Motion Activity" = "Bewegingsactiviteit";
+
+/* No comment provided by engineer. */
+"Name cannot be left empty." = "U moet een naam opgeven.";
+
+/* No comment provided by engineer. */
+"News Feed" = "Nieuwsfeed";
+
+/* No comment provided by engineer. */
+"Next" = "Volgende";
+
+/* No Data */
+"No Data" = "Geen gegevens";
+
+/* No Internet */
+"No network connection. Please connect to the internet and try again." = "Geen netwerkverbinding. Maak verbinding met het internet en probeer het opnieuw.";
+
+/* Not enough data */
+"Not enough data" = "Onvoldoende gegevens";
+
+/* No comment provided by engineer. */
+"Notifications" = "Meldingen";
+
+/* OK action */
+"OK" = "OK";
+
+/* Okay */
+"Okay" = "Oké";
+
+/* Format string for Profile tab option to share data narrowly, to be filled in with the long name of the institution sponsoring the study */
+"Only share my data with %@" = "Deel mijn gegevens alleen met %@";
+
+/* No comment provided by engineer. */
+"Oops! Something went wrong. We are really sorry for the inconvenience. Since we are not taking any risk on your data, you may need to restart the app." = "Helaas. Er is iets misgegaan. Onze excuses voor het ongemak. Aangezien we geen risico willen nemen met uw gegevens, moet u de app mogelijk opnieuw starten.";
+
+/* Spinner Option */
+"Other" = "Anders";
+
+/* No comment provided by engineer. */
+"Participant" = "Deelnemer";
+
+/* No comment provided by engineer. */
+"Password" = "Wachtwoord";
+
+/* Description of password requirements, to be filled in with the minimum password length */
+"Password should be at least %d characters" = "Het wachtwoord moet minimaal %d lang zijn";
+
+/* Title for Pause Study button in Profile view */
+"Pause Study" = "Pauzeer deelname";
+
+/* No comment provided by engineer. */
+"Permissions" = "Toestemmingen";
+
+/* No comment provided by engineer. */
+"Permissions Denied" = "Toestemmingen geweigerd";
+
+/* No comment provided by engineer. */
+"Please Confirm Removal" = "Bevestig de verwijdering";
+
+/* No comment provided by engineer. */
+"Please authenticate with Touch ID" = "Voer een identiteitscontrole uit met Touch ID";
+
+/* Text for daily reminder to complete activities, to be filled in with the name of the study, the name of the study again, and the concatenation of the bodies of the individual reminders of activities yet to complete. */
+"Please complete your %@ activities today. Thank you for participating in the %@ study! %@" = "Voltooi uw activiteiten voor %1$@ vandaag. Hartelijk dank voor uw deelname aan het onderzoek %2$@! %3$@";
+
+/* No comment provided by engineer. */
+"Please enter a Password." = "Voer een wachtwoord in.";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address" = "Voer een geldig e-mailadres in";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address." = "Voer een geldig e-mailadres in.";
+
+/* No comment provided by engineer. */
+"Please enter again." = "Voer nogmaals in.";
+
+/* No comment provided by engineer. */
+"Please enter your email" = "Voer uw e-mailadres in";
+
+/* No comment provided by engineer. */
+"Please enter your email address." = "Voer uw e-mailadres in.";
+
+/* No comment provided by engineer. */
+"Please enter your password" = "Voer uw wachtwoord in";
+
+/* No comment provided by engineer. */
+"Please go to Settings -> Privacy -> Health -> %@ to re-enable." = "Ga naar 'Instellingen' > 'Privacy' > 'Gezondheid' > '%@' om dit opnieuw in te schakelen.";
+
+/* No comment provided by engineer. */
+"Press “Allow” to individually specify which general health information the app may read from and write to HealthKit" = "Tik op 'Sta toe' om op te geven welke algemene gezondheidsgegevens de app mag lezen uit en schrijven naar HealthKit.";
+
+/* No comment provided by engineer. */
+"Privacy Policy" = "Privacybeleid";
+
+/* No comment provided by engineer. */
+"Profile" = "Profiel";
+
+/* No comment provided by engineer. */
+"Re-enter your new passcode" = "Voer uw nieuwe wachtwoordcode nogmaals in";
+
+/* No comment provided by engineer. */
+"Re-enter your passcode" = "Voer uw wachtwoordcode nogmaals in";
+
+/* Read Consent Document */
+"Read Consent Document" = "Lees toestemmingsdocument";
+
+/* No comment provided by engineer. */
+"Rejoin" = "Neem opnieuw deel";
+
+/* \"Snooze\" prompt for reminder notification */
+"Remind me in 1 hour" = "Herinner mij over 1 uur";
+
+/* No comment provided by engineer. */
+"Resetting your 7 Day Assessment will clear all recorded data from the week." = "Als u het patroon voor de afgelopen zeven dagen opnieuw instelt, worden alle vastgelegde gegevens voor die periode verwijderd.";
+
+/* Title for Resume button in Profile view */
+"Resume Study" = "Hervat deelname";
+
+/* No comment provided by engineer. */
+"Review Consent" = "Controleer toestemming";
+
+/* No comment provided by engineer. */
+"Sage Bionetworks, a non-profit biomedical research institute, is helping to collect data for this study and distribute it to the study investigators and other researchers. Please provide a unique email address and password to create a secure account." = "Sage Bionetworks, een non-profitinstelling die zich bezighoudt met biomedisch onderzoek, helpt bij het verzamelen van gegevens voor dit onderzoek en bij het beschikbaar stellen van deze gegevens aan de onderzoekers en andere onderzoekers. Geef een unieke combinatie van een e-mailadres en een wachtwoord op om een veilige account aan te maken.";
+
+/* Sedentary */
+"Sedentary" = "Zittend";
+
+/* No comment provided by engineer. */
+"Select Series 1" = "Selecteer serie 1";
+
+/* No comment provided by engineer. */
+"Select Series 2" = "Selecteer serie 2";
+
+/* No comment provided by engineer. */
+"Select Your Medication's Single Dose Amount" = "Selecteer de hoeveelheid van één dosis van uw medicijn";
+
+/* No comment provided by engineer. */
+"Select a 4-digit passcode. Setting up a passcode will help provide quick and secure access to this application." = "Selecteer een wachtwoordcode van vier cijfers. Door een wachtwoordcode in te stellen, kunt u snel en veilig toegang tot deze app krijgen.";
+
+/* No comment provided by engineer. */
+"Select the Medication You Are Currently Taking" = "Selecteer de medicijnen die u op dit moment gebruikt";
+
+/* No comment provided by engineer. */
+"Send Again" = "Verstuur opnieuw";
+
+/* No comment provided by engineer. */
+"Settings" = "Instellingen";
+
+/* No comment provided by engineer. */
+"Sex" = "Geslacht";
+
+/* Format string for Profile tab option to share data broadly, to be filled in with the short name of the institution sponsoring the study */
+"Share my data with %@ and qualified researchers worldwide" = "Deel mijn gegevens met %@ en gekwalificeerde onderzoekers wereldwijd";
+
+/* No comment provided by engineer. */
+"Share on Facebook" = "Deel op Facebook";
+
+/* No comment provided by engineer. */
+"Share on Twitter" = "Deel op Twitter";
+
+/* No comment provided by engineer. */
+"Share this Study" = "Deel dit onderzoek";
+
+/* No comment provided by engineer. */
+"Share via Email" = "Deel via e-mail";
+
+/* No comment provided by engineer. */
+"Share via SMS" = "Deel via e-sms";
+
+/* Sharing Options */
+"Sharing Options" = "Opties voor delen";
+
+/* No comment provided by engineer. */
+"Sign In" = "Meld aan";
+
+/* No comment provided by engineer. */
+"Sign Out" = "Meld af";
+
+/* No comment provided by engineer. */
+"Sign Up" = "Schrijf in";
+
+/* Sleep */
+"Sleep" = "Slaap";
+
+/* No comment provided by engineer. */
+"Somethings Wrong!" = "Er is iets mis.";
+
+/* No comment provided by engineer. */
+"Spread the Word" = "Help ons om meer bekendheid te krijgen";
+
+/* No comment provided by engineer. */
+"Step %i" = "Stap %i";
+
+/* Success */
+"Success" = "Voltooid";
+
+/* No comment provided by engineer. */
+"Take Photo" = "Maak foto";
+
+/* No comment provided by engineer. */
+"Tap on Items Above to Log Intake" = "Tik op bovenstaande items om uw opname te registreren";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Location and check 'Always'" = "Tik op 'Instellingen' > 'Locatie' en schakel 'Altijd' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings -> Notifications and enable 'Allow Notifications'" = "Tik op 'Instellingen' > 'Meldingen' en schakel 'Sta meldingen toe' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Camera" = "Tik op 'Instellingen' en schakel 'Camera' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Microphone" = "Tik op 'Instellingen' en schakel 'Microfoon' in";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Motion Activity." = "Tik op 'Instellingen' en schakel 'Bewegingsactiviteit' in.";
+
+/* No comment provided by engineer. */
+"Tap on Settings and enable Photos" = "Tik op 'Instellingen' en schakel 'Foto's' in";
+
+/* No comment provided by engineer. */
+"Tap the “+” Sign to Create Prescriptions" = "Tik op het plusteken (+) om recepten aan te maken";
+
+/* No comment provided by engineer. */
+"Tasks" = "Taken";
+
+/* Error message when server is too busy to respond */
+"Thank you for your interest in this study. We are working hard to process the large volume of interest, and should be back up momentarily. Please try again soon." = "Bedankt voor uw interesse in dit onderzoek. We werken er hard aan om de grote hoeveelheid aanvragen te verwerken en verwachten binnen enkele ogenblikken weer beschikbaar te zijn. Probeer het straks opnieuw.";
+
+/* Error message when participant attempts to sign up using a non-valid email address */
+"The email address submitted is not a valid email address. Please correct the email address and try again." = "Het opgegeven e-mailadres is ongeldig. Geef een geldig e-mailadres op en probeer het opnieuw.";
+
+/* No comment provided by engineer. */
+"The passcode you entered did not match your new passcode. Please enter again." = "De ingevoerde wachtwoordcode komt niet overeen met uw nieuwe wachtwoordcode. Voer nogmaals in.";
+
+/* Error message when participant attempts to sign up with a non-valid password */
+"The password you have entered is not a valid password.  Please try again." = "Het opgegeven wachtwoord is ongeldig.  Probeer het opnieuw.";
+
+/* Error message when server is undergoing maintenance and temporarily unavailable */
+"The study server is currently undergoing maintanence. Please try again soon." = "Er wordt momenteel onderhoud uitgevoerd aan de onderzoeksserver. Probeer het straks opnieuw.";
+
+/* Error message when participant attempts to sign in to an existing account with an incorrect email address or password */
+"There is no account registered for this email address and password combination." = "Er is geen account geregistreerd met deze combinatie van e-mailadres en wachtwoord.";
+
+/* No comment provided by engineer. */
+"There's nothing here yet." = "Er is hier nog niets beschikbaar.";
+
+/* No comment provided by engineer. */
+"This Action Cannot Be Undone" = "Deze bewerking kan niet ongedaan worden gemaakt";
+
+/* No comment provided by engineer. */
+"Time" = "Tijd";
+
+/* No comment provided by engineer. */
+"To see your results from surveys and tasks, check your “Dashboard” tab." = "Ga naar het tabblad 'Dashboard' om de resultaten van uw vragenlijsten en taken te zien.";
+
+/* No comment provided by engineer. */
+"Today" = "Vandaag";
+
+/* No comment provided by engineer. */
+"Touch ID or Enter Passcode" = "Gebruik Touch ID of voer uw wachtwoordcode in";
+
+/* No comment provided by engineer. */
+"Update Twitter Client" = "Werk Twitter-client bij";
+
+/* No comment provided by engineer. */
+"User Consent Error" = "Fout bij toestemming van gebruiker";
+
+/* No comment provided by engineer. */
+"User Sign In Error" = "Fout bij aanmelden van gebruiker";
+
+/* No comment provided by engineer. */
+"Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease." = "Met behulp van de bewegings-coprocessor van uw telefoon wordt informatie over uw activiteiten verzameld, zodat beter kan worden onderzocht hoe het activiteitenniveau van invloed is op de ziekte.";
+
+/* No comment provided by engineer. */
+"Using your GPS enables the app to accurately determine distances travelled. Your actual location will never be shared." = "Met de GPS-voorziening van uw telefoon kan nauwkeurig worden bepaald welke afstanden u aflegt. Uw feitelijke locatie wordt nooit aan anderen doorgegeven.";
+
+/* View PDF */
+"View PDF" = "Toon PDF";
+
+/* View Slides */
+"View Slides" = "Toon dia's";
+
+/* Vigorous */
+"Vigorous" = "Zwaar";
+
+/* Watch Video */
+"Watch Video" = "Bekijk video";
+
+/* Error message when the app is unable to reach the Bridge server */
+"We are currently not able to reach the study server. Please retry in a few moments." = "De onderzoeksserver is momenteel niet bereikbaar. Probeer het over een paar minuten opnieuw.";
+
+/* No comment provided by engineer. */
+"Weight" = "Gewicht";
+
+/* No comment provided by engineer. */
+"What time do you generally go to sleep?" = "Hoe laat gaat u meestal slapen?";
+
+/* No comment provided by engineer. */
+"What time do you generally wake up?" = "Hoe laat wordt u meestal wakker?";
+
+/* What to Expect */
+"What to Expect" = "Wat u kunt verwachten";
+
+/* No comment provided by engineer. */
+"Withdraw" = "Terugtrekken";
+
+/* No comment provided by engineer. */
+"Wrong Passcode" = "Onjuiste wachtwoordcode";
+
+/* No comment provided by engineer. */
+"Yesterday" = "Gisteren";
+
+/* Error message when no network connection found */
+"You are currently not connected to the Internet. Please try again when you are connected to a network." = "U hebt momenteel geen internetverbinding. Probeer het opnieuw wanneer u verbonden bent met een netwerk.";
+
+/* No comment provided by engineer. */
+"You have previously withdrawn from this Study. Do you wish to rejoin?" = "U hebt zich eerder teruggetrokken uit dit onderzoek. Wilt u opnieuw deelnemen?";
+
+/* No comment provided by engineer. */
+"Your Twitter client does not support sharing from other apps. Please update your Twitter client." = "Uw Twitter-client biedt geen ondersteuning voor delen vanuit andere apps. Werk uw Twitter-client bij.";
+
+/* Text to show at top of Profile view when 'paused' (not sharing data) */
+"Your data is not currently being used for this study." = "Uw gegevens worden momenteel niet gebruikt voor dit onderzoek.";
+
+/* Your data will be emailed to you shortly */
+"Your data will be emailed to you shortly" = "Uw gegevens worden u binnenkort via e-mail toegestuurd";
+
+/* No comment provided by engineer. */
+"Your passcodes are not identical. Please enter it again." = "De wachtwoordcodes zijn niet identiek. Voer de code nogmaals in.";
+
+/* No comment provided by engineer. */
+"You’ll find your list of daily surveys and tasks on the “Activities” tab. New surveys and tasks will appear over the next few weeks." = "Ga naar het tabblad 'Activiteiten' voor een lijst met de dagelijkse vragenlijsten en taken. In de komende weken worden er nieuwe vragenlijsten en taken toegevoegd.";
+
+/* No comment provided by engineer. */
+"add birthdate" = "voeg geboortedatum toe";
+
+/* No comment provided by engineer. */
+"add password" = "voeg wachtwoord toe";
+
+/* No comment provided by engineer. */
+"add weight (lb)" = "voeg gewicht toe (kg)";
+
+/* No comment provided by engineer. */
+"custom question" = "aangepaste vraag";
+
+/* No comment provided by engineer. */
+"invalid speed" = "ongeldige snelheid";
+
+/* No comment provided by engineer. */
+"minutes" = "minuten";
+
+/* No comment provided by engineer. */
+"not available" = "niet beschikbaar";
+
+/* No comment provided by engineer. */
+"vs" = "t.o.v.";
+

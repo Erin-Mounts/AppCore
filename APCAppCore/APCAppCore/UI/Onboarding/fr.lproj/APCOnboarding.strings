@@ -1,225 +1,219 @@
-
 /* Class = "UILabel"; text = "Set a passcode for secure identification"; ObjectID = "1SP-0o-KOV"; */
-"1SP-0o-KOV.text" = "Set a passcode for secure identification";
+"1SP-0o-KOV.text" = "Définissez un code secret pour l'identification sécurisée";
 
 /* Class = "UILabel"; text = "About the App"; ObjectID = "1hj-JM-Iql"; */
-"1hj-JM-Iql.text" = "About the App";
+"1hj-JM-Iql.text" = "À propos de l'appli";
 
 /* Class = "UILabel"; text = "Email"; ObjectID = "2b8-Nk-Sgj"; */
-"2b8-Nk-Sgj.text" = "Email";
+"2b8-Nk-Sgj.text" = "Courriel";
 
 /* Class = "UIButton"; normalTitle = "Share"; ObjectID = "3EE-a8-1jL"; */
-"3EE-a8-1jL.normalTitle" = "Share";
+"3EE-a8-1jL.normalTitle" = "Partager";
 
 /* Class = "UILabel"; text = "Help us spread the word."; ObjectID = "3fs-Sy-NwE"; */
-"3fs-Sy-NwE.text" = "Help us spread the word.";
+"3fs-Sy-NwE.text" = "Aidez-nous à faire passer le message";
 
 /* Class = "UILabel"; text = "Welcome to mPower"; ObjectID = "6Zu-Wv-agv"; */
-"6Zu-Wv-agv.text" = "Welcome to mPower";
+"6Zu-Wv-agv.text" = "Bienvenue sur mPower";
 
 /* Class = "UIButton"; normalTitle = "I Agree"; ObjectID = "6nF-Df-Qpg"; */
-"6nF-Df-Qpg.normalTitle" = "I Agree";
+"6nF-Df-Qpg.normalTitle" = "J'accepte";
 
 /* Class = "UINavigationItem"; title = "Consent"; ObjectID = "6uW-cz-b2s"; */
-"6uW-cz-b2s.title" = "Consent";
+"6uW-cz-b2s.title" = "Consentement";
 
 /* Class = "UILabel"; text = "Enter your email address in order to reset your Password."; ObjectID = "6xa-7v-RVb"; */
-"6xa-7v-RVb.text" = "Enter your email address in order to reset your Password.";
+"6xa-7v-RVb.text" = "Saisissez votre adresse électronique afin de réinitialiser votre mot de passe.";
 
 /* Class = "UIButton"; normalTitle = "Email consent document"; ObjectID = "8qu-gd-IIq"; */
-"8qu-gd-IIq.normalTitle" = "Email consent document";
+"8qu-gd-IIq.normalTitle" = "Envoyer le document de consentement par courriel";
 
 /* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "Ajq-Tk-Wbx"; */
-"Ajq-Tk-Wbx.title" = "Next";
+"Ajq-Tk-Wbx.title" = "Suivant";
 
 /* Class = "UILabel"; text = "Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease."; ObjectID = "Akn-CY-9hP"; */
-"Akn-CY-9hP.text" = "Using the motion co-processor allows the app to determine your activity, helping the study better understand how activity level may influence disease.";
+"Akn-CY-9hP.text" = "L'utilisation du coprocesseur de mouvement permet à l'application de déterminer votre activité, et permet de mieux comprendre dans quelle mesure le niveau d'activité peut influer sur la maladie.";
 
 /* Class = "UINavigationItem"; title = "Share"; ObjectID = "CKz-Ae-Z1c"; */
-"CKz-Ae-Z1c.title" = "Share";
+"CKz-Ae-Z1c.title" = "Partager";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Ccj-sG-x4h"; */
-"Ccj-sG-x4h.text" = "Label";
+"Ccj-sG-x4h.text" = "Étiquette";
 
 /* Class = "UITextField"; placeholder = "Email"; ObjectID = "Cn0-x9-Mc1"; */
-"Cn0-x9-Mc1.placeholder" = "Email";
+"Cn0-x9-Mc1.placeholder" = "Courriel";
 
 /* Class = "UIButton"; normalTitle = "Let’s Begin"; ObjectID = "Cnn-8E-rCa"; */
-"Cnn-8E-rCa.normalTitle" = "Let’s Begin";
+"Cnn-8E-rCa.normalTitle" = "C'est parti";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "DV8-yh-lrG"; */
-"DV8-yh-lrG.title" = "Close";
+"DV8-yh-lrG.title" = "Fermer";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Dos-uz-ecK"; */
-"Dos-uz-ecK.text" = "Label";
+"Dos-uz-ecK.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "This is your app to use as you choose."; ObjectID = "Dpb-za-qeG"; */
-"Dpb-za-qeG.text" = "This is your app to use as you choose.";
+"Dpb-za-qeG.text" = "Ceci est votre app, libre à vous de l'utiliser comme vous le souhaitez.";
 
 /* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "FsH-Bl-UEj"; */
-"FsH-Bl-UEj.title" = "Next";
+"FsH-Bl-UEj.title" = "Suivant";
 
 /* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "G6f-H1-fOg"; */
-"G6f-H1-fOg.title" = "Done";
+"G6f-H1-fOg.title" = "Terminé";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "HQF-Pi-Ndp"; */
-"HQF-Pi-Ndp.text" = "Label";
+"HQF-Pi-Ndp.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "HY5-da-KSX"; */
-"HY5-da-KSX.text" = "Label";
+"HY5-da-KSX.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Email messages"; ObjectID = "IXV-QN-OmM"; */
-"IXV-QN-OmM.text" = "Email messages";
+"IXV-QN-OmM.text" = "Courriels";
 
 /* Class = "UIButton"; normalTitle = "Start Consent"; ObjectID = "InD-hO-v4g"; */
-"InD-hO-v4g.normalTitle" = "Start Consent";
+"InD-hO-v4g.normalTitle" = "Démarrer le consentement";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "J6q-RE-cYp"; */
-"J6q-RE-cYp.placeholder" = "Name";
+"J6q-RE-cYp.placeholder" = "Nom";
 
 /* Class = "UIButton"; normalTitle = "Read consent document"; ObjectID = "JKF-q1-PXq"; */
-"JKF-q1-PXq.normalTitle" = "Read consent document";
+"JKF-q1-PXq.normalTitle" = "Lire le document de consentement";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "JQh-zw-o59"; */
-"JQh-zw-o59.text" = "Label";
+"JQh-zw-o59.text" = "Étiquette";
 
 /* Class = "UIButton"; normalTitle = "Join"; ObjectID = "JU2-ai-Tcq"; */
-"JU2-ai-Tcq.normalTitle" = "Join";
+"JU2-ai-Tcq.normalTitle" = "Participer";
 
 /* Class = "UILabel"; text = "Thank you for enrolling in"; ObjectID = "K7m-b5-z1N"; */
-"K7m-b5-z1N.text" = "Thank you for enrolling in";
+"K7m-b5-z1N.text" = "Merci de vous être inscrit(e)";
 
 /* Class = "UILabel"; text = "However, you can help spread the word and share the app with others."; ObjectID = "KIH-Pl-Nou"; */
-"KIH-Pl-Nou.text" = "However, you can help spread the word and share the app with others.";
+"KIH-Pl-Nou.text" = "Cependant, vous pouvez nous aider à faire passer le message et partager cette app avec vos proches.";
 
 /* Class = "UILabel"; text = "All Set!"; ObjectID = "LNe-1J-aJJ"; */
-"LNe-1J-aJJ.text" = "All Set!";
+"LNe-1J-aJJ.text" = "Paré !";
 
 /* Class = "UINavigationItem"; title = "Eligibility"; ObjectID = "M0R-Kr-X77"; */
-"M0R-Kr-X77.title" = "Eligibility";
+"M0R-Kr-X77.title" = "Éligibilité";
 
 /* Class = "UILabel"; text = "Share on Twitter"; ObjectID = "MGi-6n-04M"; */
-"MGi-6n-04M.text" = "Share on Twitter";
+"MGi-6n-04M.text" = "Partager sur Twitter";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "Mts-kI-asi"; */
-"Mts-kI-asi.title" = "Close";
+"Mts-kI-asi.title" = "Fermer";
 
 /* Class = "UILabel"; text = "Unfortunately, you are ineligible to join this study."; ObjectID = "OEh-rs-UeO"; */
-"OEh-rs-UeO.text" = "Unfortunately, you are ineligible to join this study.";
+"OEh-rs-UeO.text" = "Malheureusement, vous n'êtes pas éligible pour participer à cette étude.";
 
 /* Class = "UILabel"; text = "Swipe to preview"; ObjectID = "Okl-v3-pRl"; */
-"Okl-v3-pRl.text" = "Swipe to preview";
+"Okl-v3-pRl.text" = "Faites glisser vos doigts à l'écran pour avoir un aperçu";
 
 /* Class = "UILabel"; text = "Password"; ObjectID = "Pgt-IW-QQA"; */
-"Pgt-IW-QQA.text" = "Password";
+"Pgt-IW-QQA.text" = "Mot de passe";
 
 /* Class = "UIButton"; normalTitle = "Male"; ObjectID = "S02-oT-YCu"; */
-"S02-oT-YCu.normalTitle" = "Male";
+"S02-oT-YCu.normalTitle" = "Homme";
 
 /* Class = "UITextView"; text = "Terms and conditions"; ObjectID = "Sks-hO-MRD"; */
-"Sks-hO-MRD.text" = "Terms and conditions";
+"Sks-hO-MRD.text" = "Conditions d'utilisation";
 
 /* Class = "UIButton"; normalTitle = "Join Study"; ObjectID = "Srh-gC-C98"; */
-"Srh-gC-C98.normalTitle" = "Join Study";
+"Srh-gC-C98.normalTitle" = "Participer à l'étude";
 
 /* Class = "UILabel"; text = "Permissions Title"; ObjectID = "T8y-cm-IGj"; */
-"T8y-cm-IGj.text" = "Permissions Title";
+"T8y-cm-IGj.text" = "Titre des permissions";
 
 /* Class = "UINavigationItem"; title = "Forgot Password"; ObjectID = "VJi-su-bLn"; */
-"VJi-su-bLn.title" = "Forgot Password";
+"VJi-su-bLn.title" = "Mot de passe oublié";
 
 /* Class = "UIButton"; normalTitle = "Allow"; ObjectID = "X94-Hr-vqz"; */
-"X94-Hr-vqz.normalTitle" = "Allow";
+"X94-Hr-vqz.normalTitle" = "Autoriser";
 
 /* Class = "UINavigationItem"; title = "Sign In"; ObjectID = "YVt-DL-ok6"; */
-"YVt-DL-ok6.title" = "Sign In";
+"YVt-DL-ok6.title" = "Se connecter";
 
 /* Class = "UINavigationItem"; title = "Eligibility"; ObjectID = "alz-yR-DVn"; */
-"alz-yR-DVn.title" = "Eligibility";
+"alz-yR-DVn.title" = "Éligibilité";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "aoS-Ay-W9H"; */
-"aoS-Ay-W9H.text" = "Label";
+"aoS-Ay-W9H.text" = "Étiquette";
 
 /* Class = "UIButton"; normalTitle = "Already Participating?"; ObjectID = "bc0-QL-BYl"; */
-"bc0-QL-BYl.normalTitle" = "Already Participating?";
+"bc0-QL-BYl.normalTitle" = "Déjà participant ?";
 
 /* Class = "UILabel"; text = "Email"; ObjectID = "dEh-z0-2pc"; */
-"dEh-z0-2pc.text" = "Email";
+"dEh-z0-2pc.text" = "Courriel";
 
 /* Class = "UINavigationItem"; title = "Consent"; ObjectID = "eDU-QN-yEg"; */
-"eDU-QN-yEg.title" = "Consent";
+"eDU-QN-yEg.title" = "Consentement";
 
 /* Class = "UIButton"; normalTitle = "Okay"; ObjectID = "fGt-jE-Min"; */
-"fGt-jE-Min.normalTitle" = "Okay";
-
-/* Class = "UILabel"; text = " "; ObjectID = "gBJ-nW-w2y"; */
-"gBJ-nW-w2y.text" = " ";
+"fGt-jE-Min.normalTitle" = "D'accord";
 
 /* Class = "UILabel"; text = "App Name"; ObjectID = "gVA-FA-dsp"; */
-"gVA-FA-dsp.text" = "App Name";
+"gVA-FA-dsp.text" = "Nom de l'app";
 
 /* Class = "UINavigationItem"; title = "Additional Information"; ObjectID = "gou-Uc-1H7"; */
-"gou-Uc-1H7.title" = "Additional Information";
+"gou-Uc-1H7.title" = "Informations supplémentaires";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "guc-NA-MN5"; */
-"guc-NA-MN5.text" = "Label";
-
-/* Class = "UILabel"; text = " "; ObjectID = "jDr-hm-bFg"; */
-"jDr-hm-bFg.text" = " ";
+"guc-NA-MN5.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "You are eligible to join the study."; ObjectID = "jjP-Xm-7aC"; */
-"jjP-Xm-7aC.text" = "You are eligible to join the study.";
+"jjP-Xm-7aC.text" = "Vous êtes éligible pour participer à cette étude.";
 
 /* Class = "UILabel"; text = "Parkinson's Disease Study"; ObjectID = "kk3-fj-UpN"; */
-"kk3-fj-UpN.text" = "Parkinson's Disease Study";
+"kk3-fj-UpN.text" = "Étude sur la maladie de Parkinson";
 
 /* Class = "UILabel"; text = "Disease Study"; ObjectID = "lDJ-SH-lam"; */
-"lDJ-SH-lam.text" = "Disease Study";
+"lDJ-SH-lam.text" = "Étude sur la maladie";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "lgU-Hg-9zH"; */
-"lgU-Hg-9zH.text" = "Label";
+"lgU-Hg-9zH.text" = "Étiquette";
 
 /* Class = "UINavigationItem"; title = "Registration"; ObjectID = "lnu-pF-0qk"; */
-"lnu-pF-0qk.title" = "Registration";
+"lnu-pF-0qk.title" = "Enregistrement";
 
 /* Class = "UIButton"; normalTitle = "Forgot Your Password?"; ObjectID = "o0E-mU-oFG"; */
-"o0E-mU-oFG.normalTitle" = "Forgot Your Password?";
+"o0E-mU-oFG.normalTitle" = "Vous avez oublié votre mot de passe ?";
 
 /* Class = "UILabel"; text = "Please tap on the image below to watch a short video about the Asthma Study and this app."; ObjectID = "o0c-pC-Zdb"; */
-"o0c-pC-Zdb.text" = "Please tap on the image below to watch a short video about the Asthma Study and this app.";
+"o0c-pC-Zdb.text" = "Touchez l'image ci-dessous pour regarder une courte vidéo de présentation de l'étude sur l'Asthme et sur cette app.";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "oiW-sY-8Xt"; */
-"oiW-sY-8Xt.text" = "Label";
+"oiW-sY-8Xt.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Tap the button below to begin the consent process"; ObjectID = "pqL-2G-mFb"; */
-"pqL-2G-mFb.text" = "Tap the button below to begin the consent process";
+"pqL-2G-mFb.text" = "Touchez le bouton ci-dessous pour démarrer le processus de consentement";
 
 /* Class = "UINavigationItem"; title = "Permissions"; ObjectID = "sGE-ru-L9d"; */
-"sGE-ru-L9d.title" = "Permissions";
+"sGE-ru-L9d.title" = "Autorisations";
 
 /* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "tbW-Ox-hif"; */
-"tbW-Ox-hif.normalTitle" = "Sign In";
+"tbW-Ox-hif.normalTitle" = "Se connecter";
 
 /* Class = "UILabel"; text = "A Parkinson's Disease Research Study"; ObjectID = "uxw-oh-YJl"; */
-"uxw-oh-YJl.text" = "A Parkinson's Disease Research Study";
+"uxw-oh-YJl.text" = "Étude de recherche sur la maladie de Parkinson";
 
 /* Class = "UILabel"; text = "Please help us find study participants by sharing information about the study."; ObjectID = "v88-nG-H6D"; */
-"v88-nG-H6D.text" = "Please help us find study participants by sharing information about the study.";
+"v88-nG-H6D.text" = "Aidez-nous à trouver des participants à l'étude en partageant les informations sur cette étude.";
 
 /* Class = "UILabel"; text = "What to Expect"; ObjectID = "vVd-e0-MNW"; */
-"vVd-e0-MNW.text" = "What to Expect";
+"vVd-e0-MNW.text" = "À quoi vous devez vous attendre";
 
 /* Class = "UINavigationItem"; title = "Terms & Conditions"; ObjectID = "xXM-0a-f2s"; */
-"xXM-0a-f2s.title" = "Terms & Conditions";
+"xXM-0a-f2s.title" = "Conditions d'utilisation";
 
 /* Class = "UINavigationItem"; title = "Identification"; ObjectID = "z0N-Tv-d4D"; */
 "z0N-Tv-d4D.title" = "Identification";
 
 /* Class = "UIButton"; normalTitle = "Got It"; ObjectID = "z5w-pH-4Mb"; */
-"z5w-pH-4Mb.normalTitle" = "Got It";
+"z5w-pH-4Mb.normalTitle" = "J'ai compris";
 
 /* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "zMc-Pg-Iea"; */
-"zMc-Pg-Iea.normalTitle" = "Reset Password";
+"zMc-Pg-Iea.normalTitle" = "Réinitialiser le mot de passe";
 
 /* Class = "UIButton"; normalTitle = "Female"; ObjectID = "za5-xM-hxy"; */
-"za5-xM-hxy.normalTitle" = "Female";
+"za5-xM-hxy.normalTitle" = "Femme";
+

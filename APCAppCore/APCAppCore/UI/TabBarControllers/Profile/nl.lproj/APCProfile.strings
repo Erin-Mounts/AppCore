@@ -1,26 +1,26 @@
 /* Class = "UILabel"; text = "Label"; ObjectID = "0YA-qB-6Tx"; */
-"0YA-qB-6Tx.text" = "Kennzeichnung";
+"0YA-qB-6Tx.text" = "Etiket";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "3LN-Wg-wfS"; */
 "3LN-Wg-wfS.text" = "Detail";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "8hk-Wz-D1n"; */
-"8hk-Wz-D1n.placeholder" = "Name";
+"8hk-Wz-D1n.placeholder" = "Naam";
 
 /* Class = "UITextField"; text = "Johnny Appleseed"; ObjectID = "8hk-Wz-D1n"; */
 "8hk-Wz-D1n.text" = "Johnny Appleseed";
 
 /* Class = "UILabel"; text = "Describe why you are withdrawing in your own words."; ObjectID = "17V-e9-oMl"; */
-"17V-e9-oMl.text" = "Beschreiben Sie mit Ihren eigenen Worten, weshalb Sie Ihre Teilnahme abbrechen möchten.";
+"17V-e9-oMl.text" = "Geef in uw eigen woorden aan waarom u zich uit dit onderzoek wilt terugtrekken.";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "AuT-nK-R7J"; */
-"AuT-nK-R7J.text" = "Kennzeichnung";
+"AuT-nK-R7J.text" = "Etiket";
 
 /* Class = "UILabel"; text = "Thank you for your contribution to this study. We are sorry that you could not continue."; ObjectID = "BcC-vd-hvB"; */
-"BcC-vd-hvB.text" = "Vielen Dank für Ihren Beitrag zu dieser Studie. Wir bedauern, dass Sie Ihre Teilnahme nicht fortsetzen können.";
+"BcC-vd-hvB.text" = "Bedankt voor uw bijdrage aan dit onderzoek. We vinden het jammer dat het hier ophoudt.";
 
 /* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "BoM-Yo-Bi2"; */
-"BoM-Yo-Bi2.title" = "Abbrechen";
+"BoM-Yo-Bi2.title" = "Annuleer";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "CIm-PK-XD0"; */
 "CIm-PK-XD0.text" = "Titel";
@@ -29,110 +29,110 @@
 "FQR-cG-rBp.text" = "Titel";
 
 /* Class = "UILabel"; text = "End"; ObjectID = "GvA-QA-AGt"; */
-"GvA-QA-AGt.text" = "Beenden";
+"GvA-QA-AGt.text" = "Stop";
 
 /* Class = "UILabel"; text = "Edit"; ObjectID = "Gvf-JT-xq5"; */
-"Gvf-JT-xq5.text" = "Bearbeiten";
+"Gvf-JT-xq5.text" = "Wijzig";
 
 /* Class = "UILabel"; text = "Journey"; ObjectID = "H3m-U4-zNB"; */
-"H3m-U4-zNB.text" = "Reise";
+"H3m-U4-zNB.text" = "Reis";
 
 /* Class = "UILabel"; text = "Start"; ObjectID = "OE7-14-4fc"; */
-"OE7-14-4fc.text" = "Starten";
+"OE7-14-4fc.text" = "Start";
 
 /* Class = "UINavigationItem"; title = "Activity Reminders"; ObjectID = "TLB-6i-pxR"; */
-"TLB-6i-pxR.title" = "Erinnerungen an Aktivität";
+"TLB-6i-pxR.title" = "Herinneringen activiteit";
 
 /* Class = "UIButton"; normalTitle = "Leave Study"; ObjectID = "UMm-O6-rLy"; */
-"UMm-O6-rLy.normalTitle" = "Studie verlassen";
+"UMm-O6-rLy.normalTitle" = "Verlaat onderzoek";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "VBq-NL-8m0"; */
-"VBq-NL-8m0.title" = "Schließen";
+"VBq-NL-8m0.title" = "Sluit";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Vxa-dH-1Bp"; */
-"Vxa-dH-1Bp.text" = "Kennzeichnung";
+"Vxa-dH-1Bp.text" = "Etiket";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "WO7-sk-hXC"; */
-"WO7-sk-hXC.text" = "Kennzeichnung";
+"WO7-sk-hXC.text" = "Etiket";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "XHH-KD-Naj"; */
 "XHH-KD-Naj.text" = "Titel";
 
 /* Class = "UILabel"; text = "Sharing Options"; ObjectID = "YzK-0P-Xe3"; */
-"YzK-0P-Xe3.text" = "Optionen für das Teilen";
+"YzK-0P-Xe3.text" = "Opties voor delen";
 
 /* Class = "UINavigationItem"; title = "Download Data"; ObjectID = "aoG-ly-D0T"; */
-"aoG-ly-D0T.title" = "Daten herunterladen";
+"aoG-ly-D0T.title" = "Download gegevens";
 
 /* Class = "UILabel"; text = "add weight (lbs.)"; ObjectID = "bZk-oc-H5i"; */
-"bZk-oc-H5i.text" = "Gewicht (kg) hinzufügen";
+"bZk-oc-H5i.text" = "voeg gewicht toe (kg)";
 
 /* Class = "UILabel"; text = "Currently Participating In "; ObjectID = "bb2-UZ-Wan"; */
-"bb2-UZ-Wan.text" = "Derzeitige Teilnahme an ";
+"bb2-UZ-Wan.text" = "Huidige deelname ";
 
 /* Class = "UINavigationItem"; title = "License Information"; ObjectID = "cB3-5h-qSC"; */
-"cB3-5h-qSC.title" = "Lizenzinformationen";
+"cB3-5h-qSC.title" = "Licentiegegevens";
 
 /* Class = "UILabel"; text = "Select all that apply."; ObjectID = "cpP-7K-8Bb"; */
-"cpP-7K-8Bb.text" = "Bitte wählen Sie alle zutreffenden Angaben aus.";
+"cpP-7K-8Bb.text" = "Selecteer alles wat van toepassing is.";
 
 /* Class = "UILabel"; text = "Research Institute will receive your study data form your participation in this study."; ObjectID = "cy9-c7-W6M"; */
-"cy9-c7-W6M.text" = "Das Forschungsinstitut wird Ihre Daten von der Teilnahme an dieser Studie erhalten.";
+"cy9-c7-W6M.text" = "De onderzoeksgegevens van uw deelname aan dit onderzoek worden verstuurd naar het onderzoeksinstituut.";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "dxl-CJ-CsB"; */
-"dxl-CJ-CsB.text" = "Kennzeichnung";
+"dxl-CJ-CsB.text" = "Etiket";
 
 /* Class = "UIButton"; normalTitle = "Download Data"; ObjectID = "eUN-2a-GKO"; */
-"eUN-2a-GKO.normalTitle" = "Daten herunterladen";
+"eUN-2a-GKO.normalTitle" = "Download gegevens";
 
 /* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "fF4-PR-bA8"; */
-"fF4-PR-bA8.title" = "Bearbeiten";
+"fF4-PR-bA8.title" = "Wijzig";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "gJx-nK-Mzv"; */
 "gJx-nK-Mzv.text" = "Detail";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "gyM-2c-l4q"; */
-"gyM-2c-l4q.text" = "Kennzeichnung";
+"gyM-2c-l4q.text" = "Etiket";
 
 /* Class = "UILabel"; text = "This study was taking up too much of my time."; ObjectID = "hCE-XZ-mEv"; */
-"hCE-XZ-mEv.text" = "Diese Studie hat zu viel Zeit in Anspruch genommen.";
+"hCE-XZ-mEv.text" = "Dit onderzoek nam te veel tijd in beslag.";
 
 /* Class = "UINavigationItem"; title = "Withdrawal Survey"; ObjectID = "kM7-G5-UuZ"; */
-"kM7-G5-UuZ.title" = "Umfrage zum Abbruch";
+"kM7-G5-UuZ.title" = "Vragenlijst terugtrekking";
 
 /* Class = "UINavigationItem"; title = "Withdraw From Study"; ObjectID = "mj3-6G-awB"; */
-"mj3-6G-awB.title" = "Teilnahme an der Studie abbrechen";
+"mj3-6G-awB.title" = "Trek terug uit onderzoek";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "nCp-5d-3Br"; */
-"nCp-5d-3Br.text" = "Kennzeichnung";
+"nCp-5d-3Br.text" = "Etiket";
 
 /* Class = "UIButton"; normalTitle = "Withdraw"; ObjectID = "o0S-br-ebJ"; */
-"o0S-br-ebJ.normalTitle" = "Abbrechen";
+"o0S-br-ebJ.normalTitle" = "Terugtrekken";
 
 /* Class = "UINavigationItem"; title = "Withdrawal Complete"; ObjectID = "rLJ-rs-VCY"; */
-"rLJ-rs-VCY.title" = "Abbruch abgeschlossen";
+"rLJ-rs-VCY.title" = "U hebt het onderzoek verlaten";
 
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "roj-Aw-erm"; */
-"roj-Aw-erm.normalTitle" = "Fertig";
+"roj-Aw-erm.normalTitle" = "Klaar";
 
 /* Class = "UINavigationItem"; title = "Profile"; ObjectID = "soI-ZX-7k6"; */
-"soI-ZX-7k6.title" = "Profil";
+"soI-ZX-7k6.title" = "Profiel";
 
 /* Class = "UINavigationItem"; title = "Change Passcode"; ObjectID = "tbR-5e-7V1"; */
-"tbR-5e-7V1.title" = "Zugangscode ändern";
+"tbR-5e-7V1.title" = "Wijzig wachtwoordcode";
 
 /* Class = "UINavigationItem"; title = "Sharing Options"; ObjectID = "tiu-ME-eWu"; */
-"tiu-ME-eWu.title" = "Optionen für das Teilen";
+"tiu-ME-eWu.title" = "Opties voor delen";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "v3i-D8-I5m"; */
-"v3i-D8-I5m.text" = "Kennzeichnung";
+"v3i-D8-I5m.text" = "Etiket";
 
 /* Class = "UILabel"; text = "jappleseed123@me.com"; ObjectID = "vQl-IA-A14"; */
 "vQl-IA-A14.text" = "jappleseed123@me.com";
 
 /* Class = "UILabel"; text = "Please help us make our study better by explaining the reasons for your withdrawal."; ObjectID = "w0A-pl-Wzd"; */
-"w0A-pl-Wzd.text" = "Bitte unterstützen Sie uns bei der Optimierung unserer Studie. Teilen Sie uns bitte die Gründe für Ihren Abbruch mit.";
+"w0A-pl-Wzd.text" = "Help ons het onderzoek te verbeteren door uit te leggen waarom u zich hebt teruggetrokken uit het onderzoek.";
 
 /* Class = "UIButton"; normalTitle = "Pause Study"; ObjectID = "ymU-X3-A4W"; */
-"ymU-X3-A4W.normalTitle" = "Studie unterbrechen";
+"ymU-X3-A4W.normalTitle" = "Pauzeer deelname";
 
