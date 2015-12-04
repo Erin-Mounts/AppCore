@@ -34,17 +34,11 @@
 #import "APCActivitiesViewSection.h"
 #import "NSDate+Helper.h"
 #import "APCTaskGroup.h"
+#import "APCLocalization.h"
 
 static NSDateFormatter *headerViewDateFormatterDebugging        = nil;
 static NSDateFormatter *headerViewDateFormatterToday            = nil;
 
-static NSString * const kAPCSectionTitleToday                   = @"Today";
-static NSString * const kAPCSectionTitleYesterday               = @"Yesterday";
-static NSString * const kAPCSectionTitleTomorrow                = @"Tomorrow";
-static NSString * const kAPCSectionTitleKeepGoing               = @"Keep Going!";
-static NSString * const kAPCSectionSubtitleKeepGoing            = @"Try one of these extra activities\nto enhance your experience in your study.";
-static NSString * const kAPCSectionSubtitleToday                = @"To start an activity, select from the list below.";
-static NSString * const kAPCSectionSubtitleYesterday            = @"Below are your incomplete tasks from yesterday. These are for reference only.";
 static NSString * const kAPCSectionHeaderDateFormatDebugging    = @"eeee, MMMM d, yyyy";
 static NSString * const kAPCSectionHeaderDateFormatToday        = @"eeee, MMMM d";
 
@@ -62,18 +56,22 @@ static NSString * const kAPCSectionHeaderDateFormatToday        = @"eeee, MMMM d
 
 @implementation APCActivitiesViewSection
 
-+ (void) initialize
++ (void)initialize
 {
-    if (headerViewDateFormatterDebugging == nil)
-    {
+    void (^localizeBlock)() = [^{
         headerViewDateFormatterDebugging = [NSDateFormatter new];
         headerViewDateFormatterDebugging.timeZone = [NSTimeZone localTimeZone];
         headerViewDateFormatterDebugging.dateFormat = kAPCSectionHeaderDateFormatDebugging;
-
+        
         headerViewDateFormatterToday = [NSDateFormatter new];
         headerViewDateFormatterToday.timeZone = [NSTimeZone localTimeZone];
-        headerViewDateFormatterToday.dateFormat = kAPCSectionHeaderDateFormatToday;
-    }
+        [headerViewDateFormatterToday setLocalizedDateFormatFromTemplate:kAPCSectionHeaderDateFormatToday];
+    } copy];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:NSCurrentLocaleDidChangeNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull __unused note) {
+        localizeBlock();
+    }];
+    localizeBlock();
 }
 
 - (instancetype) init
@@ -159,12 +157,13 @@ static NSString * const kAPCSectionHeaderDateFormatToday        = @"eeee, MMMM d
 
 - (NSString *) title
 {
-    NSString *todayTitle = [NSString stringWithFormat: @"%@, %@", kAPCSectionTitleToday, [headerViewDateFormatterToday stringFromDate: self.myDateRoundedToMidnight]];
+    NSString *todayTitleFormat = NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_TITLE_TODAY_FORMAT", @"APCAppCore", APCBundle(), @"Today, %@", @"Format for title for Activities view section for today's activities, to be filled in with today's date");
+    NSString *todayTitle = [NSString stringWithFormat: todayTitleFormat, [headerViewDateFormatterToday stringFromDate: self.myDateRoundedToMidnight]];
 
-    NSString *result = (self.isKeepGoingSection                                      ? kAPCSectionTitleKeepGoing :
+    NSString *result = (self.isKeepGoingSection                                      ? NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_TITLE_KEEP_GOING", @"APCAppCore", APCBundle(), @"Keep Going!", @"Title for Activities view section for optional activities") :
                         [self.myDateRoundedToMidnight isEqualToDate: self.today]     ? todayTitle :
-                        [self.myDateRoundedToMidnight isEqualToDate: self.yesterday] ? kAPCSectionTitleYesterday :
-                        [self.myDateRoundedToMidnight isEqualToDate: self.tomorrow]  ? kAPCSectionTitleTomorrow :
+                        [self.myDateRoundedToMidnight isEqualToDate: self.yesterday] ? NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_TITLE_YESTERDAY", @"APCAppCore", APCBundle(), @"Yesterday", @"Title for Activities view section for yesterday's incomplete activities") :
+                        [self.myDateRoundedToMidnight isEqualToDate: self.tomorrow]  ? NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_TITLE_TOMORROW", @"APCAppCore", APCBundle(), @"Tomorrow", @"Title for Activities view section for tomorrow's activities") :
                         [headerViewDateFormatterDebugging stringFromDate: self.myDateRoundedToMidnight]
                         );
 
@@ -173,9 +172,9 @@ static NSString * const kAPCSectionHeaderDateFormatToday        = @"eeee, MMMM d
 
 - (NSString *) subtitle
 {
-    NSString *result = (self.isKeepGoingSection ? kAPCSectionSubtitleKeepGoing :
-                        [self.myDateRoundedToMidnight isEqualToDate: self.today] ? kAPCSectionSubtitleToday :
-                        [self.myDateRoundedToMidnight isEqualToDate: self.yesterday] ? kAPCSectionSubtitleYesterday :
+    NSString *result = (self.isKeepGoingSection ? NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_SUBTITLE_KEEP_GOING", @"APCAppCore", APCBundle(), @"Try one of these extra activities\nto enhance your experience in your study.", @"Subtitile for Activities view section for optional activities") :
+                        [self.myDateRoundedToMidnight isEqualToDate: self.today] ? NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_SUBTITLE_TODAY", @"APCAppCore", APCBundle(), @"To start an activity, select from the list below.", @"Subtitle Activities view section for today's scheduled activities") :
+                        [self.myDateRoundedToMidnight isEqualToDate: self.yesterday] ? NSLocalizedStringWithDefaultValue(@"APC_ACTIVITIES_SUBTITLE_YESTERDAY", @"APCAppCore", APCBundle(), @"Below are your incomplete tasks from yesterday. These are for reference only.", @"Subtitle for Activities view section for yesterday's incomplete activities") :
                         nil
                         );
 

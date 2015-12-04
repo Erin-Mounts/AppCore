@@ -60,7 +60,6 @@ static NSString * const kAPCAppNamePlaceholderString = @"$appName$";
  Text of an alert shown if the user taps the button and
  we think she hasn't clicked that email link yet.
  */
-static NSString * const kAPCPleaseClickEmailAlertTitle = @"Please Check Your Email";
 static NSString * const kAPCPleaseClickEmailAlertMessageFormatString = @"\nYour email address has not yet been verified.\n\nPlease check your email for a message from $appName$, and click the link in that message.";
 static NSString * const kAPCPleaseCheckEmailAlertOkButton = @"OK";
 
@@ -308,10 +307,10 @@ static NSString * const kAPCPleaseCheckEmailAlertOkButton = @"OK";
 {
     [self hideSpinnerUsingAnimation: YES andThenDoThis:^{
 
-        NSString *message = [kAPCPleaseClickEmailAlertMessageFormatString stringByReplacingOccurrencesOfString: kAPCAppNamePlaceholderString
+        NSString *message = [NSLocalizedStringWithDefaultValue(@"APC_EMAIL_VERIFY_ALERT_MESSAGE", @"APCAppCore", APCBundle(), @"\nYour email address has not yet been verified.\n\nPlease check your email for a message from $appName$, and click the link in that message.", @"Message in body of alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address; the '$appName$' substring will be replaced with the name of the application before being shown.") stringByReplacingOccurrencesOfString: kAPCAppNamePlaceholderString
                                                                                                     withString: [APCUtilities appName]];
 
-        self.pleaseCheckEmailAlert = [UIAlertController alertControllerWithTitle: kAPCPleaseClickEmailAlertTitle
+        self.pleaseCheckEmailAlert = [UIAlertController alertControllerWithTitle: NSLocalizedStringWithDefaultValue(@"APC_EMAIL_VERIFY_ALERT_TITLE", @"APCAppCore", APCBundle(), @"Please Check Your Email", @"Title for alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address.")
                                                                          message: message
                                                                   preferredStyle: UIAlertControllerStyleAlert];
 
