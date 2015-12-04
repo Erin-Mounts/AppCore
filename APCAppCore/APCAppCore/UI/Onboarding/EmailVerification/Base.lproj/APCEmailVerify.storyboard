@@ -30,7 +30,7 @@
                                 <rect key="frame" x="16" y="146" width="288" height="70"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="r5d-t5-dSv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="r5d-t5-dSv"/>
                                 </constraints>
                                 <string key="text">$appName$
 has sent you
@@ -75,11 +75,12 @@ a verification email at</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yX7-Jl-zxX">
-                                <rect key="frame" x="41" y="484" width="238" height="34"/>
+                                <rect key="frame" x="41" y="484" width="239" height="34"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="6xz-2O-k55"/>
-                                    <constraint firstAttribute="width" constant="238" id="lvt-a2-1N3"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="MJM-oz-13X"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="238" id="lvt-a2-1N3"/>
                                 </constraints>
                                 <string key="text">A full copy of the consent agreement
 will be sent to you for your records.</string>
@@ -138,7 +139,7 @@ will be sent to you for your records.</string>
                                 <rect key="frame" x="16" y="350" width="288" height="50"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="NQi-mN-NZ2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="NQi-mN-NZ2"/>
                                     <constraint firstAttribute="width" constant="288" id="VGI-ER-TfW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>

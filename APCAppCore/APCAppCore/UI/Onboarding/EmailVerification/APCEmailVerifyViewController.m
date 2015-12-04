@@ -60,7 +60,6 @@ static NSString * const kAPCAppNamePlaceholderString = @"$appName$";
  Text of an alert shown if the user taps the button and
  we think she hasn't clicked that email link yet.
  */
-static NSString * const kAPCPleaseClickEmailAlertMessageFormatString = @"\nYour email address has not yet been verified.\n\nPlease check your email for a message from $appName$, and click the link in that message.";
 static NSString * const kAPCPleaseCheckEmailAlertOkButton = @"OK";
 
 
