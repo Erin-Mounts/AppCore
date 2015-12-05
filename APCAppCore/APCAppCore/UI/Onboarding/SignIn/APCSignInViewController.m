@@ -79,6 +79,36 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
 
 #pragma mark - Appearance
 
+NSString *colorToHexString(UIColor *color)
+{
+    NSString *hexColor = nil;
+    
+    // This method only works for RGB or grayscale colors
+    if (color) {
+        // default to black for colors we don't understand
+        CGFloat red = 0.0, green = 0.0, blue = 0.0;
+        if (CGColorGetNumberOfComponents(color.CGColor) == 4)
+        {
+            // Get the rgb components
+            const CGFloat *components = CGColorGetComponents(color.CGColor);
+            
+            // Scale to 0-255
+            red = roundf(components[0] * 255.0);
+            green = roundf(components[1] * 255.0);
+            blue = roundf(components[2] * 255.0);
+        } else if (CGColorGetNumberOfComponents(color.CGColor) == 2) {
+            // grayscale, so r==g==b
+            const CGFloat *components = CGColorGetComponents(color.CGColor);
+            red = green = blue = roundf(components[0] * 255.0);
+        }
+        
+        // Convert to hex string
+        hexColor = [NSString stringWithFormat:@"%02x%02x%02x", (int)red, (int)green, (int)blue];
+    }
+    
+    return hexColor;
+}
+
 - (void)setupAppearance
 {
     [self.userHandleTextField setTextColor:[UIColor appSecondaryColor1]];
@@ -93,13 +123,33 @@ static NSString * const kServerInvalidEmailErrorString = @"Invalid username or p
     [self.passwordTextField setFont:[UIFont appMediumFontWithSize:17.0f]];
     [self.passwordTextField setTintColor:[UIColor appPrimaryColor]];
     
-    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"Forgot your Password?"];
-    [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor appSecondaryColor3] range:NSMakeRange(0, 12)];
-    [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor appSecondaryColor1] range:NSMakeRange(12, 9)];
-    [attributedString addAttribute:NSFontAttributeName value:[UIFont appRegularFontWithSize:16.0f] range:NSMakeRange(0, attributedString.length)];
+    UIColor *secondaryColor3 = [UIColor appSecondaryColor3];
+    UIColor *secondaryColor1 = [UIColor appSecondaryColor1];
     
-    [self.forgotPasswordButton setAttributedTitle:attributedString forState:UIControlStateNormal];
+    NSString *htmlSC3 = colorToHexString(secondaryColor3);
+    NSString *htmlSC1 = colorToHexString(secondaryColor1);
     
+    UIFont *appFont16pt = [UIFont appRegularFontWithSize:16.0f];
+    NSString *cssFontSpec = [NSString stringWithFormat:@"%ldpx %@", 16L, appFont16pt.familyName];
+    
+    NSString *htmlFormat = NSLocalizedStringWithDefaultValue(@"APC_SIGNIN_FORGOT_PWD_PROMPT_HTML", @"APCAppCore", APCBundle(), @"<span style=\"font:%@\"><span style=\"color:#%@\">Forgot your </span><span style=\"color:#%@\">Password?</span></span>", @"Formatted string to display the 'Forgot your Password?' prompt with font colors applied for emphasis; in English the first two words are light-colored and 'Password?' is black. Filled in with the font settings and web color (rgb, hex) for the overall text and then the color of the called-out text (in English, 'Password?').");
+    NSString *htmlString = [NSString stringWithFormat:htmlFormat, cssFontSpec, htmlSC3, htmlSC1];
+    
+    NSError *error = nil;
+    NSAttributedString *attributedString =
+    [[NSAttributedString alloc] initWithData:[htmlString dataUsingEncoding:NSUTF8StringEncoding]
+                                     options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType}
+                          documentAttributes:nil
+                                       error:&error];
+    
+    if (!error) {
+        [self.forgotPasswordButton setAttributedTitle:attributedString forState:UIControlStateNormal];
+    } else {
+#if DEBUG
+        NSLog(@"Error converting html to attributed string.\nHTML:\n%@\nError:\n%@", htmlString, error);
+#endif
+        [self.forgotPasswordButton setTitle:NSLocalizedStringWithDefaultValue(@"APC_SIGNIN_FORGOT_PWD_PROMPT_PLAIN", @"APCAppCore", APCBundle(), @"Forgot your Password?", @"Fallback text for 'Forgot your Password?' prompt in case parsing HTML fails for some reason") forState:UIControlStateNormal];
+    }    
 }
 
 - (void)setupNavAppearance
