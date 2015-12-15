@@ -22,9 +22,6 @@
 /* Grams of sugar consumed, to be filled in with the number of grams */
 "%@ sugar consumed" = "%@ sucre consommé";
 
-/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
-"%@ will receive your study data from your participation in this study.\n\nSharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ recevra les données de votre participation à cette étude.\n\nPartager vos données d'étude codées (expurgées de vos informations personnelles, telles que votre nom) peut être utile pour cette recherche et les recherches futures.";
-
 /* {count} {day/s} Remaining */
 "%lu %@ Remaining" = "%1$lu %2$@ restant(s)";
 
@@ -34,8 +31,39 @@
 /* No comment provided by engineer. */
 "9:30 PM" = "21:30";
 
+/* Subtitile for Activities view section for optional activities */
+"APC_ACTIVITIES_SUBTITLE_KEEP_GOING" = "Pour enrichir votre expérience dans cette étude,
+essayez l'une de ces activités supplémentaires.";
+
+/* Subtitle Activities view section for today's scheduled activities */
+"APC_ACTIVITIES_SUBTITLE_TODAY" = "Pour démarrer une activité, sélectionnez-la dans la liste ci-dessous.";
+
+/* Subtitle for Activities view section for yesterday's incomplete activities */
+"APC_ACTIVITIES_SUBTITLE_YESTERDAY" = "Vous trouverez ci-dessous les tâches non terminées d'hier. Elles sont présentes à titre d'information uniquement.";
+
+/* Title for Activities view section for optional activities */
+"APC_ACTIVITIES_TITLE_KEEP_GOING" = "Continuez comme ça !";
+
+/* Format for title for Activities view section for today's activities, to be filled in with today's date */
+"APC_ACTIVITIES_TITLE_TODAY_FORMAT" = "Aujourd'hui, %@";
+
+/* Title for Activities view section for tomorrow's activities */
+"APC_ACTIVITIES_TITLE_TOMORROW" = "Demain";
+
+/* Title for Activities view section for yesterday's incomplete activities */
+"APC_ACTIVITIES_TITLE_YESTERDAY" = "Hier";
+
 /* Description of activity tracking */
 "APC_ACTVITY_TRACKING_DESCRIPTION" = "Le cercle affiche une estimation du temps consacré à réaliser ces différents niveaux d'activité, sur la base des données du capteur de votre téléphone ou de l'appareil que vous portez. Il estime également les « minutes en activité » accumulées, qui combinent activités modérées et intensives ainsi que le nombre de pas effectués quotidiennement. Ceci est à titre indicatif uniquement. En effet l'estimation exacte de chaque type d'activité par les capteurs est un domaine de recherche et développement en perpétuelle évolution. Vos données peuvent nous aider à affiner ces estimations et à mieux comprendre la relation entre l'activité physique et l'état de santé du cœur.";
+
+/* Message in body of alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address; the '$appName$' substring will be replaced with the name of the application before being shown. */
+"APC_EMAIL_VERIFY_ALERT_MESSAGE" = "
+Votre adresse électronique n'a pas encore été vérifiée.
+
+Veuillez vérifier si vous avez reçu un courriel de $appName$ sur votre messagerie, et cliquez sur le lien contenu dans le message.";
+
+/* Title for alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address. */
+"APC_EMAIL_VERIFY_ALERT_TITLE" = "Veuillez consulter votre messagerie électronique";
 
 /* Prompt to select color of medication label */
 "APC_MEDICATION_COLOR_PROMPT" = "Sélectionnez une couleur d'étiquette pour votre traitement";
@@ -62,7 +90,8 @@
 "APC_PROFILE_PAUSE_ITEM_TITLE" = "Pause";
 
 /* Prompt for action sheet brought up by the Pause button */
-"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Êtes-vous sûr de vouloir suspendre votre participation à cette étude ?\nLes données collectées pendant retrait provisoire de l'étude demeureront sur votre téléphone et ne seront pas intégrées à l'étude.";
+"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Êtes-vous sûr de vouloir suspendre votre participation à cette étude ?
+Les données collectées pendant retrait provisoire de l'étude demeureront sur votre téléphone et ne seront pas intégrées à l'étude.";
 
 /* Title for action sheet brought up by the Pause button */
 "APC_PROFILE_PAUSE_SHEET_TITLE" = "Pause";
@@ -122,7 +151,9 @@
 "An unknown error occurred" = "Une erreur inconnue s'est produite";
 
 /* No comment provided by engineer. */
-"Are you sure you want to completely withdraw from the study?\nYou will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Êtes-vous sûr de vouloir vous retirer complètement de l'étude ?\nVous allez être déconnecté de votre compte et aucune donnée ne sera collectée. Si vous souhaitez vous réinscrire ultérieurement, vous devrez renvoyer un formulaire de consentement éclairé.";
+"Are you sure you want to completely withdraw from the study?
+You will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Êtes-vous sûr de vouloir vous retirer complètement de l'étude ?
+Vous allez être déconnecté de votre compte et aucune donnée ne sera collectée. Si vous souhaitez vous réinscrire ultérieurement, vous devrez renvoyer un formulaire de consentement éclairé.";
 
 /* No comment provided by engineer. */
 "Are you sure you want to sign out?" = "Êtes-vous sûr de vouloir vous désinscrire ?";
@@ -266,9 +297,6 @@
 "Insight" = "Mieux comprendre";
 
 /* No comment provided by engineer. */
-"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you." = "Adresse électronique ou mot de passe non valide\n\nAu cas où vous n'auriez pas vérifié votre compte, merci de cliquer sur le lien que vous avez reçu par courriel.";
-
-/* No comment provided by engineer. */
 "Learn" = "Apprendre";
 
 /* No comment provided by engineer. */
@@ -362,7 +390,7 @@
 "Password should be at least %d characters" = "Le mot de passe doit être composé d'au moins %d caractères";
 
 /* Title for Pause Study button in Profile view */
-"Pause Study" = "Suspendre ma participation à l'étude";
+"Pause Study" = "Mettre l'étude en pause";
 
 /* No comment provided by engineer. */
 "Permissions" = "Autorisations";

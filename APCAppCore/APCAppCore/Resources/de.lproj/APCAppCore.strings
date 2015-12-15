@@ -22,9 +22,6 @@
 /* Grams of sugar consumed, to be filled in with the number of grams */
 "%@ sugar consumed" = "%@ Zucker konsumiert";
 
-/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
-"%@ will receive your study data from your participation in this study.\n\nSharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ erhält Ihre Studiendaten aus Ihrer Teilnahme an dieser Studie.\n\nEine breiter gefasste Überlassung (ohne Nennung von Daten wie etwa Ihrem Namen) könnte sich positiv auf diese und auf künftige Studien auswirken.";
-
 /* {count} {day/s} Remaining */
 "%lu %@ Remaining" = "%1$lu %2$@ verbleiben";
 
@@ -34,8 +31,39 @@
 /* No comment provided by engineer. */
 "9:30 PM" = "21:30 Uhr";
 
+/* Subtitile for Activities view section for optional activities */
+"APC_ACTIVITIES_SUBTITLE_KEEP_GOING" = "Probieren Sie eine dieser Zusatzaktivitäten aus,
+um Ihre Erfahrungen mit der Studie zu erweitern.";
+
+/* Subtitle Activities view section for today's scheduled activities */
+"APC_ACTIVITIES_SUBTITLE_TODAY" = "Um eine Aktivität zu starten, wählen Sie diese aus der Liste unten aus.";
+
+/* Subtitle for Activities view section for yesterday's incomplete activities */
+"APC_ACTIVITIES_SUBTITLE_YESTERDAY" = "Unten sehen Sie Ihre unvollständigen Aufgaben von gestern. Diese dienen nur zu Referenzzwecken.";
+
+/* Title for Activities view section for optional activities */
+"APC_ACTIVITIES_TITLE_KEEP_GOING" = "Bleiben Sie am Ball!";
+
+/* Format for title for Activities view section for today's activities, to be filled in with today's date */
+"APC_ACTIVITIES_TITLE_TODAY_FORMAT" = "heute, %@";
+
+/* Title for Activities view section for tomorrow's activities */
+"APC_ACTIVITIES_TITLE_TOMORROW" = "morgen";
+
+/* Title for Activities view section for yesterday's incomplete activities */
+"APC_ACTIVITIES_TITLE_YESTERDAY" = "gestern";
+
 /* Description of activity tracking */
 "APC_ACTVITY_TRACKING_DESCRIPTION" = "Der Kreis zeigt anhand der Sensordaten Ihres Smartphones bzw. Ihres Wearable-Geräts Schätzwerte für die Zeitanteile, die Sie mit Aktivitäten unterschiedlicher Art verbracht haben. Geschätzt werden auch Ihre angesammelten „aktiven Minuten“, die moderate und heftige Aktivitäten umfassen, sowie die am Tag zurückgelegten Schritte. Dies dient zu Informationszwecken. Die präzise Beurteilung der einzelnen Aktivitäten anhand der Sensordaten unterliegt ständiger Erforschung und Weiterentwicklung. Mithilfe Ihrer Daten können wir diese Schätzungen optimieren und die Zusammenhänge zwischen den Aktivitäten und dem Gesundheitszustand des Herzens besser erkennen.";
+
+/* Message in body of alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address; the '$appName$' substring will be replaced with the name of the application before being shown. */
+"APC_EMAIL_VERIFY_ALERT_MESSAGE" = "
+Ihre E-Mail-Adresse wurde nicht überprüft.
+
+Bitte suchen Sie in Ihrer E-Mail nach einer Nachricht von $appName$, und klicken Sie auf den Link in der Nachricht.";
+
+/* Title for alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address. */
+"APC_EMAIL_VERIFY_ALERT_TITLE" = "Bitte sehen Sie in Ihrer E-Mail nach.";
 
 /* Prompt to select color of medication label */
 "APC_MEDICATION_COLOR_PROMPT" = "Wählen Sie eine Kennzeichnungsfarbe für Ihre Medikamente";
@@ -62,7 +90,8 @@
 "APC_PROFILE_PAUSE_ITEM_TITLE" = "Pause";
 
 /* Prompt for action sheet brought up by the Pause button */
-"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Möchten Sie die Teilnahme an der Studie wirklich unterbrechen?\nDaten, die Sie während der Pause erfassen, verbleiben auf Ihrem Smartphone und werden bei der Studie nicht berücksichtigt.";
+"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Möchten Sie die Teilnahme an der Studie wirklich unterbrechen?
+Daten, die Sie während der Pause erfassen, verbleiben auf Ihrem Smartphone und werden bei der Studie nicht berücksichtigt.";
 
 /* Title for action sheet brought up by the Pause button */
 "APC_PROFILE_PAUSE_SHEET_TITLE" = "Pause";
@@ -120,9 +149,6 @@
 
 /* No comment provided by engineer. */
 "An unknown error occurred" = "Ein unbekannter Fehler ist aufgetreten.";
-
-/* No comment provided by engineer. */
-"Are you sure you want to completely withdraw from the study?\nYou will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Möchten Sie die Studie wirklich komplett abbrechen?\nSie werden von Ihrem Account abgemeldet. Es werden keine weiteren Daten erfasst. Wenn Sie sich zu einem späteren Zeitpunkt erneut registrieren möchten, werden Sie dazu aufgefordert, erneut nach entsprechender Aufklärung Ihre Einwilligung zu erteilen.";
 
 /* No comment provided by engineer. */
 "Are you sure you want to sign out?" = "Möchten Sie sich wirklich abmelden?";
@@ -264,9 +290,6 @@
 
 /* No comment provided by engineer. */
 "Insight" = "Erkenntnisse";
-
-/* No comment provided by engineer. */
-"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you." = "E-Mail-Adresse oder Passwort ungültig.\n\nFalls Sie Ihren Account noch nicht verifiziert haben, holen Sie dies bitte nach, indem Sie auf den Link in der E-Mail klicken, die wir Ihnen gesendet haben.";
 
 /* No comment provided by engineer. */
 "Learn" = "Lernen";

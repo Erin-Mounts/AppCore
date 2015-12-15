@@ -22,9 +22,6 @@
 /* Grams of sugar consumed, to be filled in with the number of grams */
 "%@ sugar consumed" = "%@ suiker verbruikt";
 
-/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
-"%@ will receive your study data from your participation in this study.\n\nSharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ ontvangt de gegevens van uw deelname aan dit onderzoek.\n\nWanneer uw onderzoeksgegevens (zonder persoonlijke gegevens, zoals uw naam) gecodeerd worden gedeeld met anderen, kan dat zowel dit onderzoek als toekomstig onderzoek ten goede komen.";
-
 /* {count} {day/s} Remaining */
 "%lu %@ Remaining" = "%1$lu %2$@ resterend";
 
@@ -34,8 +31,38 @@
 /* No comment provided by engineer. */
 "9:30 PM" = "21:30";
 
+/* Subtitile for Activities view section for optional activities */
+"APC_ACTIVITIES_SUBTITLE_KEEP_GOING" = "Probeer een van deze extra activiteiten om nog meer onderzoeksresultaten te genereren.";
+
+/* Subtitle Activities view section for today's scheduled activities */
+"APC_ACTIVITIES_SUBTITLE_TODAY" = "Maak een keuze uit de onderstaande lijst om een activiteit te starten.";
+
+/* Subtitle for Activities view section for yesterday's incomplete activities */
+"APC_ACTIVITIES_SUBTITLE_YESTERDAY" = "Hieronder ziet u de niet-voltooide taken van gisteren. Deze zijn alleen bedoeld ter referentie.";
+
+/* Title for Activities view section for optional activities */
+"APC_ACTIVITIES_TITLE_KEEP_GOING" = "Hou vol!";
+
+/* Format for title for Activities view section for today's activities, to be filled in with today's date */
+"APC_ACTIVITIES_TITLE_TODAY_FORMAT" = "Vandaag, %@";
+
+/* Title for Activities view section for tomorrow's activities */
+"APC_ACTIVITIES_TITLE_TOMORROW" = "Morgen";
+
+/* Title for Activities view section for yesterday's incomplete activities */
+"APC_ACTIVITIES_TITLE_YESTERDAY" = "Gisteren";
+
 /* Description of activity tracking */
 "APC_ACTVITY_TRACKING_DESCRIPTION" = "De cirkel geeft een indicatie van hoe u uw tijd hebt verdeeld over verschillende activiteitsniveaus. Dit is gebaseerd op de sensorgegevens van uw telefoon of draagbare meetapparaat. Daarnaast kunt u er uw totale aantal \"actieve minuten\" in aflezen, dat is opgebouwd uit gemiddelde en zware inspanning en de stappen die u per dag zet. Deze gegevens zijn ter informatie, aangezien het nog niet mogelijk is om alle soorten activiteiten die door de sensoren worden gemeten nauwkeurig te bepalen. Met uw gegevens kunnen we deze indicaties verfijnen en meer inzicht krijgen in de relatie tussen activiteit en een gezond hart.";
+
+/* Message in body of alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address; the '$appName$' substring will be replaced with the name of the application before being shown. */
+"APC_EMAIL_VERIFY_ALERT_MESSAGE" = "
+Uw e-mailadres is nog niet gecontroleerd.
+
+Kijk of u een e-mail hebt van $appName$, en klik vervolgens op de koppeling in dat e-mailbericht.";
+
+/* Title for alert shown when user attempts to continue without having clicked the link emailed to them to verify their email address. */
+"APC_EMAIL_VERIFY_ALERT_TITLE" = "Controleer uw e-mail";
 
 /* Prompt to select color of medication label */
 "APC_MEDICATION_COLOR_PROMPT" = "Selecteer een etiketkleur voor uw medicijn";
@@ -62,7 +89,8 @@
 "APC_PROFILE_PAUSE_ITEM_TITLE" = "Pauzeer";
 
 /* Prompt for action sheet brought up by the Pause button */
-"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Weet u zeker dat u uw deelname aan het onderzoek wilt pauzeren?\nDe gegevens die u verzamelt terwijl uw deelname is gepauzeerd, worden alleen op uw telefoon bewaard en worden niet in het onderzoek opgenomen.";
+"APC_PROFILE_PAUSE_SHEET_PROMPT" = "Weet u zeker dat u uw deelname aan het onderzoek wilt pauzeren?
+De gegevens die u verzamelt terwijl uw deelname is gepauzeerd, worden alleen op uw telefoon bewaard en worden niet in het onderzoek opgenomen.";
 
 /* Title for action sheet brought up by the Pause button */
 "APC_PROFILE_PAUSE_SHEET_TITLE" = "Pauzeer";
@@ -120,9 +148,6 @@
 
 /* No comment provided by engineer. */
 "An unknown error occurred" = "Er is een onbekende fout opgetreden";
-
-/* No comment provided by engineer. */
-"Are you sure you want to completely withdraw from the study?\nYou will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Weet u zeker dat u zich wilt terugtrekken uit het onderzoek?\nU wordt uitgelogd bij uw account en er worden geen verdere gegevens verzameld. Als u later toch weer wilt deelnemen, wordt u opnieuw om toestemming gevraagd.";
 
 /* No comment provided by engineer. */
 "Are you sure you want to sign out?" = "Weet u zeker dat u zich wilt afmelden?";
@@ -264,9 +289,6 @@
 
 /* No comment provided by engineer. */
 "Insight" = "Inzicht";
-
-/* No comment provided by engineer. */
-"Invalid email or password.\n\nIn case you have not verified your account, please do so by clicking the link in the email we have sent you." = "Ongeldig e-mailadres of wachtwoord.\n\nAls u uw account nog niet hebt bevestigd, kunt u dit nu doen door op de koppeling te klikken in de e-mail die we u hebben gestuurd.";
 
 /* No comment provided by engineer. */
 "Learn" = "Informatie";
@@ -443,7 +465,7 @@
 "Sedentary" = "Zittend";
 
 /* No comment provided by engineer. */
-"Select Series 1" = "Selecteer serie 1";
+"Select Series 1" = "Selecteer serie 1";
 
 /* No comment provided by engineer. */
 "Select Series 2" = "Selecteer serie 2";
@@ -571,7 +593,7 @@
 /* No comment provided by engineer. */
 "To see your results from surveys and tasks, check your “Dashboard” tab." = "Ga naar het tabblad 'Dashboard' om de resultaten van uw vragenlijsten en taken te zien.";
 
-/* No comment provided by engineer. */
+/* Today */
 "Today" = "Vandaag";
 
 /* No comment provided by engineer. */
