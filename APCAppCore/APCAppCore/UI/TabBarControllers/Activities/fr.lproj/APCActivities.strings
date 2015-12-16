@@ -1,6 +1,15 @@
 /* Class = "UIBarButtonItem"; title = "Debug"; ObjectID = "5n1-PL-Tmc"; */
 "5n1-PL-Tmc.title" = "Déboguer";
 
+/* Class = "UILabel"; text = "There are no tasks\nto show at this time.\n\n\n\n\n"; ObjectID = "5z3-pp-dKg"; */
+"5z3-pp-dKg.text" = "Il n'y a pas de tâche
+à afficher pour le moment.
+
+
+
+
+";
+
 /* Class = "UILabel"; text = "4/5/6"; ObjectID = "27k-7C-Ode"; */
 "27k-7C-Ode.text" = "4/5/6";
 
@@ -9,6 +18,15 @@
 
 /* Class = "UILabel"; text = "Medication Tracker"; ObjectID = "Aoi-d3-tJ7"; */
 "Aoi-d3-tJ7.text" = "Suivi de traitement";
+
+/* Class = "UILabel"; text = "There are no tasks\nto show at this time.\n\n\n\n\n"; ObjectID = "BdY-Lh-lM3"; */
+"BdY-Lh-lM3.text" = "Il n'y a pas de tâche
+à afficher pour le moment.
+
+
+
+
+";
 
 /* Class = "UITabBarItem"; title = "Activities"; ObjectID = "HnP-dZ-Edk"; */
 "HnP-dZ-Edk.title" = "Activités";

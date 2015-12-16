@@ -1,6 +1,14 @@
 /* Class = "UIBarButtonItem"; title = "Debug"; ObjectID = "5n1-PL-Tmc"; */
 "5n1-PL-Tmc.title" = "Foutopsporing";
 
+/* Class = "UILabel"; text = "There are no tasks\nto show at this time.\n\n\n\n\n"; ObjectID = "5z3-pp-dKg"; */
+"5z3-pp-dKg.text" = "Er zijn op dit moment geen taken om weer te geven.
+
+
+
+
+";
+
 /* Class = "UILabel"; text = "4/5/6"; ObjectID = "27k-7C-Ode"; */
 "27k-7C-Ode.text" = "4/5/6";
 
@@ -9,6 +17,15 @@
 
 /* Class = "UILabel"; text = "Medication Tracker"; ObjectID = "Aoi-d3-tJ7"; */
 "Aoi-d3-tJ7.text" = "Medicatietracker";
+
+/* Class = "UILabel"; text = "There are no tasks\nto show at this time.\n\n\n\n\n"; ObjectID = "BdY-Lh-lM3"; */
+"BdY-Lh-lM3.text" = "Er zijn op dit moment geen taken
+om weer te geven.
+
+
+
+
+";
 
 /* Class = "UITabBarItem"; title = "Activities"; ObjectID = "HnP-dZ-Edk"; */
 "HnP-dZ-Edk.title" = "Activiteiten";

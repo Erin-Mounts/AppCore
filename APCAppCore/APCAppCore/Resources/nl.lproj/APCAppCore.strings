@@ -22,6 +22,13 @@
 /* Grams of sugar consumed, to be filled in with the number of grams */
 "%@ sugar consumed" = "%@ suiker verbruikt";
 
+/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
+"%@ will receive your study data from your participation in this study.
+
+Sharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ ontvangt de gegevens van uw deelname aan dit onderzoek.
+
+Wanneer uw onderzoeksgegevens (zonder persoonlijke gegevens, zoals uw naam) gecodeerd worden gedeeld met anderen, kan dat zowel dit onderzoek als toekomstig onderzoek ten goede komen.";
+
 /* {count} {day/s} Remaining */
 "%lu %@ Remaining" = "%1$lu %2$@ resterend";
 
@@ -104,6 +111,12 @@ De gegevens die u verzamelt terwijl uw deelname is gepauzeerd, worden alleen op 
 /* Title for action sheet brought up by the Resume button */
 "APC_PROFILE_RESUME_SHEET_TITLE" = "Hervat";
 
+/* Formatted string to display the 'Forgot your Password?' prompt with font colors applied for emphasis; in English the first two words are light-colored and 'Password?' is black. Filled in with the font settings and web color (rgb, hex) for the overall text and then the color of the called-out text (in English, 'Password?'). */
+"APC_SIGNIN_FORGOT_PWD_PROMPT_HTML" = "<span style=\"font:%1$@\"><span style=\"color:#%2$@\">Wachtwoord </span><span style=\"color:#%3$@\">vergeten?</span></span>";
+
+/* Fallback text for 'Forgot your Password?' prompt in case parsing HTML fails for some reason */
+"APC_SIGNIN_FORGOT_PWD_PROMPT_PLAIN" = "Wachtwoord vergeten?";
+
 /* No comment provided by engineer. */
 "Access to microphone is required for your Voice Recording Activity." = "U hebt een microfoon nodig voor de stemactiviteit.";
 
@@ -148,6 +161,11 @@ De gegevens die u verzamelt terwijl uw deelname is gepauzeerd, worden alleen op 
 
 /* No comment provided by engineer. */
 "An unknown error occurred" = "Er is een onbekende fout opgetreden";
+
+/* No comment provided by engineer. */
+"Are you sure you want to completely withdraw from the study?
+You will be logged out of your account and no further data will be collected. If you wish to re-enroll at a later date, you will be asked to give informed consent again." = "Weet u zeker dat u zich wilt terugtrekken uit het onderzoek?
+U wordt uitgelogd bij uw account en er worden geen verdere gegevens verzameld. Als u later toch weer wilt deelnemen, wordt u opnieuw om toestemming gevraagd.";
 
 /* No comment provided by engineer. */
 "Are you sure you want to sign out?" = "Weet u zeker dat u zich wilt afmelden?";
@@ -289,6 +307,13 @@ De gegevens die u verzamelt terwijl uw deelname is gepauzeerd, worden alleen op 
 
 /* No comment provided by engineer. */
 "Insight" = "Inzicht";
+
+/* No comment provided by engineer. */
+"Invalid email or password.
+
+In case you have not verified your account, please do so by clicking the link in the email we have sent you." = "Ongeldig e-mailadres of wachtwoord.
+
+Als u uw account nog niet hebt bevestigd, kunt u dit nu doen door op de koppeling te klikken in de e-mail die we u hebben gestuurd.";
 
 /* No comment provided by engineer. */
 "Learn" = "Informatie";

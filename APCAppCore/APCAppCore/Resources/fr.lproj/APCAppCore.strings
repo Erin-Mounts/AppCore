@@ -22,6 +22,13 @@
 /* Grams of sugar consumed, to be filled in with the number of grams */
 "%@ sugar consumed" = "%@ sucre consommé";
 
+/* Format for string explaining data sharing during initial consent process, to be filled in with the (long form) name of the institution running the study. */
+"%@ will receive your study data from your participation in this study.
+
+Sharing your coded study data more broadly (without information such as your name) may benefit this and future research." = "%@ recevra les données de votre participation à cette étude.
+
+Partager vos données d'étude codées (expurgées de vos informations personnelles, telles que votre nom) peut être utile pour cette recherche et les recherches futures.";
+
 /* {count} {day/s} Remaining */
 "%lu %@ Remaining" = "%1$lu %2$@ restant(s)";
 
@@ -104,6 +111,12 @@ Les données collectées pendant retrait provisoire de l'étude demeureront sur 
 
 /* Title for action sheet brought up by the Resume button */
 "APC_PROFILE_RESUME_SHEET_TITLE" = "Reprendre";
+
+/* Formatted string to display the 'Forgot your Password?' prompt with font colors applied for emphasis; in English the first two words are light-colored and 'Password?' is black. Filled in with the font settings and web color (rgb, hex) for the overall text and then the color of the called-out text (in English, 'Password?'). */
+"APC_SIGNIN_FORGOT_PWD_PROMPT_HTML" = "<span style=\"font:%1$@\"><span style=\"color:#%2$@\">Vous avez oublié </span><span style=\"color:#%3$@\">votre mot de passe ?</span></span>";
+
+/* Fallback text for 'Forgot your Password?' prompt in case parsing HTML fails for some reason */
+"APC_SIGNIN_FORGOT_PWD_PROMPT_PLAIN" = "Vous avez oublié votre mot de passe ?";
 
 /* No comment provided by engineer. */
 "Access to microphone is required for your Voice Recording Activity." = "L'accès au microphone est obligatoire pour votre activité d'enregistrement vocal.";
@@ -295,6 +308,13 @@ Vous allez être déconnecté de votre compte et aucune donnée ne sera collect�
 
 /* No comment provided by engineer. */
 "Insight" = "Mieux comprendre";
+
+/* No comment provided by engineer. */
+"Invalid email or password.
+
+In case you have not verified your account, please do so by clicking the link in the email we have sent you." = "Adresse électronique ou mot de passe non valide
+
+Au cas où vous n'auriez pas vérifié votre compte, merci de cliquer sur le lien que vous avez reçu par courriel.";
 
 /* No comment provided by engineer. */
 "Learn" = "Apprendre";
