@@ -27,8 +27,8 @@
 
 /* Class = "UILabel"; text = "$appName$\nhas sent you\na verification email at"; ObjectID = "hsa-BE-Hkq"; */
 "hsa-BE-Hkq.text" = "$appName$
-hat Ihnen eine
-E-Mail zur Prüfung an folgende Adresse gesendet:";
+hat Ihnen eine E-Mail zur Prüfung
+an folgende Adresse gesendet:";
 
 /* Class = "UILabel"; text = "Once verified, tap below"; ObjectID = "ikM-qL-vyw"; */
 "ikM-qL-vyw.text" = "Tippen Sie nach der Prüfung unten";

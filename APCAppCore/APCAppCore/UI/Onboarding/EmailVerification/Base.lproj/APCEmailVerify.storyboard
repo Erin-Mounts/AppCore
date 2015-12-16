@@ -72,7 +72,7 @@ a verification email at</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yX7-Jl-zxX">
                                 <rect key="frame" x="41" y="484" width="239" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="6xz-2O-k55"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="6xz-2O-k55"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="MJM-oz-13X"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="238" id="lvt-a2-1N3"/>
                                 </constraints>
@@ -207,7 +207,7 @@ will be sent to you for your records.</string>
                             <constraint firstAttribute="centerX" secondItem="tTU-aB-ynX" secondAttribute="centerX" id="91V-EC-FkN"/>
                             <constraint firstAttribute="centerX" secondItem="cVc-Jw-LIH" secondAttribute="centerX" constant="-0.5" id="A2m-L2-YjN"/>
                             <constraint firstItem="tTU-aB-ynX" firstAttribute="top" secondItem="WLq-Ms-OSK" secondAttribute="top" id="D0w-lz-w04"/>
-                            <constraint firstItem="a5x-rm-Fx1" firstAttribute="top" secondItem="yX7-Jl-zxX" secondAttribute="bottom" constant="50" id="G5E-d8-5bi"/>
+                            <constraint firstItem="a5x-rm-Fx1" firstAttribute="top" secondItem="yX7-Jl-zxX" secondAttribute="top" constant="84" id="G5E-d8-5bi"/>
                             <constraint firstItem="ikM-qL-vyw" firstAttribute="top" secondItem="gY2-y5-fND" secondAttribute="bottom" constant="5" id="GCQ-fD-dVn"/>
                             <constraint firstItem="3lp-lE-Oux" firstAttribute="top" secondItem="Bzr-zG-t0U" secondAttribute="bottom" constant="8" id="IDZ-0q-FSd"/>
                             <constraint firstItem="hsa-BE-Hkq" firstAttribute="top" secondItem="WLq-Ms-OSK" secondAttribute="bottom" constant="11" id="LcI-px-aNQ"/>
