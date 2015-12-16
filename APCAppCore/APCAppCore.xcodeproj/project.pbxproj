@@ -1044,6 +1044,9 @@
 		7BF54F901AA1354D0081C935 /* APCVerticalThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCVerticalThinLineView.m; sourceTree = "<group>"; };
 		7BF54F951AA158E50081C935 /* APCHorizontalBottomThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCHorizontalBottomThinLineView.h; sourceTree = "<group>"; };
 		7BF54F961AA158E50081C935 /* APCHorizontalBottomThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCHorizontalBottomThinLineView.m; sourceTree = "<group>"; };
+		8000ACC91C20EE820062C857 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/APCActivities.strings; sourceTree = "<group>"; };
+		8000ACCA1C20EEBB0062C857 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/APCActivities.strings; sourceTree = "<group>"; };
+		8000ACCB1C20EF560062C857 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCActivities.strings; sourceTree = "<group>"; };
 		800EFBFD1C1256FB006321D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/APCActivities.storyboard; sourceTree = "<group>"; };
 		806F24321B3388E700B50664 /* APCCMSSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APCCMSSupport.h; path = CMS/APCCMSSupport.h; sourceTree = "<group>"; };
 		80964F171C20CDB700FAA1E1 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APCAppCore.strings; sourceTree = "<group>"; };
@@ -3915,6 +3918,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				800EFBFD1C1256FB006321D9 /* Base */,
+				8000ACC91C20EE820062C857 /* de */,
+				8000ACCA1C20EEBB0062C857 /* fr */,
+				8000ACCB1C20EF560062C857 /* nl */,
 			);
 			name = APCActivities.storyboard;
 			sourceTree = "<group>";
